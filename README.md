@@ -6,6 +6,8 @@
 
 ## 주요 기능
 
+- **개념과 함께 풀어보기**: 과목별 대표 문제 3개와 관련 개념을 함께 보고, 답안·해설·출처를 확인하거나 다른 문제로 교체
+- **단원별 연습**: 각 법규·영어 단원에서 해당 개념 문제를 바로 풀고 상세 설명으로 이동
 - **개념 88단원**: 전파법규 39개, 항공영어 39개, 실기 10개
 - **해설 포함 연습문제 188개**: 과목·문항 수·제한 시간을 선택하고 오답을 복습
 - **법령 원문**: 관련 법령 5종, 본문 671개 조문, 공식 표와 별표 연결
@@ -31,6 +33,7 @@ python3 -m http.server 4173 --directory dist
 dist/                 웹 화면과 배포용 파일
   assets/             기출·실기 자료, 법령 표·별표
   app.js              학습 화면 및 브라우저 기능
+  concept-practice.js  과목·단원별 개념 연습문제
   style.css           반응형 흰색 CBT 스타일
   data.js             content에서 생성한 학습 자료
 content/              과목별 개념·문항·출처와 법령 본문
@@ -39,7 +42,7 @@ vercel.json           Vercel 배포 설정
 CONTRIBUTING.md        커밋·브랜치 및 병합 규칙
 ```
 
-개념·문항을 수정할 때는 `content/`의 JSON을 수정하고 `npm run build`를 실행합니다. `dist/data.js`는 직접 수정하지 않습니다. 화면은 `dist/app.js`, 스타일은 `dist/style.css`에서 수정합니다.
+개념·문항을 수정할 때는 `content/`의 JSON을 수정하고 `npm run build`를 실행합니다. `dist/data.js`는 직접 수정하지 않습니다. 화면은 `dist/app.js`, 개념 연습은 `dist/concept-practice.js`, 스타일은 `dist/style.css`에서 수정합니다.
 
 ## 배포 및 개발 흐름
 
