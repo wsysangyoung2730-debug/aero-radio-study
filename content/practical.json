@@ -1,0 +1,909 @@
+{
+  "sources": [
+    {
+      "id": "pr-kca-guide",
+      "title": "KCA CQ 항공무선통신사 종목 안내",
+      "url": "https://www.cq.or.kr/qh_quagm02_003.do",
+      "effective": "조회 당시 현행 안내",
+      "verified": "2026-10-25",
+      "note": "실기 출제방식 50자/분·송수신 각3분, 합격기준 및 흑색볼펜 준비물 확인."
+    },
+    {
+      "id": "pr-kca-2026",
+      "title": "KCA 2026년도 검정 시행일정·시험시간",
+      "url": "https://www.cq.or.kr/qh_quagm03_001.do",
+      "effective": "2026년도",
+      "verified": "2026-10-25",
+      "note": "항공 실기 1인당6분 이내, 송수신 각각3분 이내. 일정·입실 안내는 접수한 시험 공고를 최종 확인."
+    },
+    {
+      "id": "pr-itu-2024",
+      "title": "ITU Radio Regulations 2024 Volume2 Appendix14",
+      "url": "https://search.itu.int/history/HistoryDigitalCollectionDocLibrary/1.49.48.en.102.pdf#page=298",
+      "effective": "2024판·주요규정 2025-01-01 발효",
+      "verified": "2026-10-25",
+      "note": "Appendix14: 문자 및 숫자·기호 통화표. PDF298~299쪽(인쇄285~286쪽). Kilo·Zulu 철자 확인."
+    },
+    {
+      "id": "pr-user-key",
+      "title": "제공된 실기주의사항·A/B/C/D 정답 원본(과거자료)",
+      "url": "assets/material-07.hwp",
+      "effective": "작성시점 불명; D 답안에 2006-06-14 표기",
+      "verified": "2026-10-25",
+      "note": "HWP 본문과 표 이미지를 직접 추출·확인. 과거 감점표와 시험장 운영 설명은 현행 채점기준으로 단정하지 않음."
+    },
+    {
+      "id": "pr-user-form",
+      "title": "제공된 무선통신술 수신 답안지 양식(과거자료)",
+      "url": "assets/material-06.hwp",
+      "effective": "작성시점 불명·구 양식",
+      "verified": "2026-10-25",
+      "note": "대문자·공란·줄바꿈·CORRECTION·OUT 연습의 참고. 전신시험 안내도 섞여 있어 항공 실기만 골라 읽을 것."
+    },
+    {
+      "id": "pr-law-table",
+      "title": "무선국의 운용 등에 관한 규정 별표1 · 현행 통화표",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170713377&bylClsCd=200201",
+      "effective": "2026-10-16 시행본의 별표",
+      "verified": "2026-10-25",
+      "note": "PDF47~48쪽: 영문·숫자통화표 직접확인. 국내표에 Kiro/Julu로 기재된 철자와 ITU Kilo/Zulu의 차이를 학습메모에 명시."
+    }
+  ],
+  "chapters": [
+    {
+      "id": "pr-01",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "실기시험의 구조와 학습 범위",
+      "summary": "영문통화표로 듣고 쓰는 수신과 보고 읽는 송신을 각각 준비합니다.",
+      "sourceIds": [
+        "pr-kca-guide",
+        "pr-kca-2026"
+      ],
+      "topics": [
+        {
+          "title": "공식 안내에서 확인한 시험",
+          "body": "KCA 종목 안내의 실기는 무선통신술입니다. 영문보통어를 법규의 영문통화표로 바꾸어 분당50자 속도로 3분간 구술 송신·수신하는 방식입니다. 2026 시행일정은 송신과 수신 각각3분 이내, 1인당 총6분 이내로 안내합니다. 일상 회화의 유창함보다 문자 변환의 정확성과 연속성이 중심입니다.",
+          "bullets": [
+            "50자/분 × 3분 = 약150자라는 연습 목표를 세웁니다.",
+            "영문 문장을 자연스럽게 읽는 연습과 글자마다 통화표로 읽는 실기 연습을 구별합니다.",
+            "제공 MP3의 전체 길이는 안내·공백 등을 포함할 수 있어 재생시간 전체를 시험 본문시간으로 간주하지 않습니다."
+          ]
+        },
+        {
+          "title": "합격기준과 연습 점수",
+          "body": "KCA 공개 안내는 과목마다100점 만점, 매과목40점 이상·전과목 평균60점 이상을 제시합니다. 이 사이트의 문자 비교 결과는 복습을 위한 일치율입니다. 사람 채점의 발음·간격·품위·정정 평가를 대신하는 실제 시험점수가 아닙니다.",
+          "bullets": [
+            "수신만 잘하거나 송신만 잘하는 상태를 피하고 두 기능을 별도로 기록합니다.",
+            "과거 HWP의 자호별 감점 수치는 과거자료로 보관하며 현행 합격 판정에 자동 적용하지 않습니다."
+          ]
+        },
+        {
+          "title": "이 창의 학습 순서",
+          "body": "문자26개를 양방향으로 익힌 뒤 숫자10개와 기호, 짧은 단어, 문장, 3분 모의연습으로 확장합니다. 뜻을 아는 문장도 기억으로 복원하지 말고 실제 듣거나 본 문자대로 처리합니다.",
+          "bullets": [
+            "수신: 들은 코드 → 문자1개 → 손으로 기록.",
+            "송신: 본 문자1개 → 코드 → 명료한 발성.",
+            "마지막에는 종이와 흑색볼펜으로 직접 받아써 키보드 연습의 한계를 보완합니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "분당50자를 3분 연습하면 목표 분량은?",
+        "answer": "약150자",
+        "explanation": "50×3=150자입니다. 사이트의 자동 일치율은 공식 채점점수가 아닙니다."
+      }
+    },
+    {
+      "id": "pr-02",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "문자26개: 소리와 글자를 바로 연결하기",
+      "summary": "A부터Z까지 순서 암기를 넘어 무작위 문자도 즉시 바꿀 수 있어야 합니다.",
+      "sourceIds": [
+        "pr-itu-2024",
+        "pr-user-key",
+        "pr-law-table"
+      ],
+      "topics": [
+        {
+          "title": "문자통화표 A~M",
+          "body": "괄호 안은 ITU의 발음 안내입니다. 한글 독음 하나에만 의존하지 말고 영문 안내와 샘플 음성을 함께 사용합니다.",
+          "bullets": [
+            "A = Alfa (AL FAH)",
+            "B = Bravo (BRAH VOH)",
+            "C = Charlie (CHAR LEE / SHAR LEE)",
+            "D = Delta (DELL TAH)",
+            "E = Echo (ECK OH)",
+            "F = Foxtrot (FOKS TROT)",
+            "G = Golf (GOLF)",
+            "H = Hotel (HOH TELL)",
+            "I = India (IN DEE AH)",
+            "J = Juliett (JEW LEE ETT)",
+            "K = Kilo (KEY LOH)",
+            "L = Lima (LEE MAH)",
+            "M = Mike (MIKE)"
+          ]
+        },
+        {
+          "title": "문자통화표 N~Z",
+          "body": "국제 ITU2024 원문 철자는 Alfa, Juliett, Kilo, Zulu입니다. 현행 국내 별표의 영문약어 열에는 Kiro·Julu로 기재되어 있지만 발음안내는 KEY LOH·ZOO LOO입니다. 이 사이트는 국제 원문의 Kilo·Zulu를 학습표에 사용하며, 국내 원문을 읽을 때 이 표기 차이를 함께 확인합니다.",
+          "bullets": [
+            "N = November (NO VEM BER)",
+            "O = Oscar (OSS CAH)",
+            "P = Papa (PAH PAH)",
+            "Q = Quebec (KEH BECK)",
+            "R = Romeo (ROW ME OH)",
+            "S = Sierra (SEE AIR RAH)",
+            "T = Tango (TANG GO)",
+            "U = Uniform (YOU NEE FORM / OO NEE FORM)",
+            "V = Victor (VIK TAH)",
+            "W = Whiskey (WISS KEY)",
+            "X = X-ray (ECKS RAY)",
+            "Y = Yankee (YANG KEY)",
+            "Z = Zulu (ZOO LOO)"
+          ]
+        },
+        {
+          "title": "뜻을 읽지 않고 철자를 송신",
+          "body": "CAT은 영어단어의 발음으로 읽는 것이 아니라 Charlie–Alfa–Tango로 송신합니다. 수신에서도 Bravo를 듣고 BRAVO 전체를 쓰지 않고 B 하나만 씁니다.",
+          "bullets": [
+            "B와D, M과N, P와B처럼 혼동하는 문자쌍을 따로 묶어 반복합니다.",
+            "Charlie의 두 허용발음, Uniform의 두 허용발음을 모두 들어보되 송신할 때는 익숙한 한 형태를 일관되게 사용합니다.",
+            "연속 알파벳 암기 뒤에는 ZQF, MNHB, KLU 같은 무작위 묶음으로 반응을 확인합니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "Bravo–Alfa–November을 들으면 무엇을 적나요?",
+        "answer": "BAN",
+        "explanation": "각 코드낱말이 글자 하나에 해당합니다. 코드낱말 자체를 받아쓰는 시험이 아닙니다."
+      }
+    },
+    {
+      "id": "pr-03",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "숫자와 기호: 실기 코드와 관제 발음을 구별하기",
+      "summary": "실기용 긴 숫자코드를 ICAO 관제영어의 짧은 숫자 발음과 섞지 않습니다.",
+      "sourceIds": [
+        "pr-itu-2024",
+        "pr-user-key",
+        "pr-law-table"
+      ],
+      "topics": [
+        {
+          "title": "숫자10개의 코드",
+          "body": "현행 국내 운용규정 별표1과 ITU Appendix14의 숫자코드입니다. 제공 실기자료도 이 긴 코드를 사용합니다. 각 숫자를 하나씩 전송하며 각 음절은 고르게 발음합니다.",
+          "bullets": [
+            "0 Nadazero (NAH-DAH-ZAY-ROH) / 1 Unaone (OO-NAH-WUN)",
+            "2 Bissotwo (BEES-SOH-TOO) / 3 Terrathree (TAY-RAH-TREE)",
+            "4 Kartefour (KAR-TAY-FOWER) / 5 Pantafive (PAN-TAH-FIVE)",
+            "6 Soxisix (SOK-SEE-SIX) / 7 Setteseven (SAY-TAY-SEVEN)",
+            "8 Oktoeight (OK-TOH-AIT) / 9 Novenine (NO-VAY-NINER)"
+          ]
+        },
+        {
+          "title": "소수점과 종지부",
+          "body": "ITU 표에서 소수점은 Decimal, 문장 끝의 마침표는 Stop입니다. 같은 점(.) 모양이라도 역할을 읽어야 합니다. 예를 들어 118.65의 점은 숫자 내부의 소수점이며 문장 끝 점과 다릅니다.",
+          "bullets": [
+            "118.65 → Unaone–Unaone–Oktoeight–Decimal–Soxisix–Pantafive.",
+            "079 → Nadazero–Setteseven–Novenine. 앞의0을 생략하지 않습니다.",
+            "HWP는 쉼표도 DECIMAL로 읽는다고 설명하지만 해당 옛 안내의 시험장 적용은 최신 응시 안내로 확인합니다. ITU Appendix14 자체는 decimal point와 full stop을 구분합니다."
+          ]
+        },
+        {
+          "title": "같은 숫자, 다른 상황",
+          "body": "항공 관제영어의 숫자발음에는 ZERO, WUN, TOO, TREE, FOWER, FIFE, SIX, SEVEN, AIT, NINER가 쓰입니다. 이 실기자료의 Nadazero·Unaone 방식과 상황이 다릅니다. 문제에서 어떤 통화표와 절차를 요구하는지 먼저 봅니다.",
+          "bullets": [
+            "실기 연습 MP3 → 제공자료에 맞춘 긴 숫자코드.",
+            "관제영어 해석·교신 문항 → 해당 ICAO 규칙과 용례.",
+            "문자 O(Oscar)와 숫자0(Nadazero), 문자 I(India)와 숫자1(Unaone)을 구분합니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "실기표에서 숫자7과9의 코드는?",
+        "answer": "Setteseven, Novenine",
+        "explanation": "관제영어에서 듣는 Seven, Niner와 실기표의 긴 코드를 서로 바꾸어 답하지 않습니다."
+      }
+    },
+    {
+      "id": "pr-04",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "수신: 놓친 한 글자가 다음 문장을 막지 않게",
+      "summary": "들리는 순서대로 적고, 누락 위치를 남긴 뒤 다음 소리로 복귀합니다.",
+      "sourceIds": [
+        "pr-user-key",
+        "pr-user-form"
+      ],
+      "topics": [
+        {
+          "title": "준비와 첫 재생",
+          "body": "처음에는0.75배속으로 코드를 분리해 들어도 좋습니다. 의미를 알아맞히는 대신 코드의 끝까지 들은 뒤 글자를 정합니다. 익숙해지면1배속에서 정지 없이 듣고, 마지막에는 종이로 옮겨 훈련합니다.",
+          "bullets": [
+            "재생 전에 문자 O/숫자0, I/1, S/5, Z/2를 명료하게 쓸 모양을 정합니다.",
+            "수신답은 영문 인쇄체 대문자로 적는 연습을 합니다.",
+            "단어 간격은 살리고 줄이 바뀐다는 이유로 하이픈을 추가하지 않습니다."
+          ]
+        },
+        {
+          "title": "누락을 처리하는 방법",
+          "body": "한 글자를 놓쳤을 때 그 자리를 공란으로 남기고 다음 소리에 붙습니다. 앞선 글자를 추측하느라3~4글자를 연속으로 놓치는 것이 반복 연습에서 가장 먼저 줄일 문제입니다. 온라인 입력에서는 복습 표시용 밑줄을 사용할 수 있지만 종이시험의 실제 작성은 감독 안내를 따릅니다.",
+          "bullets": [
+            "FLI[공란]HT처럼 위치를 남깁니다. 답을 외워 G를 나중에 보충하는 방식으로 실력을 평가하지 않습니다.",
+            "무슨 단어일지 추측하는 시간과 실제 들은 자호를 기록하는 시간을 구별합니다.",
+            "끝나자마자 별도로 누락·오인·자리밀림을 분류하고 원인을 적습니다."
+          ]
+        },
+        {
+          "title": "손글씨의 정확성",
+          "body": "제공 답안지의 주의사항은 서식의 선 안에 쓰고, 이어지는 단어를 다음 줄로 넘길 때 이음표시를 추가하지 않도록 안내합니다. 이를 종이 연습에 반영합니다.",
+          "bullets": [
+            "글자 크기를 일정하게 유지하고 수정이 겹쳐 판독하기 어렵지 않게 합니다.",
+            "숫자 덩어리에서 자리를 세어 쓰되 들리지 않은 자리를 임의로 채우지 않습니다.",
+            "정답 확인 전 자신의 답안을 그대로 보존해야 반복 실수를 찾을 수 있습니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "수신 중 한 글자를 놓친 뒤 우선 할 일은?",
+        "answer": "그 자리를 비우고 다음 글자를 계속 적기",
+        "explanation": "놓친 내용을 계속 생각하면 뒤의 문자를 연속으로 놓치기 쉽습니다. 제공 답안지에도 누락 부분을 공란으로 두도록 안내되어 있습니다."
+      }
+    },
+    {
+      "id": "pr-05",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "송신: 일정한 간격, 정정, 종료",
+      "summary": "정확한 코드와 단어 경계를 유지하며 끝까지 안정적으로 읽습니다.",
+      "sourceIds": [
+        "pr-user-key",
+        "pr-user-form"
+      ],
+      "topics": [
+        {
+          "title": "읽기 전에 보는 것",
+          "body": "첫 문장, 숫자, 소수점, 마침표를 눈으로 확인하고 문자단위 변환을 준비합니다. 마이크를 향해 일정한 음량과 거리로 말하며 첫 음절과 마지막 음절을 삼키지 않습니다.",
+          "bullets": [
+            "글자 사이 간격은 짧고 일정하게, 단어 사이 간격은 알아들을 만큼 분명하게 둡니다.",
+            "빠르게 끝내는 것보다 잘 들리는 발음과 꾸준한 속도를 우선합니다.",
+            "종료점까지 정확하게 읽는 데 걸린 시간을 기록하고 다음 연습에서 불필요한 멈춤을 줄입니다."
+          ]
+        },
+        {
+          "title": "CORRECTION 연습",
+          "body": "제공 답안지의 전화 송신 정정법은 CORRECTION을 먼저 말하고 정정할 단어의 앞 단어부터 다시 송신하는 방식입니다. THE CLOUD LAYER에서 LAYER 도중 틀렸다면 CORRECTION 뒤 CLOUD부터 재송신하는 연습을 합니다. 이는 제공된 시험 양식에 따른 연습이며 실제 시행 지시는 해당 시험 안내가 우선합니다.",
+          "bullets": [
+            "정정 없이 되풀이하면 어디가 잘못되었는지 수신자가 알기 어렵습니다.",
+            "한 번의 실수에 여러 번 정정을 겹치지 않도록 짧은 문장으로 연습합니다.",
+            "실제 관제교신에서 쓰는 정정 절차와 실기 채점용 반복 범위를 무조건 동일시하지 않습니다."
+          ]
+        },
+        {
+          "title": "시작과 종료",
+          "body": "제공된 양식은 시작 구령 후 본문부터 송신하고 완료 시 OUT으로 마친다고 설명합니다. 감독관의 종료 구령이 있으면 즉시 멈추는 훈련을 합니다.",
+          "bullets": [
+            "본문 문장의 마침표 STOP과 교신종료 OUT은 서로 역할이 다릅니다.",
+            "녹음을 재생해 첫 문자 누락, 끝말 흐림, 문자·단어 간격, 불필요한 군말을 점검합니다.",
+            "옛 자료의 “틀려도 무조건 넘어가는 것이 이득”이라는 개인 조언을 공식 절차나 보편 전략으로 외우지 않습니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "문장 끝의 마침표와 전체 송신 종료는 각각 어떻게 구분하나요?",
+        "answer": "마침표는 STOP, 전체 종료는 제공 양식의 OUT",
+        "explanation": "STOP은 종지부 기호 코드이고 OUT은 송신 종료를 알리는 절차어입니다."
+      }
+    },
+    {
+      "id": "pr-06",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "영문 단어·숫자·단위를 혼동하지 않기",
+      "summary": "본문에 보이는 형태를 그대로 처리하고 의미로 바꾸지 않습니다.",
+      "sourceIds": [
+        "pr-user-key",
+        "pr-itu-2024",
+        "pr-law-table"
+      ],
+      "topics": [
+        {
+          "title": "ONE이라는 단어와 숫자1",
+          "body": "본문에 ONE이 인쇄되어 있으면 O–N–E 세 글자입니다. Oscar–November–Echo로 읽고 수신답도 ONE으로 씁니다. 숫자1이 인쇄되어 있을 때 Unaone을 사용합니다. 샘플B에는 ONE FOUR SIX ONE TANGO라는 영문단어와 8·3500이라는 숫자가 함께 있어 좋은 구별 연습이 됩니다.",
+          "bullets": [
+            "TWO POINT FIVE라는 단어를 임의로2.5로 바꾸지 않습니다.",
+            "8을 EIGHT로 풀어 쓰거나 3500을 THREE THOUSAND FIVE HUNDRED로 바꾸지 않습니다.",
+            "문장 의미를 이미 알아도 듣거나 본 원문 형태를 유지합니다."
+          ]
+        },
+        {
+          "title": "약어를 철자로 전송",
+          "body": "MHZ, VOR, VFR처럼 보이는 영문 약어도 이 실기훈련에서는 각각의 문자를 통화표로 전송하는 대상으로 다룹니다. 실기시험 본문을 설명하는 것이 아니라 정확히 옮기는 것이 목표입니다.",
+          "bullets": [
+            "MHZ → Mike–Hotel–Zulu.",
+            "VOR → Victor–Oscar–Romeo.",
+            "VFR → Victor–Foxtrot–Romeo."
+          ]
+        },
+        {
+          "title": "숫자 위치를 지키는 연습",
+          "body": "시각·고도·주파수를 뜻으로 빠르게 읽을 수 있어도 실기 문자전달에서는 각 자리가 남아야 합니다. 079의 앞0, 3500의0 두 개, 118.65의 점 위치를 각각 확인합니다.",
+          "bullets": [
+            "반복 숫자: 1100, 3500, 122.8.",
+            "문자와 숫자 혼합: A1O0, Z2S5, MHZ.",
+            "문장 끝과 소수점 혼합: FREQUENCY 118.65MHZ."
+          ]
+        }
+      ],
+      "check": {
+        "question": "실기 본문에 ONE이 쓰여 있으면 Unaone으로 읽나요?",
+        "answer": "아니요. Oscar–November–Echo로 읽습니다.",
+        "explanation": "ONE은 세 글자의 영문 단어이며 숫자1과 다릅니다. 의미를 같게 바꾸면 원문 전송이 달라집니다."
+      }
+    },
+    {
+      "id": "pr-07",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "A·B·C·D 샘플을 정확하게 활용하기",
+      "summary": "제공된 정답 원문에 맞춰 비교하되, 오래된 오탈자를 개념으로 외우지 않습니다.",
+      "sourceIds": [
+        "pr-user-key"
+      ],
+      "topics": [
+        {
+          "title": "정답의 출처",
+          "body": "샘플A·B·C는 제공 HWP의 예제5·6·7에 각 파일명이 명시되어 있습니다. D는 2006년6월14일자 별도 듣기 답안의5문장입니다. 이 사이트는 음성을 임의 추정해 새 정답을 만든 것이 아니라 그 표시를 따라 연결했습니다.",
+          "bullets": [
+            "A: 공항·UNICOM·122.8MHZ 문장.",
+            "B: COLUMBIA CHEROKEE, 항로·고도·연료 문장.",
+            "C: OVERCAST CEILING, 576 FEET 문장.",
+            "D: 주파수·고도·가족·금액·방위의5문장."
+          ]
+        },
+        {
+          "title": "원문에 남아 있는 오류",
+          "body": "정답 원문에는 A의 AS JUST ON EXAMPLE, PAOLAMA, GRANETT, C의 INN VIOLATION, D의 MILION처럼 의심되는 철자·표현이 있습니다. 원자료 일치 비교를 위해 그대로 보존했습니다. 자연스러운 영어와 항공 지식의 기준은 영어편과 공식 문서를 사용합니다.",
+          "bullets": [
+            "실제 음성과 답안 철자가 다르다고 판단되는 부분은 원본 HWP를 함께 확인합니다.",
+            "이 자료를 올바른 영어문장 모범으로 암기하지 않습니다.",
+            "D의 1~5는 답안 목록번호로 처리하여 연습 정답 본문에서는 제외했습니다."
+          ]
+        },
+        {
+          "title": "연습을 세 번 나누기",
+          "body": "1회차에는 처음 듣는 상태에서 답을 숨기고 끝까지 수행합니다. 2회차에는 틀린 구간만 반복하며 코드와 글자를 연결합니다. 3회차에는 하루 뒤 정답을 보지 않고1배속으로 다시 수행합니다.",
+          "bullets": [
+            "같은 파일을 즉시 반복해 점수가 오르는 것은 기억 효과일 수 있습니다.",
+            "A만 외우지 말고 B·C·D를 번갈아 사용합니다.",
+            "샘플마다 분량과 녹음 구성은 다르므로 전체파일을 모두 동일한150자 시험으로 취급하지 않습니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "샘플C의 정답에 INN이 있는 이유는?",
+        "answer": "제공된 정답 원문을 그대로 보존했기 때문입니다.",
+        "explanation": "원문은 INN VIOLATION으로 표기되어 있습니다. 자연스러운 영어 표현의 정확성과 자료 일치 비교는 구분합니다."
+      }
+    },
+    {
+      "id": "pr-08",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "오답 분석: 문자 일치율보다 원인 보기",
+      "summary": "잘못 들은 코드, 누락, 추가, 위치밀림을 나누면 연습 방향이 분명해집니다.",
+      "sourceIds": [
+        "pr-kca-guide",
+        "pr-user-key"
+      ],
+      "topics": [
+        {
+          "title": "수신 오답 네 종류",
+          "body": "오인은 들은 코드를 다른 문자로 적는 것, 누락은 문자를 놓치는 것, 추가는 없는 문자를 쓰는 것, 위치밀림은 한 자리 실수 이후 답 전체가 어긋나는 것입니다. 같은 결과도 원인이 다르므로 숫자 하나의 점수로만 판단하지 않습니다.",
+          "bullets": [
+            "B↔D 같은 오인 → 해당 코드쌍 듣기 훈련.",
+            "긴 숫자 뒤 누락 → 숫자코드 반응 및 쓰기속도 훈련.",
+            "문장 전체 밀림 → 누락 위치를 비우는 습관과 단어 경계 훈련.",
+            "기억으로 다른 표현 작성 → 들은 그대로 옮기는 훈련."
+          ]
+        },
+        {
+          "title": "송신 녹음 평가",
+          "body": "녹음을 처음부터 끝까지 듣고 발음, 속도, 간격, 정정, 종료를 따로 확인합니다. 자동 음성인식은 이 코드 발화의 정확도를 보장하지 못하므로 사람의 청취를 우선합니다.",
+          "bullets": [
+            "문자 변환이 느린지, 발성이 불명료한지, 다음 글자를 찾는 눈 움직임이 느린지 원인을 나눕니다.",
+            "스스로 내용을 보며 듣는 평가와 본문을 보지 않고 듣는 평가를 번갈아 합니다.",
+            "타인에게 도움을 받을 경우 실제로 어떤 문자가 들렸는지 적게 하면 명료도를 확인할 수 있습니다."
+          ]
+        },
+        {
+          "title": "연습지표 해석",
+          "body": "사이트의 문자 일치율은 정답 비교를 위한 보조지표입니다. 공백·줄바꿈의 정규화, 정렬 방식, 원답의 오탈자에 따라 값이 달라질 수 있습니다. 공식 감점표·과락·합격률처럼 표시하지 않습니다.",
+          "bullets": [
+            "오늘의 주요 오류3개와 내일 반복할 코드3개를 기록합니다.",
+            "시간을 줄이면서 오류가 늘면 이전 속도에서 정확성을 회복합니다.",
+            "실기 합격기준과 연습 점수의 산식을 구별합니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "문자 일치율95%가 실제 시험95점이라는 뜻인가요?",
+        "answer": "아니요. 연습용 비교값입니다.",
+        "explanation": "공식 채점은 발음·기록·정정·간격 등 다른 요소와 시행기준을 사용하므로 자동 비교값으로 합격을 단정할 수 없습니다."
+      }
+    },
+    {
+      "id": "pr-09",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "매일20분 실기 루틴",
+      "summary": "짧은 반복을 통해 문자반응, 연속수신, 송신명료도를 함께 키웁니다.",
+      "sourceIds": [
+        "pr-user-key"
+      ],
+      "topics": [
+        {
+          "title": "첫 주: 변환을 자동화",
+          "body": "이 루틴은 학습용 제안입니다. 처음3일은 문자와 숫자를 섞은 짧은 묶음에 집중하고, 다음4일은 단어와 문장으로 확장합니다. 틀린 부분을 반복하는 시간과 처음 보는 부분을 처리하는 시간을 둘 다 둡니다.",
+          "bullets": [
+            "5분: 무작위 문자·숫자 보고 코드 말하기.",
+            "5분: 짧은 음성 구간 듣고 대문자로 적기.",
+            "5분: 문장 송신을 녹음하고 즉시 한 번 확인.",
+            "5분: 오류를 분류하고 다음날 반복할 항목 정리."
+          ]
+        },
+        {
+          "title": "두 번째 주:3분의 지속성",
+          "body": "1배속 수신과3분 송신을 한 묶음으로 연습합니다. 충분히 익힌 샘플과 덜 익힌 샘플을 번갈아 사용하고, 중간 정지 없는 수행을 늘립니다.",
+          "bullets": [
+            "시작 전 정답을 보지 않기.",
+            "끝난 뒤 정답을 보기 전에 누락 위치와 자신의 확신도를 표시하기.",
+            "다음날 같은 틀린 문자만 먼저 복습하고 다른 샘플로 전이 확인하기."
+          ]
+        },
+        {
+          "title": "준비 상태 점검",
+          "body": "매번 같은 파일에서만 좋은 결과가 나오면 암기 여부를 점검합니다. 글자가 낯설어도 대응할 수 있고, 한 글자를 놓친 뒤 곧 복귀하며, 끝까지 간격이 무너지지 않는 상태를 목표로 합니다.",
+          "bullets": [
+            "종이수신을 최소한 여러 번 수행해 키보드와 손글씨의 차이를 확인합니다.",
+            "송신에서 일부러 한 번의 정정 상황을 넣어 긴장 시 복귀를 연습합니다.",
+            "모의 결과가 흔들리면 연습량을 무작정 늘리기보다 오류가 많은 단계로 돌아갑니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "같은 샘플만 반복해 만점에 가까워졌다면 다음 연습은?",
+        "answer": "다른 샘플을 정답 없이1배속으로 수행하기",
+        "explanation": "기억 효과와 실제 코드 해독 능력을 구분하려면 낯선 순서에서도 정확성이 유지되는지 확인해야 합니다."
+      }
+    },
+    {
+      "id": "pr-10",
+      "category": "practical",
+      "section": "실기 · 무선통신술",
+      "title": "시험 직전 확인과 과거자료 읽는 법",
+      "summary": "현재 공식 안내와 제공된 옛 수험자료의 역할을 구분합니다.",
+      "sourceIds": [
+        "pr-kca-guide",
+        "pr-kca-2026",
+        "pr-user-form"
+      ],
+      "topics": [
+        {
+          "title": "준비물과 운영 안내",
+          "body": "KCA 종목 안내에서 수험표·신분증·흑색볼펜을 확인할 수 있습니다. 실제 시험일·장소·입실시간·신분증 인정범위·실기 진행 안내는 접수한 회차의 공고와 수험표를 확인합니다.",
+          "bullets": [
+            "샘플을 재생할 기기의 볼륨을 연습 전에 일정하게 맞춥니다.",
+            "시험 중 수정·누락·종료 처리의 구체적 지시는 감독관 안내를 확인합니다.",
+            "시험 직전에는 새 자료를 많이 늘리기보다 혼동 코드와 숫자·기호를 점검합니다."
+          ]
+        },
+        {
+          "title": "과거자료에서 가져올 것",
+          "body": "오래된 파일은 출제형태와 반복개념을 익히는 데 도움이 됩니다. 반면 기관명·처벌수치·면제요건·일정·최신 항공운용의 근거로 사용하면 안 됩니다. 실기의 기본 문자변환 훈련과 최신 법규 암기를 분리합니다.",
+          "bullets": [
+            "2007~2016 기출: 출제개념과 문제 읽기 연습에 사용.",
+            "옛 정답표: 해당 파일의 정답 비교용으로 사용.",
+            "현행 법령·KCA 안내: 현재 기준의 최종 근거로 사용."
+          ]
+        },
+        {
+          "title": "자료 전체를 읽어도 생기는 빈틈",
+          "body": "예전 답안지에는 전신용 전건장치·모르스 정정부호 안내도 함께 있습니다. 항공무선통신사 실기 음성통화 훈련에 전신 항목을 그대로 적용하지 않습니다. 문서 제목보다 항목의 대상과 적용시점을 읽는 습관이 중요합니다.",
+          "bullets": [
+            "실기용 통화표와 관제영어 발음 체계를 구분합니다.",
+            "자료에 적힌 개인 조언과 공식 규정을 구분합니다.",
+            "읽은 내용을 바로 짧은 수신·송신 과제로 바꾸어 확인합니다."
+          ]
+        }
+      ],
+      "check": {
+        "question": "과거 답안지에 모스부호·전건장치 설명이 있으면 항공 실기에 모두 적용하나요?",
+        "answer": "아니요. 해당 종목과 시험방식에 맞는 항목을 골라 적용합니다.",
+        "explanation": "공용 양식에는 다른 무선통신 종목의 안내가 함께 포함되어 있습니다. 현행 KCA 종목 안내와 시험장 지시를 우선 확인합니다."
+      }
+    }
+  ],
+  "samples": [
+    {
+      "id": "A",
+      "title": "수신 샘플 A",
+      "audio": "assets/sample-a.mp3",
+      "answer": "BE SURE YOU ARE GETTING THE RIGHT INFORMATION FROM THE RIGHT FIELD. AS JUST ON EXAMPLE IN KANSAS, THERE ARE THREE AIRPORTS OTTAWA, PAOLAMA AND GRANETT WITHIN 25 MILES OF EACH OTHER. ALL THREE UNICOMS TRANSMIT AND RECEIVE ON 122.8MHZ.",
+      "notes": "원본 표기 AS JUST ON EXAMPLE, PAOLAMA, GRANETT를 보존했습니다. 자연스러운 영어 모범문장으로 암기하지 마세요.",
+      "answerSourceId": "pr-user-key",
+      "matchingBasis": "HWP에 해당 MP3 파일명이 명시됨; 음성 전사로 생성하지 않음"
+    },
+    {
+      "id": "B",
+      "title": "수신 샘플 B",
+      "audio": "assets/sample-b.mp3",
+      "answer": "COLUMBIA CHEROKEE ONE FOUR SIX ONE TANGO IS 8 MILES SOUTHEAST ON VICTOR ONE FIVE NINER AT 3500 ON VOR FLIGHT PLAN MEMPHIS TO SPRINGFIELD. WE HAVE TWO POINT FIVE HOURS OF FUEL REMAINING.",
+      "notes": "ONE FOUR SIX ONE TANGO는 영문단어, 8과3500은 숫자입니다. 뜻으로 다른 형태로 바꾸지 마세요.",
+      "answerSourceId": "pr-user-key",
+      "matchingBasis": "HWP에 해당 MP3 파일명이 명시됨; 음성 전사로 생성하지 않음"
+    },
+    {
+      "id": "C",
+      "title": "수신 샘플 C",
+      "audio": "assets/sample-c.mp3",
+      "answer": "ALTITUDE CLIMB TO ONE THAT WOULD PUT YOU IN OR CLOSE TO THE BASE OF THE OVERCAST CEILING. YOU WOULD THEN BE LESS THAN 576 FEET BELOW THE CLOUD LAYER AND INN VIOLATION OF VFR REGULATIONS.",
+      "notes": "원본 답안은 AND INN VIOLATION입니다. INN의 N 중복을 임의로 고치지 않았습니다.",
+      "answerSourceId": "pr-user-key",
+      "matchingBasis": "HWP에 해당 MP3 파일명이 명시됨; 음성 전사로 생성하지 않음"
+    },
+    {
+      "id": "D",
+      "title": "수신 샘플 D · 5문장",
+      "audio": "assets/sample-d.mp3",
+      "answer": "CHANGE FREQUENCY TO 118.65MHZ.\nDESCENT ALTITUDE 12,500.\nI HAVE ONE SON AND TWO DAUGHTERS.\nTHE TOTAL PROFIT OF THIS YEAR IS 34 MILION DOLLARS.\nTURN RIGHT HEADING 079.",
+      "notes": "2006-06-14 표기 자료. 목록번호1~5는 비교본문에서 제외했습니다. 원본의 DESCENT ALTITUDE와 MILION 철자를 보존했습니다.",
+      "answerSourceId": "pr-user-key",
+      "matchingBasis": "HWP에 sample D.mp3 표시된 5문장"
+    }
+  ],
+  "materials": [
+    {
+      "id": "material-01",
+      "title": "2012년 1회 필기.pdf",
+      "type": "PDF",
+      "url": "assets/material-01.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요. 스캔 이미지로 구성되어 원본 보기로 내용을 확인할 수 있습니다.",
+      "bytes": 3625429
+    },
+    {
+      "id": "material-02",
+      "title": "2015년 제1회 항공무선통신사 1형 (답).pdf",
+      "type": "PDF",
+      "url": "assets/material-02.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요.",
+      "bytes": 72529
+    },
+    {
+      "id": "material-03",
+      "title": "2014년 1회 필기 및 답안.pdf",
+      "type": "PDF",
+      "url": "assets/material-03.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요.",
+      "bytes": 82428
+    },
+    {
+      "id": "material-04",
+      "title": "2008년 1회 항공무선통신사 문제.hwp",
+      "type": "HWP",
+      "url": "assets/material-04.hwp",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요. 스캔 이미지로 구성되어 원본 보기로 내용을 확인할 수 있습니다.",
+      "bytes": 1303040
+    },
+    {
+      "id": "material-05",
+      "title": "2013년 4회 필기 및 답안.hwp",
+      "type": "HWP",
+      "url": "assets/material-05.hwp",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요. 학습자가 추가한 해설·주석이 포함되어 있습니다.",
+      "bytes": 33792
+    },
+    {
+      "id": "material-06",
+      "title": "수신실기 답안지 양식.hwp",
+      "type": "HWP",
+      "url": "assets/material-06.hwp",
+      "note": "과거 실기 연습자료. 최신 채점·시행기준은 KCA 공고와 대조하세요.",
+      "bytes": 17408
+    },
+    {
+      "id": "material-07",
+      "title": "항공무선통신사 수신ABCD정답+실기주의사항+및+약어표.hwp",
+      "type": "HWP",
+      "url": "assets/material-07.hwp",
+      "note": "과거 실기 연습자료. 최신 채점·시행기준은 KCA 공고와 대조하세요.",
+      "bytes": 119808
+    },
+    {
+      "id": "material-08",
+      "title": "항공무선통신사+수신샘플A.mp3",
+      "type": "MP3",
+      "url": "assets/sample-a.mp3",
+      "note": "제공된 과거 실기 수신 연습 음성. 최신 공식 출제문제라는 의미는 아닙니다.",
+      "bytes": 3138240
+    },
+    {
+      "id": "material-09",
+      "title": "항공무선통신사+수신샘플B.mp3",
+      "type": "MP3",
+      "url": "assets/sample-b.mp3",
+      "note": "제공된 과거 실기 수신 연습 음성. 최신 공식 출제문제라는 의미는 아닙니다.",
+      "bytes": 3217152
+    },
+    {
+      "id": "material-10",
+      "title": "항공무선통신사+수신샘플C.mp3",
+      "type": "MP3",
+      "url": "assets/sample-c.mp3",
+      "note": "제공된 과거 실기 수신 연습 음성. 최신 공식 출제문제라는 의미는 아닙니다.",
+      "bytes": 3067392
+    },
+    {
+      "id": "material-11",
+      "title": "항공무선통신사+수신샘플D.mp3",
+      "type": "MP3",
+      "url": "assets/sample-d.mp3",
+      "note": "제공된 과거 실기 수신 연습 음성. 최신 공식 출제문제라는 의미는 아닙니다.",
+      "bytes": 1556587
+    },
+    {
+      "id": "material-12",
+      "title": "2015년 제1회 항공무선통신사 1형 (문제).pdf",
+      "type": "PDF",
+      "url": "assets/material-12.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요.",
+      "bytes": 596810
+    },
+    {
+      "id": "material-13",
+      "title": "2015년+4회+항공무선통신사(답안).pdf",
+      "type": "PDF",
+      "url": "assets/material-13.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요.",
+      "bytes": 36766
+    },
+    {
+      "id": "material-14",
+      "title": "항공무선통신사 필기기출(07~11).pdf",
+      "type": "PDF",
+      "url": "assets/material-14.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요.",
+      "bytes": 8351888
+    },
+    {
+      "id": "material-15",
+      "title": "2016년 1차 필기 및 답안.pdf",
+      "type": "PDF",
+      "url": "assets/material-15.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요. 스캔 이미지로 구성되어 원본 보기로 내용을 확인할 수 있습니다.",
+      "bytes": 653964
+    },
+    {
+      "id": "material-16",
+      "title": "2015년+4회+항공무선통신사+문제.pdf",
+      "type": "PDF",
+      "url": "assets/material-16.pdf",
+      "note": "과거 기출·정답 자료입니다. 당시 법령·기관명·수치는 최신 기준과 대조하세요.",
+      "bytes": 280214
+    }
+  ],
+  "phonetics": [
+    {
+      "character": "A",
+      "code": "Alfa",
+      "pronunciation": "AL FAH"
+    },
+    {
+      "character": "B",
+      "code": "Bravo",
+      "pronunciation": "BRAH VOH"
+    },
+    {
+      "character": "C",
+      "code": "Charlie",
+      "pronunciation": "CHAR LEE / SHAR LEE"
+    },
+    {
+      "character": "D",
+      "code": "Delta",
+      "pronunciation": "DELL TAH"
+    },
+    {
+      "character": "E",
+      "code": "Echo",
+      "pronunciation": "ECK OH"
+    },
+    {
+      "character": "F",
+      "code": "Foxtrot",
+      "pronunciation": "FOKS TROT"
+    },
+    {
+      "character": "G",
+      "code": "Golf",
+      "pronunciation": "GOLF"
+    },
+    {
+      "character": "H",
+      "code": "Hotel",
+      "pronunciation": "HOH TELL"
+    },
+    {
+      "character": "I",
+      "code": "India",
+      "pronunciation": "IN DEE AH"
+    },
+    {
+      "character": "J",
+      "code": "Juliett",
+      "pronunciation": "JEW LEE ETT"
+    },
+    {
+      "character": "K",
+      "code": "Kilo",
+      "pronunciation": "KEY LOH"
+    },
+    {
+      "character": "L",
+      "code": "Lima",
+      "pronunciation": "LEE MAH"
+    },
+    {
+      "character": "M",
+      "code": "Mike",
+      "pronunciation": "MIKE"
+    },
+    {
+      "character": "N",
+      "code": "November",
+      "pronunciation": "NO VEM BER"
+    },
+    {
+      "character": "O",
+      "code": "Oscar",
+      "pronunciation": "OSS CAH"
+    },
+    {
+      "character": "P",
+      "code": "Papa",
+      "pronunciation": "PAH PAH"
+    },
+    {
+      "character": "Q",
+      "code": "Quebec",
+      "pronunciation": "KEH BECK"
+    },
+    {
+      "character": "R",
+      "code": "Romeo",
+      "pronunciation": "ROW ME OH"
+    },
+    {
+      "character": "S",
+      "code": "Sierra",
+      "pronunciation": "SEE AIR RAH"
+    },
+    {
+      "character": "T",
+      "code": "Tango",
+      "pronunciation": "TANG GO"
+    },
+    {
+      "character": "U",
+      "code": "Uniform",
+      "pronunciation": "YOU NEE FORM / OO NEE FORM"
+    },
+    {
+      "character": "V",
+      "code": "Victor",
+      "pronunciation": "VIK TAH"
+    },
+    {
+      "character": "W",
+      "code": "Whiskey",
+      "pronunciation": "WISS KEY"
+    },
+    {
+      "character": "X",
+      "code": "X-ray",
+      "pronunciation": "ECKS RAY"
+    },
+    {
+      "character": "Y",
+      "code": "Yankee",
+      "pronunciation": "YANG KEY"
+    },
+    {
+      "character": "Z",
+      "code": "Zulu",
+      "pronunciation": "ZOO LOO"
+    },
+    {
+      "character": "0",
+      "code": "Nadazero",
+      "pronunciation": "NAH-DAH-ZAY-ROH"
+    },
+    {
+      "character": "1",
+      "code": "Unaone",
+      "pronunciation": "OO-NAH-WUN"
+    },
+    {
+      "character": "2",
+      "code": "Bissotwo",
+      "pronunciation": "BEES-SOH-TOO"
+    },
+    {
+      "character": "3",
+      "code": "Terrathree",
+      "pronunciation": "TAY-RAH-TREE"
+    },
+    {
+      "character": "4",
+      "code": "Kartefour",
+      "pronunciation": "KAR-TAY-FOWER"
+    },
+    {
+      "character": "5",
+      "code": "Pantafive",
+      "pronunciation": "PAN-TAH-FIVE"
+    },
+    {
+      "character": "6",
+      "code": "Soxisix",
+      "pronunciation": "SOK-SEE-SIX"
+    },
+    {
+      "character": "7",
+      "code": "Setteseven",
+      "pronunciation": "SAY-TAY-SEVEN"
+    },
+    {
+      "character": "8",
+      "code": "Oktoeight",
+      "pronunciation": "OK-TOH-AIT"
+    },
+    {
+      "character": "9",
+      "code": "Novenine",
+      "pronunciation": "NO-VAY-NINER"
+    },
+    {
+      "character": ".",
+      "code": "Decimal",
+      "pronunciation": "DAY-SEE-MAL",
+      "context": "소수점"
+    },
+    {
+      "character": ".",
+      "code": "Stop",
+      "pronunciation": "STOP",
+      "context": "종지부"
+    }
+  ],
+  "coverage": [
+    "현행 KCA 실기 방식·시간·합격기준·준비물",
+    "영문26자·숫자10자·소수점·종지부",
+    "실기 숫자코드와 ICAO 관제숫자의 차이",
+    "대문자 수신·누락·줄바꿈·문자 혼동·손글씨",
+    "송신 간격·CORRECTION·OUT·녹음 복습",
+    "영문숫자 단어와 실제 숫자·단위·약어 구별",
+    "제공 MP3 A/B/C/D 및 HWP 정답 원문 연결",
+    "과거 자료 오탈자·적용시점·현행 채점과 자동 일치율 구분",
+    "단계별 루틴·약점진단·3분 모의연습",
+    "제공자료16개 원본 다운로드·스캔 PDF/HWP 시각 검토"
+  ],
+  "caveats": [
+    "모든 MP3는 파일명을 명시한 제공 답안과 연결했으며 별도의 실제 음성-문자 완전대조 검수는 수행하지 않았습니다.",
+    "과거 자호별 감점표의 현행성을 확인하지 못해 공식점수 계산에 쓰지 않습니다.",
+    "현재 법규와 영어 본문은 별도의 공식 출처 검증 과정에서 작성합니다."
+  ]
+}
