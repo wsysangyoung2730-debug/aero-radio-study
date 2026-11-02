@@ -7,6 +7,7 @@ for (const name of ['legal', 'english', 'practical']) {
   for (const key of keys) data[key].push(...(part[key] || []));
 }
 data.legalBooks = JSON.parse(fs.readFileSync('content/legal-library.json', 'utf8'));
+data.visualEnglish = JSON.parse(fs.readFileSync('content/visual-english.json', 'utf8'));
 data.sources = [...new Map(data.sources.map(source => [source.id, source])).values()];
 fs.mkdirSync('dist', { recursive: true });
 fs.writeFileSync('dist/data.js', `window.STUDY_DATA=${JSON.stringify(data)};\n`);
