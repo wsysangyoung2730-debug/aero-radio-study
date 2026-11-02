@@ -4,7 +4,13 @@
 
 전파법규와 항공영어의 개념을 읽고 CBT로 확인하며, 수신·송신 실기를 연습하는 웹사이트입니다. 흰색 중심의 CBT 화면으로 PC와 모바일에서 사용할 수 있습니다.
 
+![AERO NOTE 항공영어 학습 화면 — 학습 진행률과 전체 개념 목차](docs/images/aero-note-english.jpg)
+
+*항공영어 학습 화면 · 2026년 11월 2일 캡처*
+
 ## 주요 기능
+
+- **[그림 개념 이해](https://aero-radio-study-20261025.vercel.app/#visual-english)**: 기존 교육 그림 5장에 체공·항법·지상 이동·LAHSO·후류 용어, 짧은 한국어 풀이와 비유, 출처를 연결
 
 - **단원별 연습**: 각 법규·영어 단원에서 해당 개념 문제를 바로 풀고 상세 설명으로 이동
 - **개념 88단원**: 전파법규 39개, 항공영어 39개, 실기 10개
@@ -33,6 +39,7 @@ dist/                 웹 화면과 배포용 파일
   assets/             기출·실기 자료, 법령 표·별표
   app.js              학습 화면 및 브라우저 기능
   concept-practice.js  단원별 개념 연습문제
+  visual-english.js    그림으로 이해하는 항공영어
   style.css           반응형 흰색 CBT 스타일
   data.js             content에서 생성한 학습 자료
 content/              과목별 개념·문항·출처와 법령 본문
@@ -41,7 +48,7 @@ vercel.json           Vercel 배포 설정
 CONTRIBUTING.md        커밋·브랜치 및 병합 규칙
 ```
 
-개념·문항을 수정할 때는 `content/`의 JSON을 수정하고 `npm run build`를 실행합니다. `dist/data.js`는 직접 수정하지 않습니다. 화면은 `dist/app.js`, 개념 연습은 `dist/concept-practice.js`, 스타일은 `dist/style.css`에서 수정합니다.
+개념·문항을 수정할 때는 `content/`의 JSON을 수정하고 `npm run build`를 실행합니다. `dist/data.js`는 직접 수정하지 않습니다. 그림 개념 자료는 `content/visual-english.json`, 화면은 `dist/app.js`, 개념 연습은 `dist/concept-practice.js`, 스타일은 `dist/style.css`에서 수정합니다.
 
 ## 배포 및 개발 흐름
 
