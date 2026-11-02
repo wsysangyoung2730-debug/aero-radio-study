@@ -9,8 +9,21 @@ for(const s of db.samples){assert(fs.existsSync(`${root}/${s.audio}`));assert(s.
 for(const b of db.legalBooks){assert(b.articles.length>20);assert.equal(new Set(b.articles.map(a=>a.number)).size,b.articles.length);for(const a of b.articles)for(const x of a.blocks)if(x.image)assert(fs.existsSync(`${root}/${x.image}`),`missing table ${x.image}`)}
 const els=new Map();const el=()=>({innerHTML:'',textContent:'',hidden:true,focus(){},addEventListener(){},classList:{remove(){},add(){},toggle(){}},querySelector(){return null},querySelectorAll(){return []}});
 const context={window:{STUDY_DATA:db,addEventListener(){},scrollTo(){}},document:{body:{classList:{toggle(){}}},querySelector(s){if(!els.has(s))els.set(s,el());return els.get(s)},querySelectorAll(){return []},addEventListener(){},activeElement:null},localStorage:{getItem(){return null},setItem(){}},location:{hash:''},setInterval(){return 1},clearInterval(){},setTimeout(){},clearTimeout(){},console,URL,Blob,Date,Math,Uint16Array};
-vm.createContext(context);vm.runInContext(fs.readFileSync(root+'/concept-practice.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/app.js','utf8'),context);
-for(const route of ['home','law','english','quiz','practical','sources','review','vocabulary','legal',...db.chapters.map(c=>'chapter/'+c.id)]){context.location.hash='#'+route;vm.runInContext('navigate()',context);const html=els.get('#main').innerHTML;assert(html.length>200,route);assert(!html.includes('undefined'),route+' undefined output')}
+vm.createContext(context);vm.runInContext(fs.readFileSync(root+'/concept-practice.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/visual-english.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/app.js','utf8'),context);
+for(const route of ['home','law','english','quiz','practical','sources','review','vocabulary','legal','visual-english',...db.visualEnglish.topics.map(t=>'visual-english/'+t.id),...db.chapters.map(c=>'chapter/'+c.id)]){context.location.hash='#'+route;vm.runInContext('navigate()',context);const html=els.get('#main').innerHTML;assert(html.length>200,route);assert(!html.includes('undefined'),route+' undefined output')}
+for(const topic of db.visualEnglish.topics){
+  assert(fs.existsSync(`${root}/${topic.image.file}`),`missing visual image ${topic.id}`);
+  assert(topic.image.alt&&topic.image.credit&&topic.image.reading,`missing image context ${topic.id}`);
+  for(const url of [topic.image.url,topic.image.source,topic.image.reference].filter(Boolean))assert.equal(new URL(url).protocol,'https:');
+  assert(topic.terms.length>0&&topic.terms.every(t=>t.en&&t.ko&&t.meaning),`empty visual term ${topic.id}`);
+  for(const id of topic.chapters)assert(ids.has(id),`missing visual chapter ${id}`);
+  context.location.hash='#visual-english/'+topic.id;vm.runInContext('navigate()',context);
+  const html=els.get('#main').innerHTML;
+  assert.equal((html.match(/class="visual-topic"/g)||[]).length,1,`selected visual topic ${topic.id}`);
+  assert(html.includes(topic.image.file)&&html.includes(topic.image.source));
+}
+for(const category of ['english','quiz']){context.location.hash='#'+category;vm.runInContext('navigate()',context);assert(els.get('#main').innerHTML.includes('href="#visual-english"'),`visual entry ${category}`)}
+vm.runInContext("runSearch('ABEAM')",context);assert(els.get('#search-results').innerHTML.includes('#visual-english/holding'),'visual glossary searchable');
 for(const expr of ["alignText('ABC','ABC').rate===100","alignText('ABC','AC').del===1","alignText('ABC','ABXC').ins===1","alignText('ABC','ADC').sub===1","alignText('ABC','').del===3","alignText('','ABC').ins===3","normalize('a b, 12.3!')==='AB123'"])assert(vm.runInContext(expr,context),expr);
 // 문제 교체·정답 확인과 기존 CBT 상태의 독립성을 확인한다.
 context.assert = assert;
@@ -51,4 +64,4 @@ vm.runInContext(`(() => {
   assert.equal(pickConceptQuestions([]).length, 0);
   assert.equal(conceptPracticeSection('practical'), '');
 })()`, context);
-console.log(JSON.stringify({status:'passed',chapters:db.chapters.length,questions:db.questions.length,vocabulary:db.vocabulary.length,samples:db.samples.length,materials:db.materials.length,articles:db.legalBooks.reduce((n,b)=>n+b.articles.length,0),checks:'데이터·출처·파일 참조, 모든 화면 렌더링, 실기 문자 비교, 과목·단원 문제 배정, 정답 확인·재시도, CBT 기록 독립성'},null,2));
+console.log(JSON.stringify({status:'passed',chapters:db.chapters.length,questions:db.questions.length,vocabulary:db.vocabulary.length,visualTopics:db.visualEnglish.topics.length,visualTerms:db.visualEnglish.topics.reduce((n,t)=>n+t.terms.length,0),samples:db.samples.length,materials:db.materials.length,articles:db.legalBooks.reduce((n,b)=>n+b.articles.length,0),checks:'그림 개념 경로·출처·이미지·검색, 데이터·출처·파일 참조, 모든 화면 렌더링, 실기 문자 비교, 과목·단원 문제 배정, 정답 확인·재시도, CBT 기록 독립성'},null,2));
