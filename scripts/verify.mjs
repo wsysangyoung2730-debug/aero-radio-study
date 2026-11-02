@@ -21,6 +21,14 @@ for(const topic of db.visualEnglish.topics){
   const html=els.get('#main').innerHTML;
   assert.equal((html.match(/class="visual-topic"/g)||[]).length,1,`selected visual topic ${topic.id}`);
   assert(html.includes(topic.image.file)&&html.includes(topic.image.source));
+  if(topic.illustration){
+    const image=topic.illustration,bytes=fs.readFileSync(`${root}/${image.file}`);
+    assert.equal(bytes.subarray(1,4).toString(),'PNG',`illustration PNG ${topic.id}`);
+    assert.equal(bytes.readUInt32BE(16),image.width,`illustration width ${topic.id}`);
+    assert.equal(bytes.readUInt32BE(20),image.height,`illustration height ${topic.id}`);
+    assert(image.alt&&image.credit&&image.reading&&image.scenario&&image.steps.length,`illustration context ${topic.id}`);
+    assert(html.includes(image.file)&&html.includes(image.scenario),`illustration on topic ${topic.id}`);
+  }
 }
 for(const category of ['english','quiz']){context.location.hash='#'+category;vm.runInContext('navigate()',context);assert(els.get('#main').innerHTML.includes('href="#visual-english"'),`visual entry ${category}`)}
 vm.runInContext("runSearch('ABEAM')",context);assert(els.get('#search-results').innerHTML.includes('#visual-english/holding'),'visual glossary searchable');
