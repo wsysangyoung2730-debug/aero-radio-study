@@ -9,7 +9,7 @@ const element = () => ({innerHTML:'',textContent:'',hidden:true,value:'',focus()
 let saved;
 const context = {window:{STUDY_DATA:data.window.STUDY_DATA,addEventListener(){},scrollTo(){}},document:{body:{classList:{toggle(){}}},querySelector(selector){if(!elements.has(selector))elements.set(selector,element());return elements.get(selector)},querySelectorAll(){return []},addEventListener(){},activeElement:null},localStorage:{getItem(){return null},setItem(key,value){saved=value}},location:{hash:''},setInterval(){return 1},clearInterval(){},setTimeout(){},clearTimeout(){},console,Date,Math,URL,Blob,assert};
 vm.createContext(context);
-for (const file of ['concept-practice.js','visual-english.js','app.js']) vm.runInContext(fs.readFileSync('dist/'+file,'utf8'), context);
+for (const file of ['concept-practice.js','visual-english.js','transmit-practice.js','app.js']) vm.runInContext(fs.readFileSync('dist/'+file,'utf8'), context);
 vm.runInContext(`(() => {
   const q = DB.questions[0];
   const createSession = () => ({ids:[q.id],answers:{},flags:[],graded:[],explanationOpen:[],revealed:[],index:0,label:'한 문항 검증',started:Date.now(),deadline:0,finished:false});

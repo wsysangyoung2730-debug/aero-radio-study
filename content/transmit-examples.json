@@ -1,0 +1,265 @@
+{
+  "notice": "직접 만든 문자 송신 연습 예문입니다. 실제 KCA 기출문제나 실제 운항에 적용할 관제 지시가 아닙니다. 본문에 적힌 문자·숫자·기호를 실기 통화표로 그대로 송신합니다.",
+  "transmitExamples": [
+    {
+      "id": "tx-distance-01",
+      "group": "거리",
+      "title": "공항까지의 마일 거리",
+      "text": "THE AIRPORT IS 12 STATUTE MILES FROM THE CITY.",
+      "meaning": "공항은 도시에서 12육상마일 떨어져 있습니다.",
+      "focus": "12 STATUTE MILES",
+      "note": "STATUTE MILES는 육상마일입니다. 해리인 NAUTICAL MILES와 구별합니다."
+    },
+    {
+      "id": "tx-distance-02",
+      "group": "거리",
+      "title": "항행표지까지의 해리 거리",
+      "text": "THE BEACON IS 7 NAUTICAL MILES FROM THE AIRPORT.",
+      "meaning": "항행표지는 공항에서 7해리 떨어져 있습니다.",
+      "focus": "7 NAUTICAL MILES",
+      "note": "NAUTICAL MILES는 거리 단위인 해리입니다. 속도 단위인 KNOTS와 구별합니다."
+    },
+    {
+      "id": "tx-distance-03",
+      "group": "거리",
+      "title": "접근도로의 킬로미터 길이",
+      "text": "THE ACCESS ROAD IS 18 KILOMETERS LONG.",
+      "meaning": "접근도로의 길이는 18킬로미터입니다.",
+      "focus": "18 KILOMETERS",
+      "note": "KILOMETERS는 km를 단어로 쓴 형태입니다. 본문에서는 KILOMETERS의 각 문자를 송신합니다."
+    },
+    {
+      "id": "tx-distance-04",
+      "group": "거리",
+      "title": "KM로 적힌 활주로 길이",
+      "text": "THE RUNWAY LENGTH IS 3.2 KM.",
+      "meaning": "활주로 길이는 3.2킬로미터입니다.",
+      "focus": "3.2 KM",
+      "note": "KM는 KILOMETERS의 약어입니다. 이 문자 송신 연습에서는 K와 M을 각각 송신합니다."
+    },
+    {
+      "id": "tx-distance-05",
+      "group": "거리",
+      "title": "두 거리 단위를 함께 읽기",
+      "text": "THE TOWN IS 9 STATUTE MILES AWAY AND THE ACCESS ROAD IS 6 KILOMETERS LONG.",
+      "meaning": "마을은 9육상마일 떨어져 있고 접근도로의 길이는 6킬로미터입니다.",
+      "focus": "9 STATUTE MILES / 6 KILOMETERS",
+      "note": "서로 다른 두 거리를 설명한 문장입니다. 두 수치가 같은 거리의 환산값이라는 뜻은 아닙니다."
+    },
+    {
+      "id": "tx-speed-01",
+      "group": "속도",
+      "title": "풍속 8노트",
+      "text": "THE REPORTED WIND SPEED IS 8 KNOTS.",
+      "meaning": "보고된 풍속은 8노트입니다.",
+      "focus": "8 KNOTS",
+      "note": "속도 단위 노트의 영문 표기는 KNOT 또는 KNOTS입니다. NOTE와 구별합니다."
+    },
+    {
+      "id": "tx-speed-02",
+      "group": "속도",
+      "title": "세 자리 대지속도",
+      "text": "THE AIRCRAFT GROUND SPEED IS 127 KNOTS.",
+      "meaning": "항공기의 대지속도는 127노트입니다.",
+      "focus": "127 KNOTS",
+      "note": "GROUND SPEED는 지면을 기준으로 한 속도입니다. 숫자 127의 순서를 그대로 유지합니다."
+    },
+    {
+      "id": "tx-speed-03",
+      "group": "속도",
+      "title": "화면에 표시된 노트 값",
+      "text": "THE DISPLAY SHOWS A GROUND SPEED OF 95 KNOTS.",
+      "meaning": "화면에는 대지속도가 95노트로 표시되어 있습니다.",
+      "focus": "95 KNOTS"
+    },
+    {
+      "id": "tx-speed-04",
+      "group": "속도",
+      "title": "지상 차량의 시속",
+      "text": "THE GROUND VEHICLE IS MOVING AT 24 KILOMETERS PER HOUR.",
+      "meaning": "지상 차량은 시속 24킬로미터로 이동하고 있습니다.",
+      "focus": "24 KILOMETERS PER HOUR",
+      "note": "KILOMETERS PER HOUR는 km/h를 단어로 쓴 형태입니다. 속도 값을 노트로 바꾸지 않습니다."
+    },
+    {
+      "id": "tx-speed-05",
+      "group": "속도",
+      "title": "킬로미터 단위로 기록된 풍속",
+      "text": "THE REPORTED WIND SPEED IS 16 KILOMETERS PER HOUR.",
+      "meaning": "보고된 풍속은 시속 16킬로미터입니다.",
+      "focus": "16 KILOMETERS PER HOUR",
+      "note": "보고서에 적힌 단위를 그대로 송신하는 연습입니다. KNOTS로 임의 변경하지 않습니다."
+    },
+    {
+      "id": "tx-altitude-01",
+      "group": "고도",
+      "title": "반복되는 0과 피트",
+      "text": "THE AIRCRAFT IS AT 4500 FEET.",
+      "meaning": "항공기는 고도 4500피트에 있습니다.",
+      "focus": "4500 FEET",
+      "note": "4500의 0 두 개를 모두 송신합니다. FEET를 다른 단위로 환산하지 않습니다."
+    },
+    {
+      "id": "tx-altitude-02",
+      "group": "고도",
+      "title": "공항 표고",
+      "text": "THE AIRPORT ELEVATION IS 836 FEET.",
+      "meaning": "공항의 표고는 836피트입니다.",
+      "focus": "836 FEET"
+    },
+    {
+      "id": "tx-altitude-03",
+      "group": "고도",
+      "title": "공항 위의 구름 높이",
+      "text": "THE CLOUD BASE IS 1200 FEET ABOVE THE AIRPORT.",
+      "meaning": "구름 밑면은 공항보다 1200피트 위에 있습니다.",
+      "focus": "1200 FEET ABOVE THE AIRPORT"
+    },
+    {
+      "id": "tx-altitude-04",
+      "group": "고도",
+      "title": "FL과 세 자리 숫자",
+      "text": "THE FLIGHT PLAN SHOWS FL 230.",
+      "meaning": "비행계획에는 비행고도가 FL 230으로 표시되어 있습니다.",
+      "focus": "FL 230",
+      "note": "FL은 FLIGHT LEVEL의 약어입니다. 이 문자 송신 연습에서는 본문에 적힌 F와 L을 각각 송신합니다."
+    },
+    {
+      "id": "tx-altitude-05",
+      "group": "고도",
+      "title": "탑의 높이와 미터",
+      "text": "THE TOWER IS 48 METERS HIGH.",
+      "meaning": "탑의 높이는 48미터입니다.",
+      "focus": "48 METERS"
+    },
+    {
+      "id": "tx-time-01",
+      "group": "시각",
+      "title": "앞자리가 0인 UTC 시각",
+      "text": "THE OBSERVATION TIME IS 0615 UTC.",
+      "meaning": "관측 시각은 UTC 06시 15분입니다.",
+      "focus": "0615 UTC",
+      "note": "시각 앞의 0을 생략하지 않습니다. UTC도 본문에 적힌 세 문자를 각각 송신합니다."
+    },
+    {
+      "id": "tx-time-02",
+      "group": "시각",
+      "title": "예상 도착 시각",
+      "text": "THE ESTIMATED ARRIVAL TIME IS 1740 UTC.",
+      "meaning": "예상 도착 시각은 UTC 17시 40분입니다.",
+      "focus": "1740 UTC"
+    },
+    {
+      "id": "tx-time-03",
+      "group": "시각",
+      "title": "소수로 표시한 시간",
+      "text": "THE FLIGHT DURATION IS 2.5 HOURS.",
+      "meaning": "비행 소요 시간은 2.5시간입니다.",
+      "focus": "2.5 HOURS",
+      "note": "2.5를 2 HOURS 30 MINUTES로 바꾸지 않고 원문의 숫자와 단위를 유지합니다."
+    },
+    {
+      "id": "tx-time-04",
+      "group": "시각",
+      "title": "점검에 걸린 분",
+      "text": "THE GROUND CHECK TOOK 9 MINUTES.",
+      "meaning": "지상 점검에는 9분이 걸렸습니다.",
+      "focus": "9 MINUTES"
+    },
+    {
+      "id": "tx-time-05",
+      "group": "시각",
+      "title": "타이머의 초 표시",
+      "text": "THE TIMER SHOWS 36 SECONDS.",
+      "meaning": "타이머에는 36초가 표시되어 있습니다.",
+      "focus": "36 SECONDS"
+    },
+    {
+      "id": "tx-frequency-pressure-01",
+      "group": "주파수·기압",
+      "title": "소수점 두 자리 주파수",
+      "text": "THE TRAINING DISPLAY SHOWS 118.65 MHZ.",
+      "meaning": "훈련 화면에는 118.65메가헤르츠가 표시되어 있습니다.",
+      "focus": "118.65 MHZ",
+      "note": "MHZ는 MEGAHERTZ의 단위 표기를 대문자로 적은 것입니다. 이 연습에서는 M·H·Z를 각각 송신합니다."
+    },
+    {
+      "id": "tx-frequency-pressure-02",
+      "group": "주파수·기압",
+      "title": "소수점 뒤의 0 유지",
+      "text": "THE RADIO PANEL SHOWS 122.80 MHZ.",
+      "meaning": "무전기 패널에는 122.80메가헤르츠가 표시되어 있습니다.",
+      "focus": "122.80 MHZ",
+      "note": "122.80의 마지막 0을 생략하거나 122.8로 줄이지 않고 원문을 유지합니다."
+    },
+    {
+      "id": "tx-frequency-pressure-03",
+      "group": "주파수·기압",
+      "title": "기록부의 주파수",
+      "text": "THE LOG RECORDS A FREQUENCY OF 123.45 MHZ.",
+      "meaning": "기록부에는 주파수가 123.45메가헤르츠로 적혀 있습니다.",
+      "focus": "123.45 MHZ",
+      "note": "123.45에서 숫자 순서와 소수점 위치를 함께 확인합니다."
+    },
+    {
+      "id": "tx-frequency-pressure-04",
+      "group": "주파수·기압",
+      "title": "네 자리 기압 값",
+      "text": "THE PRESSURE READING IS 1013 HPA.",
+      "meaning": "기압 표시값은 1013헥토파스칼입니다.",
+      "focus": "1013 HPA",
+      "note": "HPA는 본문을 대문자로 표시한 것입니다. 일반적인 단위 기호는 hPa이며, 이 연습에서는 H·P·A 세 문자를 송신합니다."
+    },
+    {
+      "id": "tx-frequency-pressure-05",
+      "group": "주파수·기압",
+      "title": "반복 숫자가 있는 기압",
+      "text": "THE WEATHER REPORT SHOWS 998 HPA.",
+      "meaning": "기상 보고서에는 기압이 998헥토파스칼로 표시되어 있습니다.",
+      "focus": "998 HPA",
+      "note": "9가 두 번 이어지는 부분을 빠뜨리지 않습니다."
+    },
+    {
+      "id": "tx-quantity-01",
+      "group": "기온·수량",
+      "title": "섭씨 기온",
+      "text": "THE AIR TEMPERATURE IS 14 DEGREES CELSIUS.",
+      "meaning": "기온은 섭씨 14도입니다.",
+      "focus": "14 DEGREES CELSIUS"
+    },
+    {
+      "id": "tx-quantity-02",
+      "group": "기온·수량",
+      "title": "영하 기온과 MINUS",
+      "text": "THE TEMPERATURE IS MINUS 3 DEGREES CELSIUS.",
+      "meaning": "기온은 섭씨 영하 3도입니다.",
+      "focus": "MINUS 3 DEGREES CELSIUS",
+      "note": "MINUS는 본문에 적힌 다섯 글자의 단어입니다. 임의로 마이너스 기호로 바꾸지 않습니다."
+    },
+    {
+      "id": "tx-quantity-03",
+      "group": "기온·수량",
+      "title": "연료 기록의 리터",
+      "text": "THE FUEL RECORD SHOWS 68 LITERS.",
+      "meaning": "연료 기록에는 68리터로 표시되어 있습니다.",
+      "focus": "68 LITERS"
+    },
+    {
+      "id": "tx-quantity-04",
+      "group": "기온·수량",
+      "title": "명단에 적힌 인원",
+      "text": "THE MANIFEST LISTS 27 PERSONS.",
+      "meaning": "명단에는 27명이 기재되어 있습니다.",
+      "focus": "27 PERSONS"
+    },
+    {
+      "id": "tx-quantity-05",
+      "group": "기온·수량",
+      "title": "소수점이 있는 수하물 질량",
+      "text": "THE BAGGAGE MASS IS 19.5 KILOGRAMS.",
+      "meaning": "수하물의 질량은 19.5킬로그램입니다.",
+      "focus": "19.5 KILOGRAMS",
+      "note": "19.5의 소수점과 문장 끝 마침표를 구별합니다."
+    }
+  ]
+}
