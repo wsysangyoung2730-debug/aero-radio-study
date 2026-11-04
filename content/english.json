@@ -279,6 +279,14 @@
       "effective": "2026-10-25 열람",
       "verified": "2026-10-25",
       "note": "과거 공개 교재의 안정된 DC/AC 기본 용어만 확인. 최신 정비규정·현행 교재라는 주장 없음."
+    },
+    {
+      "id": "en-kca-scope",
+      "title": "KCA 항공무선통신사 영어 출제내역",
+      "url": "https://www.cq.or.kr/qh_quagm02_003.do",
+      "effective": "조회일 기준 종목 안내",
+      "verified": "2026-11-04",
+      "note": "영어 출제내역은 ICAO 표준항공교통관제 영어의 기초지식, 항공교통관제 용어, 알파벳 및 숫자의 음성통화표다. 일반 영어 상식의 독립 출제를 학습 범위로 추가하지 않는다. 이 현행 안내 자체가 2017년 개정일을 입증하는 자료는 아니다."
     }
   ],
   "chapters": [
@@ -287,19 +295,20 @@
       "category": "english",
       "section": "통신의 기초",
       "title": "항공영어의 목적과 공부 순서",
-      "summary": "정확한 의미 → 숫자와 식별 → 상황별 교신 → 독해 순으로 연결한다.",
+      "summary": "2017년 이후 기출을 중심으로 관제영어·통화표·항공 문장 해석을 익힌다.",
       "sourceIds": [
         "en-icao-plain",
-        "en-faa-radio"
+        "en-faa-radio",
+        "en-kca-scope"
       ],
       "topics": [
         {
-          "title": "표준용어와 일반 영어",
-          "body": "항공 교신은 짧게 말하는 것보다 상대가 같은 뜻으로 이해하는 것이 우선이다. 정해진 상황에는 표준용어를 사용하고, 고장이나 예기치 못한 상황을 표현할 용어가 충분하지 않을 때 간단하고 명확한 일반 영어를 보충한다.",
+          "title": "현행 시험 범위와 항공 교신의 보통 영어",
+          "body": "KCA 종목 안내의 영어 출제내역은 표준항공교통관제 영어의 기초지식, 항공교통관제 용어, 알파벳 및 숫자의 음성통화표다. 이 학습실은 2017년 이후 항공영어 기출을 우선하며 일반 영어 상식만을 묻는 문제는 제외한다. 비정상 상황을 설명하는 명확한 보통 영어는 항공 교신의 의미를 이해하기 위한 내용이다.",
           "bullets": [
-            "표준용어: 지시·승인·수신확인을 일정한 뜻으로 전달",
-            "Plain language: 무엇이 고장 났는지, 어떤 지원이 필요한지 구체적으로 설명",
-            "시험 독해: 단어 하나의 뜻보다 요청인지, 지시인지, 보고인지부터 구분"
+            "우선순위: 관제용어의 정확한 뜻 → 통화표·숫자 → 비행 상황별 교신 → 항공 지문 해석",
+            "독립적인 일반 문법 빈칸·일상 어휘 암기는 CBT 출제에서 제외",
+            "Plain language: 표준용어만으로 설명하기 어려운 고장·건강 상태와 필요한 지원을 구체적으로 전달"
           ]
         },
         {
@@ -313,7 +322,7 @@
         },
         {
           "title": "학습 예문의 범위",
-          "body": "이 과정의 교신 예문과 문제는 개념 학습용으로 새로 작성했다. 실제 CBT 문항을 복제한 공식 문제은행이나 실시간 비행 지침이 아니다. FAA와 CAA는 영어 개념의 공식 참고자료이며 미국·영국의 지역 절차를 국내 규정과 동일시하지 않는다.",
+          "body": "기출 표시는 제공한 문제지·답안지를 대조한 문항에 붙이고, 개념 확인 문제는 별도로 구분한다. FAA와 CAA는 항공영어 의미를 확인하는 공식 참고자료이며 미국·영국의 지역 절차를 국내 규정과 동일시하지 않는다.",
           "bullets": [
             "영어 뜻을 익힐 때도 기관·지역·조건 표시를 함께 확인",
             "수치가 있는 문장은 숫자와 단위를 묶어 암기",
@@ -325,7 +334,8 @@
         "question": "표준용어만으로 설명하기 어려운 예기치 못한 고장은 어떻게 전달하는가?",
         "answer": "명확하고 간결한 일반 영어를 보충한다.",
         "explanation": "의미가 전달되지 않는 기계적 암송보다 고장 내용과 필요한 지원을 구체적으로 설명하는 것이 중요하다."
-      }
+      },
+      "notice": "일반 영어 상식·일반 문법만을 묻는 문제는 새 CBT 출제에서 제외합니다. 항공 교신에서 사용하는 명확한 보통 영어(plain language)는 필요한 범위에서 함께 익힙니다."
     },
     {
       "id": "en-02",
@@ -1382,7 +1392,7 @@
     {
       "id": "en-23",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "항공기·공항·인원·고장 어휘",
       "summary": "비행기의 어느 부분에서 무엇이 일어났는지 읽는다.",
       "sourceIds": [
@@ -1428,7 +1438,7 @@
     {
       "id": "en-24",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "필수 약어 지도",
       "summary": "약어를 풀네임·한국어 기능·혼동어 세 가지로 기억한다.",
       "sourceIds": [
@@ -1477,8 +1487,8 @@
     {
       "id": "en-25",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "명령문·조동사·부정문",
+      "section": "항공 문장·용어 해석",
+      "title": "항공 지시의 의무·허가·금지 읽기",
       "summary": "동사의 힘을 읽으면 허가·의무·금지를 구별할 수 있다.",
       "sourceIds": [
         "en-icao-plain"
@@ -1521,8 +1531,8 @@
     {
       "id": "en-26",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "시제·조건·원인·결과",
+      "section": "항공 문장·용어 해석",
+      "title": "교신의 완료 보고·조건·지연 사유 읽기",
       "summary": "완료·진행·미래와 조건이 충족되는 시점을 읽는다.",
       "sourceIds": [
         "en-icao-plain"
@@ -1565,8 +1575,8 @@
     {
       "id": "en-27",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "전치사·비교·수량 제한",
+      "section": "항공 문장·용어 해석",
+      "title": "교신의 경로·시간·속도·고도 제한 읽기",
       "summary": "ABOVE·BELOW·BY·UNTIL·WITHIN은 숫자와 함께 해석한다.",
       "sourceIds": [
         "en-icao-plain"
@@ -1609,7 +1619,7 @@
     {
       "id": "en-28",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "짧은 지문·대화·빈칸 문제 풀이",
       "summary": "문장 속 근거로 답하고 상식으로 조건을 바꾸지 않는다.",
       "sourceIds": [
@@ -1654,7 +1664,7 @@
       "id": "en-29",
       "category": "english",
       "section": "비정상·비상",
-      "title": "연료·건강·고장 상황의 일반 영어",
+      "title": "연료·건강·고장 상황을 보통 영어로 설명하기",
       "summary": "비상 용어를 단순 암기하지 않고 상태와 필요한 지원으로 연결한다.",
       "sourceIds": [
         "en-faa-emergency",
@@ -1699,7 +1709,7 @@
     {
       "id": "en-30",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "최종 정리: 혼동쌍과 지역 차이",
       "summary": "자주 바뀌어 출제되는 한 단어 차이를 점검한다.",
       "sourceIds": [
@@ -1796,7 +1806,7 @@
     {
       "id": "en-32",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "전파·항법 기술 영어와 정의 문제",
       "summary": "영문 정의의 기준·방향·단위를 찾는다.",
       "sourceIds": [
@@ -1842,185 +1852,189 @@
     {
       "id": "en-33",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "명사·관사·수량·대명사",
-      "summary": "MANY·MUCH와 AIRCRAFT·INFORMATION의 형태를 점검한다.",
+      "section": "항공 문장·용어 해석",
+      "title": "연료·승객·항공기 수량 보고 해석",
+      "summary": "연료의 양, 탑승 인원, 항공기 대수를 구분하여 교신의 숫자를 읽는다.",
       "sourceIds": [
-        "en-icao-plain"
+        "en-icao-plain",
+        "en-kca-scope"
       ],
       "topics": [
         {
-          "title": "셀 수 있는 명사와 없는 명사",
-          "body": "Many는 셀 수 있는 복수명사, much는 불가산명사와 연결한다. Passenger는 passengers로 셀 수 있지만 information·equipment·advice는 보통 불가산명사다.",
+          "title": "연료량과 남은 비행시간",
+          "body": "Fuel remaining은 남아 있는 연료량이다. Fuel endurance는 남은 연료로 비행할 수 있는 시간을 나타내는 문맥에서 사용한다. 같은 숫자라도 단위를 확인해야 한다.",
           "bullets": [
-            "How many passengers? → 승객 몇 명?",
-            "How much fuel? → 연료가 얼마나?",
-            "A piece of equipment: 장비 한 점 / some information: 정보"
+            "Fuel remaining: 600 kilograms. → 남은 연료 600 kg",
+            "Endurance: forty minutes. → 잔여 비행 가능 시간 40분",
+            "600 kg과 40분은 서로 다른 정보를 보고한다."
           ]
         },
         {
-          "title": "단복수와 관사",
-          "body": "Aircraft는 단수와 복수의 형태가 같다. An aircraft 또는 two aircraft라고 하며 동사는 실제 수에 맞춘다. A/an은 소리에 따라 결정하며 university처럼 철자와 발음이 다를 때 주의한다.",
+          "title": "탑승 인원과 승객 수",
+          "body": "Persons on board는 승무원과 승객을 포함한 탑승 인원이다. Passengers는 승객만을 가리키므로 두 수치를 혼동하지 않는다.",
           "bullets": [
-            "The aircraft is ready. → 한 항공기가 준비됨",
-            "The aircraft are ready. → 여러 항공기가 준비됨",
-            "An emergency / a runway / the assigned altitude"
+            "Two pilots and four passengers: 승무원 2명과 승객 4명",
+            "이 경우 persons on board는 6명",
+            "연료와 인원은 비상 메시지의 중요한 정보이므로 숫자를 또렷하게 전달한다."
           ]
         },
         {
-          "title": "대명사와 비교 대상",
-          "body": "It은 앞서 나온 대상 또는 형식상의 주어·목적어가 될 수 있다. That/those는 같은 명사의 반복을 피할 때 쓰이며 비교 대상의 종류와 수를 맞춰야 한다.",
+          "title": "수치와 단위를 함께 확인",
+          "body": "항공기의 수, 연료의 양, 시간, 속도는 서로 바꿀 수 없는 정보다. 보고 문장을 읽을 때 무엇의 숫자인지 먼저 찾는다.",
           "bullets": [
-            "The altitude of A is higher than that of B. → 고도와 고도 비교",
-            "This / these: 이것 / 이것들; that / those: 저것 / 저것들",
-            "Each·every가 개별 구성원을 가리키는 문장에서 단수 취급에 주의"
+            "Two aircraft: 항공기 2대",
+            "Two hundred knots: 속도 200 kt",
+            "Two hours: 시간 2시간"
           ]
         }
       ],
       "check": {
-        "question": "HOW ___ FUEL DO WE HAVE?의 빈칸은?",
-        "answer": "much",
-        "explanation": "Fuel은 양으로 보는 불가산명사이므로 much를 사용한다."
+        "question": "조종사 2명과 승객 4명이 탑승했다면 PERSONS ON BOARD는?",
+        "answer": "6명",
+        "explanation": "Persons on board는 승객만이 아니라 조종사를 포함한 전체 탑승 인원이다."
       }
     },
     {
       "id": "en-34",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "부정사·동명사·관계절·일치",
-      "summary": "IT–TO와 전치사 뒤 ING를 구조로 익힌다.",
+      "section": "항공 문장·용어 해석",
+      "title": "무선 수신·고장 상태 보고 해석",
+      "summary": "어느 기능이 가능하고 어느 기능이 불가능한지 나누어 읽는다.",
       "sourceIds": [
-        "en-icao-plain"
+        "en-icao-plain",
+        "en-kca-scope"
       ],
       "topics": [
         {
-          "title": "가주어·가목적어 IT",
-          "body": "It is difficult to hear the message.에서 it은 뒤의 to hear…를 대신하는 형식상 주어다. Noise makes it difficult to hear the message.에서는 it이 형식상 목적어다.",
+          "title": "수신과 송신은 서로 다른 기능",
+          "body": "We can receive but cannot transmit는 수신은 가능하지만 송신은 불가능하다는 보고다. 양쪽 기능이 모두 고장 났다고 확대해서 읽지 않는다.",
           "bullets": [
-            "It is important to read back correctly.",
-            "The fog makes it difficult to see the runway.",
-            "동사 make + 목적어 + 형용사 구조를 찾기"
+            "Receive: 수신하다 / transmit: 송신하다",
+            "Unable to receive: 수신할 수 없음",
+            "Unable to transmit: 송신할 수 없음"
           ]
         },
         {
-          "title": "동명사와 부정사",
-          "body": "전치사 뒤의 동작은 흔히 -ing 형태를 사용한다. Be capable of doing, prevent…from doing처럼 묶어서 익힌다. Want·decide·plan 뒤에는 to부정사 형태가 자주 이어진다.",
+          "title": "교신의 어려움과 장비 고장 구분",
+          "body": "Unable to read your transmission은 상대의 송신을 알아들을 수 없다는 뜻이다. 문장만으로 송신기 고장이 확정되는 것은 아니며, 잡음·감도·주파수 등 여러 원인이 있을 수 있다.",
           "bullets": [
-            "Capable of receiving: 수신할 수 있는",
-            "Interfere with reception: 수신을 방해하다",
-            "Plan to depart: 출발할 계획이다"
+            "Say again: 다시 말해 달라",
+            "Speak slower: 천천히 말해 달라",
+            "Readability는 메시지를 얼마나 알아들을 수 있는지에 관한 정보"
           ]
         },
         {
-          "title": "관계절과 수 일치",
-          "body": "Who는 사람, which는 사물, that은 문맥에 따라 사람·사물을 수식한다. 관계절이 길어져도 주절의 동사는 주어의 수에 맞춘다.",
+          "title": "증상·원인·요청을 나누기",
+          "body": "항공기 상태를 설명하는 보통 영어는 증상, 알려진 원인, 필요한 지원을 구분하여 읽는다. 모르는 원인을 임의로 덧붙이지 않는다.",
           "bullets": [
-            "The pilot who requested assistance is waiting.",
-            "The aircraft that were delayed are ready.",
-            "Neither did I / So did I 같은 동의 표현은 원문의 긍정·부정을 확인"
+            "The radio is intermittent. → 무선이 간헐적으로 끊긴다.",
+            "We hear loud noise. → 큰 잡음이 들린다.",
+            "Request a frequency change. → 주파수 변경을 요청한다."
           ]
         }
       ],
       "check": {
-        "question": "The crew is capable of ___ the system.에 맞는 형태는?",
-        "answer": "operating",
-        "explanation": "OF는 전치사이므로 뒤에 동작을 나타낼 때 동명사 operating을 쓴다."
+        "question": "WE CAN RECEIVE BUT CANNOT TRANSMIT가 보고하는 고장 범위는?",
+        "answer": "송신은 불가능하지만 수신은 가능하다.",
+        "explanation": "Cannot은 transmit에 걸리며 receive는 can으로 가능하다고 보고했다."
       }
     },
     {
       "id": "en-35",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "비교·정도·인과관계와 빈칸",
-      "summary": "THAN·AS·TOO·ENOUGH·SO THAT의 방향을 구분한다.",
+      "section": "항공 문장·용어 해석",
+      "title": "신호 세기·시정·운항 조건 해석",
+      "summary": "더 강함·충분함·불가능함을 비행 상황의 조건과 연결한다.",
       "sourceIds": [
-        "en-icao-plain"
+        "en-icao-plain",
+        "en-kca-scope"
       ],
       "topics": [
         {
-          "title": "비교와 강조",
-          "body": "비교급 + than은 두 대상을 비교한다. As…as는 동등 비교다. Much·far·even은 비교급의 정도를 강조할 수 있으며 very higher처럼 쓰지 않는다.",
+          "title": "신호의 비교와 실제 수신 가능 여부",
+          "body": "Stronger는 비교 대상보다 신호가 강하다는 뜻이다. 더 강해졌다는 말만으로 실제 교신이 가능해졌다고 결론 내릴 수는 없다.",
           "bullets": [
-            "Much higher than: 훨씬 높은",
-            "As important as: …만큼 중요한",
-            "비교문에서는 기체 무게와 다른 기체의 무게처럼 같은 종류를 비교"
+            "The signal is stronger than before. → 신호가 전보다 강하다.",
+            "Still unreadable. → 여전히 알아들을 수 없다.",
+            "Strong enough to be received. → 수신할 수 있을 만큼 충분히 강하다."
           ]
         },
         {
-          "title": "TOO와 ENOUGH",
-          "body": "Too…to는 너무 …해서 할 수 없다는 제한 문맥이다. 형용사 + enough to는 …할 만큼 충분히라는 뜻이다. So…that은 정도와 그 결과를 연결한다.",
+          "title": "운항 조건의 제한",
+          "body": "Too weak to be received는 신호가 너무 약해서 수신할 수 없다는 뜻이다. 항공 문장에서는 가능 여부와 그 이유를 연결한다.",
           "bullets": [
-            "Too weak to transmit: 너무 약해서 송신할 수 없음",
-            "Strong enough to be received: 수신될 만큼 충분히 강함",
-            "So loud that we cannot hear: 너무 시끄러워 들을 수 없음"
+            "Visibility is too poor to continue the visual approach. → 시정이 너무 나빠 시계접근을 계속할 수 없다.",
+            "A closed runway is unavailable for normal use. → 폐쇄된 활주로는 통상적으로 이용할 수 없다.",
+            "문장이 말하는 제한을 임의로 허가로 바꾸지 않는다."
           ]
         },
         {
-          "title": "원인 선택지와 결과 선택지",
-          "body": "Because 뒤에는 절, because of 뒤에는 명사구를 쓰는 기본 구조를 확인한다. Since는 시간 또는 이유를 나타내므로 문맥을 본다. Although와 because를 바꾸면 논리 관계가 달라진다.",
+          "title": "기상과 지연 사유",
+          "body": "Due to fog는 안개 때문에라는 원인이다. Until visibility improves는 시정이 개선될 때까지라는 조건·시점이다. 원인과 대기 해제 조건은 다르다.",
           "bullets": [
-            "Because visibility was poor, the flight was delayed.",
-            "Because of poor visibility, the flight was delayed.",
-            "Since 0900: 09시 이래 / since it was unsafe: 안전하지 않았기 때문에"
+            "Delayed due to fog. → 안개로 지연됨",
+            "Hold until further advised. → 추가 통보가 있을 때까지 대기",
+            "Unless cleared는 허가받지 않는 한이라는 제한 조건"
           ]
         }
       ],
       "check": {
-        "question": "The signal is ___ stronger than before.에서 적절한 강조 부사는?",
-        "answer": "much",
-        "explanation": "비교급 stronger는 much로 강조할 수 있다. very stronger는 일반적인 형태가 아니다."
+        "question": "THE SIGNAL IS STRONGER BUT STILL UNREADABLE의 핵심 의미는?",
+        "answer": "신호는 더 강해졌지만 내용은 여전히 알아들을 수 없다.",
+        "explanation": "Stronger는 세기의 비교이고 unreadable은 판독 불가다. 신호 증가를 교신 성공과 동일시하지 않는다."
       }
     },
     {
       "id": "en-36",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "일반 독해 어휘와 최종 연결 연습",
-      "summary": "항공 문장 밖의 일반 영어도 정의·논리·문맥으로 푼다.",
+      "section": "항공 문장·용어 해석",
+      "title": "위험물·통신 고장 지문 해석",
+      "summary": "위험의 종류와 송수신 상태를 항공 상황의 문맥에서 구별한다.",
       "sourceIds": [
         "en-icao-plain",
-        "en-faa-emergency"
+        "en-faa-emergency",
+        "en-kca-scope"
       ],
       "topics": [
         {
-          "title": "일상·여행 어휘",
-          "body": "Reserve와 book은 좌석·객실을 예약한다는 뜻으로 쓰인다. Available은 이용 가능한, delayed는 지연된, cancelled는 취소된, destination은 목적지다.",
+          "title": "항공기 위험 상태의 어휘",
+          "body": "Smoke는 연기, fire는 화재, leak는 누출이다. 같은 비상 관련 단어라도 항공기에서 무엇이 발생했는지 구체적으로 읽는다.",
           "bullets": [
-            "Book a seat: 좌석을 예약하다",
-            "Departure time: 출발시각 / arrival time: 도착시각",
-            "Baggage allowance: 허용 수하물량"
+            "Smoke in the cabin: 객실의 연기",
+            "Fuel leak: 연료 누출",
+            "Hydraulic leak: 유압 계통 누출"
           ]
         },
         {
-          "title": "기술·위험 어휘",
-          "body": "Corrosive는 부식성의, flammable은 가연성의, toxic은 독성의다. Grave는 문맥상 심각한, imminent는 임박한, immediate는 즉각적인이라는 뜻이다.",
+          "title": "위험의 성격과 긴급성",
+          "body": "항공기 탑재물이나 장비의 상태를 설명할 때 flammable은 가연성, corrosive는 부식성, toxic은 독성을 뜻한다. Grave and imminent danger는 중대하고 임박한 위험을 뜻한다.",
           "bullets": [
-            "Grave and imminent danger: 중대하고 임박한 위험",
             "Immediate assistance: 즉각적인 지원",
-            "Corrosion: 부식 / dilution: 희석 / obstacle: 장애물"
+            "Corrosive material on board: 기내의 부식성 물질",
+            "독립 어휘 암기보다 보고하는 위험·위치·필요 지원을 함께 파악한다."
           ]
         },
         {
-          "title": "문맥으로 뜻 고르기",
-          "body": "학습용 지문: Moisture damaged a connector. The crew could receive messages but could not transmit. Maintenance replaced the connector. 첫 문장은 원인, 둘째는 증상, 셋째는 조치다.",
+          "title": "문맥으로 고장 범위 찾기",
+          "body": "학습용 지문: Moisture damaged a connector. The crew could receive messages but could not transmit. Maintenance replaced the connector. 첫 문장은 알려진 원인, 둘째는 증상, 셋째는 조치다.",
           "bullets": [
             "고장 범위: 송신 불가이며 수신은 가능",
             "원인: 수분으로 연결부 손상",
             "조치: 정비에서 연결부 교체",
-            "모든 무선 기능이 동시에 고장났다는 선택지는 지문보다 과한 결론"
+            "모든 무선 기능이 동시에 고장 났다는 선택지는 지문보다 과한 결론"
           ]
         }
       ],
       "check": {
         "question": "COULD RECEIVE BUT COULD NOT TRANSMIT에서 가능한 기능은?",
         "answer": "수신",
-        "explanation": "BUT 뒤의 부정은 송신 기능에만 걸린다. 수신도 불가능했다고 확대하지 않는다."
+        "explanation": "But 뒤의 부정은 송신 기능에만 걸린다. 수신도 불가능했다고 확대하지 않는다."
       }
     },
     {
       "id": "en-37",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "감시·데이터링크·메시지와 도착보고",
       "summary": "ADS·ATIS·SSR과 메시지를 만든 사람·전달한 사람을 구분한다.",
       "sourceIds": [
@@ -2067,7 +2081,7 @@
     {
       "id": "en-38",
       "category": "english",
-      "section": "어휘·문법·독해",
+      "section": "항공 문장·용어 해석",
       "title": "비행 원리·자세·전기 기초의 영어",
       "summary": "기술 정의를 읽을 때 축·방향·힘·주기를 찾는다.",
       "sourceIds": [
@@ -2116,47 +2130,47 @@
     {
       "id": "en-39",
       "category": "english",
-      "section": "어휘·문법·독해",
-      "title": "동사 결합·일반 어휘·정의 독해 마무리",
-      "summary": "CONSIST OF·ENTER·WAIT FOR와 정확성·모호함의 어휘를 묶어 익힌다.",
+      "section": "항공 문장·용어 해석",
+      "title": "교신 정확성·항공 정의문 읽기",
+      "summary": "관제용어의 기능과 정의문의 기준을 찾아 의미를 연결한다.",
       "sourceIds": [
-        "en-icao-plain"
+        "en-icao-plain",
+        "en-kca-scope"
       ],
       "topics": [
         {
-          "title": "동사에 맞는 전치사",
-          "body": "Consist of는 “~로 구성되다”, wait for는 “~를 기다리다”, be responsible for는 “~에 책임이 있다”라는 결합이다. Enter가 장소에 들어가다는 뜻일 때에는 보통 장소 목적어를 바로 붙인다.",
-          "bullets": [
-            "The system consists of three units.",
-            "The crew entered the briefing room.",
-            "Wait for the answer.",
-            "Take into account = consider: 고려하다"
-          ]
-        },
-        {
-          "title": "정확성과 모호함",
-          "body": "Precision은 정확성, ambiguity는 두 가지 이상으로 해석될 수 있는 모호함이다. Redundancy는 불필요한 중복, lucidity는 명료함, enigma는 수수께끼·불가사의다.",
+          "title": "명확한 교신과 모호함",
+          "body": "Ambiguity는 둘 이상으로 해석될 수 있는 모호함이다. 항공 교신에서는 호출부호, 행동, 수치, 조건을 분명히 하여 서로 다른 해석을 줄인다.",
           "bullets": [
             "Clear wording reduces ambiguity. → 명확한 표현은 모호함을 줄인다.",
-            "Operate equipment: 장비를 조작하다",
-            "Reserve/book a seat: 좌석을 예약하다"
+            "비슷한 호출부호일수록 자기 항공기에 대한 지시인지 확인",
+            "불분명한 숫자는 추측하지 않고 확인 또는 재송신을 요청"
           ]
         },
         {
-          "title": "정의 문제의 단서",
-          "body": "정의문은 어떤 종류인지 먼저 말하고 특징을 뒤에 덧붙이는 경우가 많다. Direction·distance·technique·operation처럼 상위 범주를 먼저 찾고 기준을 표시한다.",
+          "title": "요청·지시·예상·보고 구분",
+          "body": "Request는 요청이고 report는 보고 또는 보고 지시의 문맥이다. Expect는 예상 통보를 나타내므로 그 말만으로 이륙·착륙·진입 허가가 되지 않는다.",
+          "bullets": [
+            "Request taxi: 지상 이동을 요청한다.",
+            "Report established: 설정되었을 때 보고하라.",
+            "Expect runway 18: 18번 활주로를 예상하라."
+          ]
+        },
+        {
+          "title": "항공 정의문의 단서",
+          "body": "정의문에서는 direction·distance·technique·operation 같은 범주와 기준 대상을 함께 찾는다. 비슷한 철자만 보고 선택하지 말고 무엇을 기준으로 한 방향·거리인지 확인한다.",
           "bullets": [
             "Direction + longitudinal axis points → heading",
             "Surveillance + automatically + data link → ADS",
             "Successive operations + within traffic pattern → closed traffic",
-            "일반어의 뜻은 문맥으로 판단하며 비슷한 철자만으로 선택하지 않기"
+            "Heading은 기수 방향, track은 지상에 투영된 실제 이동 방향"
           ]
         }
       ],
       "check": {
-        "question": "THE SYSTEM CONSISTS ___ THREE UNITS.의 빈칸은?",
-        "answer": "of",
-        "explanation": "Consist of는 ~로 구성되다라는 결합이다. 수동태 is consists of로 쓰지 않는다."
+        "question": "관제용어의 정의를 읽을 때 DIRECTION만 보고 HEADING과 TRACK을 구별할 수 있는가?",
+        "answer": "없다. 무엇을 기준으로 한 방향인지 확인해야 한다.",
+        "explanation": "Heading은 항공기 기수의 방향이고 track은 지상에 투영된 실제 이동 방향이다."
       }
     }
   ],
@@ -3620,7 +3634,9 @@
       "explanation": "Fuel은 양을 나타내는 불가산명사이므로 much를 쓴다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-078",
@@ -3637,7 +3653,9 @@
       "explanation": "Aircraft는 복수형도 aircraft이며 two가 복수를 나타내므로 are가 맞다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-079",
@@ -3654,7 +3672,9 @@
       "explanation": "Make it + 형용사 + to부정사 구조에서 it이 형식상 목적어다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-080",
@@ -3671,7 +3691,9 @@
       "explanation": "전치사 of 뒤에는 동명사 receiving이 맞다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-081",
@@ -3688,7 +3710,9 @@
       "explanation": "비교급 stronger를 much로 강조한다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-082",
@@ -3723,7 +3747,9 @@
       "sourceIds": [
         "en-icao-plain",
         "en-faa-emergency"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-084",
@@ -3897,7 +3923,9 @@
       "explanation": "Consist of는 ~로 구성되다는 표현이다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-093",
@@ -3914,7 +3942,9 @@
       "explanation": "장소에 들어가다는 enter는 보통 목적어를 직접 받는다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-094",
@@ -3948,7 +3978,9 @@
       "explanation": "Wait for는 ~를 기다리다는 결합이다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-096",
@@ -3965,7 +3997,9 @@
       "explanation": "Enigma는 쉽게 설명하기 어려운 수수께끼·불가사의를 뜻한다.",
       "sourceIds": [
         "en-icao-plain"
-      ]
+      ],
+      "examEligible": false,
+      "exclusionReason": "일반 문법·독립 어휘 중심의 종전 연습문항으로 새 항공영어 CBT 출제에서 제외. 기존 학습 기록 연결용으로 보존."
     },
     {
       "id": "eq-097",
@@ -4044,6 +4078,126 @@
         "en-faa-electric",
         "en-pcg-v"
       ]
+    },
+    {
+      "id": "eq-101",
+      "category": "english",
+      "chapterId": "en-33",
+      "prompt": "Persons on board: six. Two are crew members.라는 보고에서 승객 수는?",
+      "options": [
+        "2명",
+        "4명",
+        "6명",
+        "8명"
+      ],
+      "answer": 1,
+      "explanation": "Persons on board 6명은 승무원과 승객의 합이다. 그중 승무원이 2명이므로 승객은 4명이다. 승객 수만을 전체 탑승 인원과 혼동하지 않는다.",
+      "sourceIds": [
+        "en-icao-plain",
+        "en-kca-scope"
+      ],
+      "kind": "concept",
+      "examEligible": true
+    },
+    {
+      "id": "eq-102",
+      "category": "english",
+      "chapterId": "en-33",
+      "prompt": "Fuel remaining: 600 kilograms, endurance: forty minutes.의 올바른 해석은?",
+      "options": [
+        "남은 연료는 40 kg이고 비행 가능 시간은 600분이다",
+        "속도는 600 kt이고 도착까지 40분이다",
+        "남은 연료는 600 kg이고 잔여 비행 가능 시간은 40분이다",
+        "탑승 인원은 600명이고 비행시간은 40분이다"
+      ],
+      "answer": 2,
+      "explanation": "Fuel remaining은 남은 연료량, endurance는 여기에서 연료에 따른 잔여 비행 가능 시간이다. Kilograms는 질량 단위이고 minutes는 시간 단위이므로 서로 바꾸어 읽지 않는다.",
+      "sourceIds": [
+        "en-icao-plain",
+        "en-kca-scope"
+      ],
+      "kind": "concept",
+      "examEligible": true
+    },
+    {
+      "id": "eq-103",
+      "category": "english",
+      "chapterId": "en-34",
+      "prompt": "We can receive your messages, but we are unable to transmit.에서 가능한 기능은?",
+      "options": [
+        "송신만 가능하다",
+        "수신만 가능하다",
+        "송신과 수신 모두 가능하다",
+        "송신과 수신 모두 불가능하다"
+      ],
+      "answer": 1,
+      "explanation": "Can receive는 수신 가능, unable to transmit는 송신 불가다. 고장 범위를 분리해서 읽어야 하며 모든 통신이 불가능하다고 확대하지 않는다.",
+      "sourceIds": [
+        "en-icao-plain",
+        "en-kca-scope"
+      ],
+      "kind": "concept",
+      "examEligible": true
+    },
+    {
+      "id": "eq-104",
+      "category": "english",
+      "chapterId": "en-34",
+      "prompt": "The radio is intermittent. We hear loud noise.라는 보고의 의미로 맞는 것은?",
+      "options": [
+        "무선이 간헐적으로 끊기며 큰 잡음이 들린다",
+        "연료가 부족하므로 즉시 급유가 필요하다",
+        "착륙장치가 완전히 내려갔다",
+        "모든 지시를 명확하게 수신했다"
+      ],
+      "answer": 0,
+      "explanation": "Intermittent는 간헐적으로 나타나는 상태이며 loud noise는 큰 잡음이다. 이 보고는 무선 상태와 청취 증상을 말하며 원인이 무엇인지까지 확정하지 않는다.",
+      "sourceIds": [
+        "en-icao-plain",
+        "en-kca-scope"
+      ],
+      "kind": "concept",
+      "examEligible": true
+    },
+    {
+      "id": "eq-105",
+      "category": "english",
+      "chapterId": "en-35",
+      "prompt": "The signal is stronger than before, but it is still unreadable.에 맞는 설명은?",
+      "options": [
+        "신호는 약해졌지만 내용은 명확하다",
+        "교신 내용과 송신기의 원인이 모두 확인되었다",
+        "신호가 강해졌으므로 내용도 반드시 알아들을 수 있다",
+        "신호는 전보다 강하지만 내용은 여전히 알아들을 수 없다"
+      ],
+      "answer": 3,
+      "explanation": "Stronger는 이전보다 강한 신호라는 비교이고 still unreadable은 여전히 판독할 수 없다는 뜻이다. 신호 세기 증가와 메시지를 알아들을 수 있는지는 구별한다.",
+      "sourceIds": [
+        "en-icao-plain",
+        "en-kca-scope"
+      ],
+      "kind": "concept",
+      "examEligible": true
+    },
+    {
+      "id": "eq-106",
+      "category": "english",
+      "chapterId": "en-35",
+      "prompt": "The departure is delayed due to fog. Wait for further instructions.에 부합하는 행동은?",
+      "options": [
+        "안개로 출발이 지연되었으므로 추가 지시를 기다린다",
+        "지연이 취소되었으므로 즉시 이륙한다",
+        "관제사가 모든 주파수 변경을 허가했다",
+        "안개가 있다는 사실만 보고되었으므로 지시 없이 출발한다"
+      ],
+      "answer": 0,
+      "explanation": "Due to fog는 안개가 지연의 원인이라는 뜻이다. Wait for further instructions는 추가 지시를 기다리라는 내용이므로 출발 허가를 임의로 추가하지 않는다.",
+      "sourceIds": [
+        "en-icao-plain",
+        "en-kca-scope"
+      ],
+      "kind": "concept",
+      "examEligible": true
     }
   ],
   "vocabulary": [
@@ -5083,43 +5237,37 @@
       "term": "corrosive",
       "meaning": "부식성의",
       "example": "Corrosive material.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "flammable",
       "meaning": "가연성의",
       "example": "Flammable liquid.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "grave",
       "meaning": "심각한·중대한",
       "example": "Grave danger.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "imminent",
       "meaning": "임박한",
       "example": "Imminent danger.",
-      "group": "일반 어휘"
-    },
-    {
-      "term": "reserve",
-      "meaning": "예약하다",
-      "example": "Reserve a seat.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "available",
       "meaning": "이용 가능한",
       "example": "Equipment available.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "obstacle",
       "meaning": "장애물",
       "example": "Obstacle clearance.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "NOTAM",
@@ -5233,13 +5381,7 @@
       "term": "ambiguity",
       "meaning": "모호함",
       "example": "Avoid ambiguity.",
-      "group": "일반 어휘"
-    },
-    {
-      "term": "enigma",
-      "meaning": "수수께끼·불가사의",
-      "example": "An unresolved enigma.",
-      "group": "일반 어휘"
+      "group": "항공 상황 해석"
     },
     {
       "term": "consist of",
@@ -5264,7 +5406,7 @@
     {
       "area": "국제 교신의 기초",
       "items": [
-        "표준용어와 일반 영어",
+        "표준용어와 항공 상황의 plain language",
         "통화표 26자",
         "숫자·주파수·시각·단위",
         "호출부호·기관 식별",
@@ -5324,18 +5466,17 @@
       "note": "용어와 메시지 의미를 학습. 실제 비행 조작·비상 실행 절차를 대신하지 않음."
     },
     {
-      "area": "일반 영어와 독해",
+      "area": "항공 교신 문장과 상황 독해",
       "items": [
-        "기본 어휘·약어",
-        "명령문·수동태",
-        "시제·완료·진행",
-        "의무·허가·금지",
+        "항공 어휘·약어",
+        "항공 지시의 의무·허가·금지",
+        "완료 보고·진행 상태",
         "조건·원인·결과",
-        "전치사·비교·수량",
-        "짧은 지문·대화·빈칸"
+        "고도·속도·시간·연료·인원",
+        "항공 지문·대화의 의미 연결"
       ],
-      "status": "학습 단원·연습문항 반영",
-      "note": "자체 작성 문장으로 개념을 연결. 공식 CBT의 실제 문항을 보증하거나 복제하지 않음."
+      "status": "항공 상황 중심으로 재구성",
+      "note": "일반 영어 상식과 독립 문법 문제는 새 CBT 출제에서 제외한다. 항공 교신 의미를 해석하는 데 필요한 표현을 익힌다."
     },
     {
       "area": "과거 제공자료와 대조한 보강 개념",
@@ -5346,34 +5487,49 @@
         "Elevation·고도 기준·자기편차",
         "MHz·전파·방향탐지 용어",
         "CAVOK 복합 조건",
-        "가목적어 it·동명사·관계절",
-        "가산/불가산·단복수·비교",
-        "기술·위험·여행 일반어휘"
+        "항공 위험·고장 상태 보고",
+        "연료량·잔여시간·탑승 인원 해석"
       ],
-      "status": "2012·2013 제공 기출의 주제와 대조 후 보강",
-      "note": "과거 문항이나 오답을 복제하지 않고 개념을 자체 예문으로 재구성. 표의 오탈자와 모호한 정답을 그대로 계승하지 않음."
+      "status": "현행 범위에 맞는 항공 개념만 선별",
+      "note": "과거 자료의 일반 문법·일상 어휘를 그대로 현행 시험 범위에 넣지 않는다. 항공통신·관제영어 개념을 중심으로 보강한다."
     },
     {
-      "area": "2014 영어 51–70 개념 대조",
+      "area": "과거 기출에서 이어지는 항공 관제 용어",
       "items": [
-        "Consist of·enter·wait for·수동태",
-        "Ambiguity·enigma·operate",
         "ADS·Heading·angle of bank",
         "Stay with me의 과거 표현 문맥",
         "Originator·ACKNOWLEDGE·CLEARED",
         "VHF·NOTAM 현행 확장어",
         "Closed traffic·고도 단위"
       ],
-      "status": "2014 제공자료 20문항 주제 대조 후 반영",
-      "note": "과거 원문 및 정답 복제 없이 자체 예문 작성. FAA NOTAM 현행 표기는 2026-10-25 공식 페이지 확인."
+      "status": "항공 개념 선별·일반 영어 제외",
+      "note": "과거의 단순 문법 빈칸과 enigma 같은 일반 상식 어휘는 새 CBT에 출제하지 않는다. 구 용어와 현행 용어가 다르면 해설에서 구별한다."
     }
   ],
   "editorial": {
-    "verifiedAt": "2026-10-25",
-    "scope": "항공무선통신사 항공영어 대비를 위한 국제 교신 개념·독해 학습 자료",
-    "questions": "전 문항 자체 작성. 실제 CBT 공개·비공개 문항의 복제 또는 전수 수록을 의미하지 않는다.",
+    "verifiedAt": "2026-11-04",
+    "scope": "2017년 이후 기출을 우선하는 항공무선통신사 항공영어: 표준관제영어·관제용어·알파벳 및 숫자 음성통화표",
+    "questions": "기존 개념 확인 문항과 제공 문제지·답안지를 대조한 기출 문항을 구분한다. 일반 문법·일상 어휘 단독 문제는 새 CBT 출제에서 제외한다.",
     "jurisdictions": "FAA는 미국, CAA는 영국 공식 자료다. 국제 공통 개념의 이해에 사용하며 한국의 법적 운용 절차는 국내 현행 법령과 구별한다.",
-    "grammar": "문법 설명과 독해 예문은 자체 작성한 학습 해설이다. ICAO 출처는 명확한 일반 영어 사용 원칙에 연결되며 문법 교재 원문을 옮긴 것이 아니다.",
-    "qa": "2012·2013·2014·2016 제공자료에서 확인된 영어 주제와 대조하여 누락 개념 보강. FAA/CAA 지역 절차를 국내 현행법이나 전 세계 공통 실행 절차로 주장하지 않으며 교신 예문은 뜻풀이용이다."
+    "grammar": "문법 자체를 별도 시험 과목처럼 암기하지 않고 항공 지시·조건·보고의 의미를 이해하는 범위로 연결한다. 항공 상황의 plain language는 일반 영어 상식 문제와 구별한다.",
+    "qa": "KCA 현행 종목 안내의 영어 출제내역을 2026-11-04 다시 확인했다. 과거 제공자료의 일반 영어 상식·독립 문법 문항은 현행 CBT 출제에서 제외하고 항공 관제 용어 중심으로 재구성했다.",
+    "scopePolicy": {
+      "appliedFromYear": 2017,
+      "historicalChangeBasis": "사용자가 제시한 2017년 일반 영어 상식 폐지 기준에 따라 2017년 이후 기출을 우선한다. 개정 시점 자체는 이번 현행 KCA 종목 안내만으로 별도 입증하지 않았다.",
+      "officialCurrentScopeSourceId": "en-kca-scope",
+      "excludedQuestionIds": [
+        "eq-077",
+        "eq-078",
+        "eq-079",
+        "eq-080",
+        "eq-081",
+        "eq-083",
+        "eq-092",
+        "eq-093",
+        "eq-095",
+        "eq-096"
+      ],
+      "legacyCompatibility": "기존 답안·오답 기록의 참조를 위해 제외 문항의 ID와 내용을 보존하되 examEligible:false로 새 출제를 차단한다."
+    }
   }
 }

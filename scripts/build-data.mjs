@@ -2,7 +2,7 @@ import fs from 'node:fs';
 
 const keys = ['sources', 'chapters', 'questions', 'vocabulary', 'coverage', 'samples', 'materials', 'phonetics'];
 const data = Object.fromEntries(keys.map(key => [key, []]));
-for (const name of ['legal', 'english', 'practical']) {
+for (const name of ['legal', 'english', 'practical', 'past-exams', 'past-exam-law']) {
   const part = JSON.parse(fs.readFileSync(`content/${name}.json`, 'utf8'));
   for (const key of keys) data[key].push(...(part[key] || []));
 }
