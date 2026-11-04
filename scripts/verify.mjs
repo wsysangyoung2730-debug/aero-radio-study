@@ -21,7 +21,7 @@ for(const s of db.samples){assert(fs.existsSync(`${root}/${s.audio}`));assert(s.
 for(const b of db.legalBooks){assert(b.articles.length>20);assert.equal(new Set(b.articles.map(a=>a.number)).size,b.articles.length);for(const a of b.articles)for(const x of a.blocks)if(x.image)assert(fs.existsSync(`${root}/${x.image}`),`missing table ${x.image}`)}
 const els=new Map();const el=()=>({innerHTML:'',textContent:'',hidden:true,focus(){},addEventListener(){},classList:{remove(){},add(){},toggle(){}},querySelector(){return null},querySelectorAll(){return []}});
 const context={window:{STUDY_DATA:db,addEventListener(){},scrollTo(){}},document:{body:{classList:{toggle(){}}},querySelector(s){if(!els.has(s))els.set(s,el());return els.get(s)},querySelectorAll(){return []},addEventListener(){},activeElement:null},localStorage:{getItem(){return null},setItem(){}},location:{hash:''},setInterval(){return 1},clearInterval(){},setTimeout(){},clearTimeout(){},console,URL,Blob,Date,Math,Uint16Array};
-vm.createContext(context);vm.runInContext(fs.readFileSync(root+'/concept-practice.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/visual-english.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/app.js','utf8'),context);
+vm.createContext(context);vm.runInContext(fs.readFileSync(root+'/concept-practice.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/visual-english.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/transmit-practice.js','utf8'),context);vm.runInContext(fs.readFileSync(root+'/app.js','utf8'),context);
 for(const route of ['home','law','english','quiz','practical','sources','review','vocabulary','legal','visual-english',...db.visualEnglish.topics.map(t=>'visual-english/'+t.id),...db.chapters.map(c=>'chapter/'+c.id)]){context.location.hash='#'+route;vm.runInContext('navigate()',context);const html=els.get('#main').innerHTML;assert(html.length>200,route);assert(!html.includes('undefined'),route+' undefined output')}
 for(const topic of db.visualEnglish.topics){
   assert(fs.existsSync(`${root}/${topic.image.file}`),`missing visual image ${topic.id}`);
@@ -45,6 +45,37 @@ for(const topic of db.visualEnglish.topics){
 for(const category of ['english','quiz']){context.location.hash='#'+category;vm.runInContext('navigate()',context);assert(els.get('#main').innerHTML.includes('href="#visual-english"'),`visual entry ${category}`)}
 vm.runInContext("runSearch('ABEAM')",context);assert(els.get('#search-results').innerHTML.includes('#visual-english/holding'),'visual glossary searchable');
 for(const expr of ["alignText('ABC','ABC').rate===100","alignText('ABC','AC').del===1","alignText('ABC','ABXC').ins===1","alignText('ABC','ADC').sub===1","alignText('ABC','').del===3","alignText('','ABC').ins===3","normalize('a b, 12.3!')==='AB123'"])assert(vm.runInContext(expr,context),expr);
+assert.equal(new Set(db.transmitExamples.map(item=>item.id)).size,db.transmitExamples.length,'송신 예제 ID 중복');
+assert.equal(db.transmitExamples.length,30,'송신 예제 30개');
+for(const item of db.transmitExamples){assert(item.title&&item.meaning&&item.focus&&item.group,`송신 예제 설명 ${item.id}`);assert(/\d/.test(item.text),`송신 예제 숫자 ${item.id}`);assert.equal(item.text,item.text.toUpperCase());}
+context.assert=assert;
+vm.runInContext(`(() => {
+  const before=JSON.stringify(state),seconds=transmitSeconds;
+  assert.equal(transmitExampleGroups().length,6);
+  for(const example of DB.transmitExamples){
+    assert.equal(makeTransmitExercise('example:'+example.id).text,example.text);
+    assert(setTransmitExercise('example:'+example.id));
+    assert.equal($('#transmit-text').textContent,example.text);
+    assert($('#transmit-info').innerHTML.includes(esc(example.meaning)));
+  }
+  for(const group of transmitExampleGroups()){
+    transmitGroup=group;
+    assert.equal((transmitExampleCards().match(/data-action="transmit-example"/g)||[]).length,5);
+  }
+  for(const sample of DB.samples){assert(setTransmitExercise(sample.id));assert.equal($('#transmit-text').textContent,sample.answer);}
+  assert(setTransmitExercise('mixed'));
+  const lines=currentTransmitExercise().text.split('\\n');
+  assert.equal(lines.length,6);
+  assert.equal(new Set(lines.map(line=>DB.transmitExamples.find(item=>item.text===line).group)).size,6);
+  assert(transmitPage().includes('숫자·단위 예제 30개'));
+  const previous=$('#transmit-text').textContent;
+  assert.equal(setTransmitExercise('example:missing'),false);
+  assert.equal($('#transmit-text').textContent,previous);
+  assert(setTransmitExercise('random'));
+  assert.equal(normalize($('#transmit-text').textContent).length,150);
+  assert.equal(JSON.stringify(state),before,'송신 예제 선택은 CBT·학습 기록과 독립적');
+  assert.equal(transmitSeconds,seconds,'송신 예제 선택은 타이머를 변경하지 않음');
+})()`,context);
 // 문제 교체·정답 확인과 기존 CBT 상태의 독립성을 확인한다.
 context.assert = assert;
 vm.runInContext(`(() => {
