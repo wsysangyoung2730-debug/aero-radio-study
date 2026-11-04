@@ -22,3 +22,9 @@
 @media(max-width:700px){.concept-question{padding:19px 16px}.concept-options{grid-template-columns:1fr}.concept-summary{padding:12px}.concept-summary a{display:block;margin-top:3px}.concept-question h3{font-size:15px}.concept-practice>.section-head h2{font-size:18px}.concept-question-actions{flex-wrap:wrap}.concept-question-actions .text-link{font-size:11px}.lesson .concept-question{padding:17px 14px}}
 
 .concept-options .answer-option:disabled{opacity:1}
+
+/* CBT: per-question grading and optional explanation. */
+.quiz-origin{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:20px;font-size:11px;color:var(--muted)}.quiz-origin-label{line-height:1.7;overflow-wrap:anywhere}.quiz-feedback-controls{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-top:22px}.quiz-feedback-controls .btn:disabled{opacity:.5;cursor:default}.quiz-grade-status{font-size:12px;line-height:1.8;margin-top:12px;min-height:22px}.quiz-grade-status .muted{display:inline-block;margin-left:5px;font-weight:400}.quiz-exam-sources{display:flex;gap:9px 18px;flex-wrap:wrap;margin:14px 0;font-size:11px}.quiz-exam-sources a{display:inline-flex;align-items:center;gap:4px;color:#315c9b}.qgrid button.graded{text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:2px}.answer-option:disabled{opacity:1;cursor:default}.quiz-layout .explanation p{white-space:pre-line;line-height:1.9;overflow-wrap:anywhere}.quiz-layout .quiz-origin+.quiz-prompt{margin-top:18px}
+@media(max-width:700px){.quiz-feedback-controls{gap:8px}.quiz-feedback-controls .btn{padding:10px 12px}.quiz-grade-status .muted{display:block;margin-left:0}.quiz-origin{margin-top:17px}}
+
+.quiz-prompt{white-space:pre-line}.quiz-exam-sources{flex-wrap:wrap}

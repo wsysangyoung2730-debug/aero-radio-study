@@ -4,6 +4,18 @@ for(const key of ['chapters','questions','sources'])assert.equal(new Set(db[key]
 const ids=new Set(db.chapters.map(x=>x.id)),srcs=new Set(db.sources.map(x=>x.id));
 for(const c of db.chapters){assert(c.title&&c.summary&&c.topics.length,`empty chapter ${c.id}`);for(const id of c.sourceIds||[])assert(srcs.has(id),`missing source ${id}`);for(const t of c.topics){assert(typeof t.body==='string',`${c.id} no body`);assert(t.title,`${c.id} no topic title`)}}
 for(const q of db.questions){assert(ids.has(q.chapterId),`${q.id} chapter missing`);assert.equal(q.options.length,4,`${q.id} 4 options`);assert.equal(new Set(q.options).size,4,`${q.id} duplicate options`);assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<4,`${q.id} answer`);assert(q.explanation.length>10,`${q.id} explanation`);for(const id of q.sourceIds||[])assert(srcs.has(id),`${q.id} missing source ${id}`)}
+const pastQuestions=db.questions.filter(q=>q.kind==='past-exam');
+assert(pastQuestions.some(q=>q.category==='english')&&pastQuestions.some(q=>q.category==='law'),'기출 두 과목 수록');
+for(const q of pastQuestions){
+  assert(q.exam.year>=2017&&q.exam.year<=2023,`${q.id} 기출 연도`);
+  for(const key of ['page','answerPage'])assert(Number.isInteger(q.exam[key])&&q.exam[key]>=1&&q.exam[key]<=110,`${q.id} PDF 쪽수`);
+  assert(q.exam.number>=1&&q.exam.number<=70&&q.exam.sourceLabel,`${q.id} 기출 출처`);
+  assert(!/임의로 정답|정답을 확보하지 못/.test(q.prompt),`${q.id} 미확인 문항 제외`);
+}
+for(const id of ['local-past-exam-questions','local-past-exam-answers']){
+  const source=db.sources.find(s=>s.id===id);assert(source,`missing source ${id}`);
+  const bytes=fs.readFileSync(`${root}/${source.url}`);assert.equal(bytes.subarray(0,5).toString(),'%PDF-',`${id} PDF 원본`);
+}
 for(const m of db.materials)assert(fs.existsSync(`${root}/${m.url}`),`missing asset ${m.url}`);
 for(const s of db.samples){assert(fs.existsSync(`${root}/${s.audio}`));assert(s.answer.length>30)}
 for(const b of db.legalBooks){assert(b.articles.length>20);assert.equal(new Set(b.articles.map(a=>a.number)).size,b.articles.length);for(const a of b.articles)for(const x of a.blocks)if(x.image)assert(fs.existsSync(`${root}/${x.image}`),`missing table ${x.image}`)}

@@ -22,7 +22,7 @@ function pickConceptQuestions(pool, previous = [], count = 3) {
 }
 
 function conceptPracticePool(category, chapterId) {
-  return DB.questions.filter(question => question.category === category && (!chapterId || question.chapterId === chapterId));
+  return DB.questions.filter(question => question.examEligible !== false && question.category === category && (!chapterId || question.chapterId === chapterId));
 }
 
 function conceptPracticeSession(category, chapterId = '') {
