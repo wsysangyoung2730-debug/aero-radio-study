@@ -5,6 +5,6 @@
   "description": "항공무선통신사 전파법규·항공영어 CBT 및 실기 학습 사이트",
   "scripts": {
     "build": "node scripts/build-data.mjs",
-    "test": "node scripts/verify.mjs"
+    "test": "node scripts/verify.mjs && node scripts/test-quiz-feedback.mjs"
   }
 }

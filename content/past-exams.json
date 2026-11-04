@@ -1,0 +1,3158 @@
+{
+  "sources": [
+    {
+      "id": "local-past-exam-questions",
+      "title": "사용자 제공 항공무선통신사 2007–2023 기출 문제 모음",
+      "url": "assets/originals/past-exams-2007-2023.pdf",
+      "verified": "2026-11-04",
+      "note": "전자문제집 CBT 표기가 있는 사용자 제공 제3자 기출 복원·편집본. KCA 공식 원본 문제은행이 아니다. 2017년 이후 항공영어 문항 중 지문·선택지·답안 대조가 가능한 문항을 선별했다. 공식 비공개 CBT 문제은행 전체를 의미하지 않는다."
+    },
+    {
+      "id": "local-past-exam-answers",
+      "title": "사용자 제공 항공무선통신사 2007–2023 기출 답안 모음",
+      "url": "assets/originals/past-exams-answers-2007-2023.pdf",
+      "verified": "2026-11-04",
+      "note": "선택지의 정답 표시와 회차 마지막 답안표를 상호 대조했다. 현행 기준과 혼동되는 문항 및 내부 오류 문항은 수록하지 않았다."
+    }
+  ],
+  "questions": [
+    {
+      "id": "past-en-20170304-52",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "다음 괄호 안에 알맞은 것은?\n\nBefore renewing the call, the calling station shall ascertain that the station called is not (     ) another station.",
+      "options": [
+        "in communication to",
+        "in communication of",
+        "in communication with",
+        "in communication for"
+      ],
+      "answer": 2,
+      "explanation": "in communication with는 “~와 통신 중인”이라는 뜻이다. 재호출하기 전에 상대국이 다른 무선국과 교신 중인지 확인하라는 문장이므로 with가 맞다. 호출 전 청취 의무와 함께 기억한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 52,
+        "page": 83,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 52번"
+      }
+    },
+    {
+      "id": "past-en-20170304-53",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 문장의 괄호 안에 들어갈 알맞은 것은?\n\nThe international radiotelephony distress signal is (     ).",
+      "options": [
+        "“EMERGENCY”",
+        "”DISTRESS”",
+        "“MAYDAY”",
+        "“URGENT“"
+      ],
+      "answer": 2,
+      "explanation": "국제 무선전화 조난신호는 MAYDAY이다. DISTRESS는 조난이라는 상태를 나타내는 단어이고, 실제 음성 조난신호로 송신하는 말은 MAYDAY이다. 긴급신호 PAN PAN과 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 53,
+        "page": 83,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 53번"
+      }
+    },
+    {
+      "id": "past-en-20170304-54",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "다음 문장의 밑줄 친 it은 무엇을 의미하는가?\n\nWhen an aeronautical station receives calls from several aircraft stations at practically the same time, it decides the order in which these stations may transmit their traffic. (밑줄 친 단어: it)",
+      "options": [
+        "an aircraft station",
+        "an aeronautical station",
+        "an aircraft station or an aeronautical station",
+        "an airspace station"
+      ],
+      "answer": 1,
+      "explanation": "it은 앞 문장의 주어 an aeronautical station(항공국)을 다시 가리킨다. 여러 항공기국이 거의 동시에 호출했을 때 항공국이 통신 순서를 결정한다는 내용이다. 항공기국과 항공국의 역할을 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 54,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 54번"
+      }
+    },
+    {
+      "id": "past-en-20170304-55",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 문장의 괄호 안에 들어갈 알맞은 것은?\n\nThe distress call shall have (     ) priority over all other transmissions.",
+      "options": [
+        "to absolute",
+        "absolutely",
+        "in absolute",
+        "absolute"
+      ],
+      "answer": 3,
+      "explanation": "조난호출은 다른 모든 송신보다 절대 우선한다는 내용이다. 명사 priority를 꾸미는 형용사 absolute를 넣어 absolute priority(절대 우선권)로 읽는다. 조난·긴급의 우선순위 문장으로 익힌다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 55,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 55번"
+      }
+    },
+    {
+      "id": "past-en-20170304-56",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-08",
+      "prompt": "다음 괄호 안에 알맞은 것은?\n\nDid you hear me (     ) 7,035[kHz]?",
+      "options": [
+        "in",
+        "as",
+        "on",
+        "by"
+      ],
+      "answer": 2,
+      "explanation": "주파수를 통해 또는 그 주파수에서 교신한다는 표현에는 on을 쓴다. on 7,035 kHz는 “7,035 kHz 주파수에서”라는 뜻이며, 기기의 내부를 뜻하는 in으로 바꾸지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 56,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 56번"
+      }
+    },
+    {
+      "id": "past-en-20170304-57",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "다음 문장의 괄호 안에 들어갈 알맞은 것은?\n\nWhen (     ) does not reply to a call sent three times at intervals of two minutes, the calling shall cease and shall not be renewed until after an interval of fifteen minutes.",
+      "options": [
+        "a station to call",
+        "a station called",
+        "a station calling",
+        "a station to be calling"
+      ],
+      "answer": 1,
+      "explanation": "응답하지 않는 주체는 호출을 받은 무선국 a station called이다. called는 수신 측, calling은 호출하는 송신 측을 나타낸다. 이 기출은 일반 호출 절차의 영문 해석이며, 항공국 재호출 간격 등 개별 절차는 별도로 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 57,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 57번"
+      }
+    },
+    {
+      "id": "past-en-20170304-58",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "“귀하는 D8AA로부터의 조난신호를 수신하였습니까?”의 가 장 적절한 표현은?",
+      "options": [
+        "Do you have any information about D9AA?",
+        "Have you received the urgency signal sent by D8AA?",
+        "Have you had any information about D8AA?",
+        "Have you received the distress signal sent by D8AA?"
+      ],
+      "answer": 3,
+      "explanation": "조난신호는 distress signal이다. urgency signal은 긴급신호이므로 조난과 단계가 다르다. Have you received ...?는 수신 여부를 확인하며, D8AA라는 호출부호도 그대로 읽어야 한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 58,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 58번"
+      }
+    },
+    {
+      "id": "past-en-20170304-59",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "What does aviation radio phrase “WILCO” mean?",
+      "options": [
+        "I have received your message.",
+        "I understand your transmission.",
+        "I have received your message, understand it, and will comply with it",
+        "My transmission is ended."
+      ],
+      "answer": 2,
+      "explanation": "WILCO는 메시지를 수신하고 이해했으며 따르겠다는 뜻이다. 단순히 수신했다는 ROGER보다 이행 의사가 더해진다. will comply를 줄인 표현으로 연결하면 기억하기 쉽다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 59,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 59번"
+      }
+    },
+    {
+      "id": "past-en-20170304-60",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "What is a definition of “OVER” in aviation radio phrase?",
+      "options": [
+        "My transmission is ended.",
+        "My transmission is ended and I expect a response from you.",
+        "Let me know that you have received and understand this message.",
+        "This conversation is ended and no response is expected."
+      ],
+      "answer": 1,
+      "explanation": "OVER는 “내 송신이 끝났고 응답을 기다린다”이다. no response is expected(응답을 기대하지 않는다)는 OUT에 해당한다. 일상 대화의 “끝났다”라는 뜻만 보고 둘을 같은 말로 선택하지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 60,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 60번"
+      }
+    },
+    {
+      "id": "past-en-20170304-61",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "항공무선통신에서 숫자“3”을 송신할 때 영문통화표에 의한 발음 방법은?",
+      "options": [
+        "TAY-RAH-THRI",
+        "TEY-RAH-THLEE",
+        "TAY-RAH-TREE",
+        "TEY-RAH-TLEE"
+      ],
+      "answer": 2,
+      "explanation": "이 문항은 영문 숫자통화표의 확장 부호 TAY-RAH-TREE를 묻는다. 항공 음성 숫자 3의 핵심 발음은 TREE이다. ITU의 확장 숫자부호와 항공 교신에서 사용하는 짧은 발음을 구별해 읽는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 61,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 61번"
+      }
+    },
+    {
+      "id": "past-en-20170304-62",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "항공통신용어 “ Affirmative”가 뜻하는 것과 가장 가까운 표 현은?",
+      "options": [
+        "Yes",
+        "No",
+        "I am right",
+        "Roger"
+      ],
+      "answer": 0,
+      "explanation": "AFFIRMATIVE는 긍정 응답, 즉 Yes에 해당한다. ROGER는 수신 확인이므로 예·아니오 질문에 대한 긍정을 대신하지 않는다. ICAO 표준용어 AFFIRM과 같은 긍정 기능으로 연결해 학습한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 62,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 62번"
+      }
+    },
+    {
+      "id": "past-en-20170304-63",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Choose the wrong ICAO phonetic alphabet.",
+      "options": [
+        "D : Delta",
+        "I : Indo",
+        "Q : Quebec",
+        "S : Sierra"
+      ],
+      "answer": 1,
+      "explanation": "I의 ICAO 통화표는 India이다. Indo는 표준 단어가 아니다. D는 Delta, Q는 Quebec, S는 Sierra로 연결된다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 63,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 63번"
+      }
+    },
+    {
+      "id": "past-en-20170304-64",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Choose the wrong ICAO phonetic alphabet.",
+      "options": [
+        "F : Foxtrot",
+        "J : Juliett",
+        "R : Roma",
+        "L : Lima"
+      ],
+      "answer": 2,
+      "explanation": "R의 ICAO 통화표는 Romeo이다. Roma를 고르지 않는다. F는 Foxtrot, J는 Juliett, L은 Lima이며 Juliett의 끝 t가 두 개인 점도 함께 확인한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 64,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 64번"
+      }
+    },
+    {
+      "id": "past-en-20170304-65",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "“귀 국은 어디에서 어디로 가고 있습니까?“의 적합한 영문 표현은?",
+      "options": [
+        "Where are you bound for and where are you from?",
+        "Where are you going and where are you coming?",
+        "Where do you go and where did you come?",
+        "Where do you going and whre is your destination?"
+      ],
+      "answer": 0,
+      "explanation": "be bound for는 “~행이다”, be from은 “~에서 왔다”라는 뜻이다. 목적지와 출발지를 함께 묻는 Where are you bound for and where are you from?가 맞다. 두 장소의 순서를 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 65,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 65번"
+      }
+    },
+    {
+      "id": "past-en-20170304-68",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-24",
+      "prompt": "다음 중 AIR TRAFFIC SERVICE에 포함되지 않는 것은?",
+      "options": [
+        "Flight Information Service",
+        "Air Traffic Advisory service",
+        "Air Traffic Control service",
+        "Flight Detection Service"
+      ],
+      "answer": 3,
+      "explanation": "항공교통업무(ATS)는 비행정보업무, 항공교통조언업무, 항공교통관제업무 등을 포함한다. Flight Detection Service는 이 구분의 업무명이 아니다. 탐지 장비의 기능과 ATS의 공식 업무 분류를 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 68,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 68번"
+      }
+    },
+    {
+      "id": "past-en-20170304-69",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-17",
+      "prompt": "다음 문장의 밑줄 친 부분에 알맞은 것은?\n\nThe pilot wants to know the barometer reading. He wants to know __________.",
+      "options": [
+        "the pollen count",
+        "the atmospheric pressure",
+        "the temperature of the air",
+        "the amount of moisture in the air"
+      ],
+      "answer": 1,
+      "explanation": "barometer는 기압계이므로 reading은 대기압 값(atmospheric pressure)을 뜻한다. 기온은 temperature, 습도는 moisture와 연결된다. 계기 이름을 알면 지문의 대명사나 빈칸을 빠르게 해석할 수 있다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 69,
+        "page": 84,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 69번"
+      }
+    },
+    {
+      "id": "past-en-20170304-70",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-38",
+      "prompt": "Which part of an airplane can increase lift during a flight?",
+      "options": [
+        "A flap",
+        "A rudder",
+        "An aileron",
+        "An elevator"
+      ],
+      "answer": 0,
+      "explanation": "플랩(flap)은 날개의 캠버 등 형상을 바꾸어 저속 비행에서 양력을 증가시키는 장치이다. rudder는 방향타, aileron은 보조익, elevator는 승강타이다. 이착륙 장치와 자세 조종면을 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2017,
+        "session": "2017-03-04",
+        "number": 70,
+        "page": 85,
+        "answerPage": 85,
+        "sourceLabel": "2017-03-04 영어 70번"
+      }
+    },
+    {
+      "id": "past-en-20180310-51",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "조난신호에 관한 ICAO 규정으로 옳지 않은 것은?",
+      "options": [
+        "A distress message sent via data link which transmits the intent of the word \"MAYDAY\"",
+        "A radiotelephony distress signal consisting of the spoken word \"MAYDAY\"",
+        "A parachute flare showing a green light",
+        "A signal made by radiotelegraphy or by any other signaling method consisting of the group \"SOS\""
+      ],
+      "answer": 2,
+      "explanation": "조난을 나타내는 신호에는 MAYDAY, SOS 및 적색 조명탄 등이 있다. 녹색 낙하산 조명탄(a parachute flare showing a green light)은 해당 조난신호가 아니다. 녹색과 적색을 바꾸어 읽지 않도록 한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 51,
+        "page": 88,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 51번"
+      }
+    },
+    {
+      "id": "past-en-20180310-52",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-01",
+      "prompt": "다음 문장의 괄호 안에 들어갈 수준에 해당하는 것은?\n\nThe language proficiency of aeroplane and helicopter pilots required to use the radiotelephone aboard an aircraft who demonstrate proficiency below the Expert Level (     ) shall be formally evaluated at intervals in accordance with an individual's demonstrated proficiency level.",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 3,
+      "explanation": "ICAO 언어능력 등급에서 Expert는 Level 6이다. 문장은 Expert Level 6 미만인 조종사의 언어능력을 해당 등급에 맞는 간격으로 재평가한다는 내용이다. 항공무선통신사 영어시험 자체와 항공영어구술능력증명 제도는 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 52,
+        "page": 88,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 52번"
+      }
+    },
+    {
+      "id": "past-en-20180310-53",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "다음 중 ICAO규정에서 정의한 용어로 알맞은 것은?\n\nA form of radio communication primarily intended for the exchange of information in the form of speech.",
+      "options": [
+        "Radiotelegraph",
+        "Radio station",
+        "Radiotelephony",
+        "Radio frequency"
+      ],
+      "answer": 2,
+      "explanation": "speech(말·음성)를 주로 사용하여 정보를 교환하는 무선통신은 radiotelephony, 즉 무선전화이다. radiotelegraphy는 무선전신이고 radio frequency는 무선주파수이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 53,
+        "page": 88,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 53번"
+      }
+    },
+    {
+      "id": "past-en-20180310-54",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-08",
+      "prompt": "다음 문장의 괄호 안에 들어갈 가장 적합한 것은?\n\nChanges of frequency in the sending and receiving apparatus of any mobile station shall be capable of being made (     ).",
+      "options": [
+        "as well as possible",
+        "as far as possible",
+        "as long as possible",
+        "as rapidly as possible"
+      ],
+      "answer": 3,
+      "explanation": "주파수 변경은 가능한 한 신속하게 수행할 수 있어야 한다는 내용이므로 as rapidly as possible이 맞다. rapidly는 속도를 뜻하며, long은 기간, far는 거리·범위를 나타낸다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 54,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 54번"
+      }
+    },
+    {
+      "id": "past-en-20180310-55",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "다음은 어떤 용어에 대한 설명인가?\n\nProceed with your message.",
+      "options": [
+        "Approved",
+        "Contact",
+        "Go Ahead",
+        "Say Again"
+      ],
+      "answer": 2,
+      "explanation": "GO AHEAD는 “메시지를 말하세요”라는 통신 진행 요청이다. 항공기를 앞으로 이동시키거나 이륙하라는 허가가 아니다. Proceed with your message를 한 묶음으로 기억한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 55,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 55번"
+      }
+    },
+    {
+      "id": "past-en-20180310-56",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "조난신호에 관한 ICAO 규정으로 괄호 안에 적합한 것은?\n\nA radiotelephony distress signal consisting of the spoken word (     ).",
+      "options": [
+        "MAYDAY",
+        "HELP",
+        "URGENT",
+        "PAN PAN"
+      ],
+      "answer": 0,
+      "explanation": "무선전화 조난신호는 MAYDAY이다. HELP나 URGENT는 의미가 비슷한 일상 단어이지만 규정된 조난신호가 아니며, PAN PAN은 긴급신호이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 56,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 56번"
+      }
+    },
+    {
+      "id": "past-en-20180310-57",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-09",
+      "prompt": "다음 문장의 괄호 안에 들어갈 알맞은 내용은?\n\nIn radar service, clearance to land or any alternative clearance received from the (     ) or, when applicable, non-radar controller should normally be passed to the aircraft.",
+      "options": [
+        "Ground Controller",
+        "Flight Controller",
+        "Radar Controller",
+        "Aerodrome Controller"
+      ],
+      "answer": 3,
+      "explanation": "착륙허가를 발부하는 관제사로 Aerodrome Controller(비행장 관제사)가 맞다. 지상 이동을 담당하는 Ground Controller나 레이더 관제사를 무조건 착륙허가의 발부자로 고르지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 57,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 57번"
+      }
+    },
+    {
+      "id": "past-en-20180310-58",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "항공통신용어 “Affirmative\"가 뜻하는 것과 가장 가까운 표 현은?",
+      "options": [
+        "Yes",
+        "No",
+        "I am right",
+        "Roger"
+      ],
+      "answer": 0,
+      "explanation": "AFFIRMATIVE는 Yes에 해당하는 긍정 응답이다. ROGER는 메시지를 수신했다는 뜻이므로 긍정 여부와 별개이다. 수신 확인과 질문에 대한 예·아니오 응답을 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 58,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 58번"
+      }
+    },
+    {
+      "id": "past-en-20180310-59",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "Aviation radio message에서 number \"1\"을 올바르게 발음 한 것은?",
+      "options": [
+        "one",
+        "wun",
+        "wan",
+        "win"
+      ],
+      "answer": 1,
+      "explanation": "항공 무선에서 숫자 1은 WUN으로 발음하도록 표기한다. one의 일반 철자만 기억하는 대신, 실제 송신 발음 WUN을 숫자 1과 연결한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 59,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 59번"
+      }
+    },
+    {
+      "id": "past-en-20180310-60",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "다음 문장의 의미로 쓰이는 항공통신용어는 무엇인가?\n\nLet me know that you have received and understood this message.",
+      "options": [
+        "Roger",
+        "Acknowledge",
+        "Wilco",
+        "Affirmative"
+      ],
+      "answer": 1,
+      "explanation": "ACKNOWLEDGE는 “이 메시지를 수신하고 이해했는지 알려 달라”는 요청이다. ROGER는 수신자가 하는 수신 확인이고 WILCO는 이행 의사까지 포함하는 응답이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 60,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 60번"
+      }
+    },
+    {
+      "id": "past-en-20180310-61",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "What is a definition of \"ROGER\" in aviation radio phrase?",
+      "options": [
+        "I have received all of your last transmission.",
+        "My transmission is ended and I expect a response from you.",
+        "Let me know that you have received and understand this message.",
+        "This conversation is ended and no response is expected."
+      ],
+      "answer": 0,
+      "explanation": "ROGER는 “마지막 송신 내용을 모두 수신했다”이다. OVER는 응답을 기대하며 송신을 마친다는 뜻이고, OUT은 응답을 기대하지 않고 마친다는 뜻이다. ROGER만으로 지시 복창 의무가 없어지지는 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 61,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 61번"
+      }
+    },
+    {
+      "id": "past-en-20180310-62",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "다음 괄호 안에 들어갈 단어로 알맞은 것은?\n\nWhen a radiotelephone call has been made to an aeronautical station but no answer has been received a period of at least (     ) should elapse before a subsequent call is made to that station.",
+      "options": [
+        "five seconds",
+        "ten seconds",
+        "thirty seconds",
+        "one minute"
+      ],
+      "answer": 1,
+      "explanation": "항공국을 무선전화로 호출했으나 응답이 없으면 다음 호출까지 적어도 10초를 기다린다는 문장이다. at least는 “최소한”, elapse는 “경과하다”로 읽는다. 다른 일반 무선 호출 간격과 섞어 외우지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 62,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 62번"
+      }
+    },
+    {
+      "id": "past-en-20180310-63",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "다음 중 영문통화표의 설명으로 옳지 않은 것은?",
+      "options": [
+        "0 : NADAZERO",
+        "2 : BISSOTWO",
+        "소수점 : PERIOD",
+        "종지부 : STOP"
+      ],
+      "answer": 2,
+      "explanation": "이 문항의 영문통화표에서 소수점은 DECIMAL이다. PERIOD는 해당 소수점 부호가 아니다. NADAZERO·BISSOTWO 같은 ITU 확장 숫자부호와 항공의 ZERO·TOO 등 짧은 숫자 발음은 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 63,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 63번"
+      }
+    },
+    {
+      "id": "past-en-20180310-64",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Choose the wrong ICAO phonetic alphabet.",
+      "options": [
+        "A : Alfa",
+        "G : Golf",
+        "O : October",
+        "T : Tango"
+      ],
+      "answer": 2,
+      "explanation": "O의 ICAO 통화표는 Oscar이다. October는 달 이름으로서 통화표의 O가 아니다. A는 Alfa, G는 Golf, T는 Tango이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 64,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 64번"
+      }
+    },
+    {
+      "id": "past-en-20180310-65",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Choose the wrong ICAO phonetic alphabet.",
+      "options": [
+        "F : Foxtrot",
+        "J : Juliett",
+        "R : Roma",
+        "L : Lima"
+      ],
+      "answer": 2,
+      "explanation": "R의 통화표는 Romeo이며 Roma가 아니다. 철자가 비슷한 단어를 고르는 문제가 자주 반복되므로 뜻보다 정해진 표준 철자를 확인한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 65,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 65번"
+      }
+    },
+    {
+      "id": "past-en-20180310-66",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-14",
+      "prompt": "다음 문장의 밑줄 친 단어와 같은 의미를 가지는 것은?\n\nThe air traffic controller announced the arrival of the flight. (밑줄 친 단어: arrival)",
+      "options": [
+        "Landing",
+        "Captain",
+        "Leaving",
+        "Number"
+      ],
+      "answer": 0,
+      "explanation": "arrival은 도착을 뜻하며 이 비행 도착 문맥에서 가장 가까운 보기는 Landing이다. captain은 기장, leaving은 출발·떠남, number는 번호이다. arrival와 departure를 반대 개념으로 연결한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 66,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 66번"
+      }
+    },
+    {
+      "id": "past-en-20180310-67",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-08",
+      "prompt": "항공통신 용어 중 관제사가 “주파수 변경을 허가 한다‘를 지시할 때 사용하는 용어로 알맞은 것은?",
+      "options": [
+        "FREQUENCY UNUSABLE",
+        "REMAIN THIS FREQUENCY",
+        "CHANGE TO BY FREQUENCY",
+        "FREQUENCY CHANGE APPROVED"
+      ],
+      "answer": 3,
+      "explanation": "FREQUENCY CHANGE APPROVED는 주파수 변경을 승인한다는 뜻이다. REMAIN THIS FREQUENCY는 현재 주파수 유지이므로 반대 의미이다. APPROVED의 유무와 동작을 함께 읽는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 67,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 67번"
+      }
+    },
+    {
+      "id": "past-en-20180310-68",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "다음 문장의 괄호 안에 들어갈 가장 적합한 것은?\n\nThe letter L shall be transmitted using the word (     ).",
+      "options": [
+        "Lima",
+        "Lost",
+        "Latin",
+        "Letter"
+      ],
+      "answer": 0,
+      "explanation": "문자 L은 Lima로 송신한다. L로 시작하는 아무 단어나 사용할 수 있는 것이 아니라, 정해진 ICAO 통화표 단어를 사용한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 68,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 68번"
+      }
+    },
+    {
+      "id": "past-en-20180310-69",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-24",
+      "prompt": "다음 문장의 밑줄 친 부분에 알맞은 단어는?\n\nInternational standards for Air Traffic Management are set by __________.",
+      "options": [
+        "UN",
+        "ICAO",
+        "IAEA",
+        "NOTAM"
+      ],
+      "answer": 1,
+      "explanation": "국제 항공교통관리 표준을 정하는 국제민간항공기구는 ICAO이다. IAEA는 국제원자력기구이고 NOTAM은 항공정보 통지이다. 기관과 정보 문서를 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 69,
+        "page": 89,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 69번"
+      }
+    },
+    {
+      "id": "past-en-20180310-70",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-15",
+      "prompt": "다음 내용이 설명하는 항공용어는 무엇 인가?\n\nAn aerodrome to which an aircraft may proceed when it becomes impossible to land at the aerodrome of intended landing.",
+      "options": [
+        "Alternate aerodrome",
+        "Supplement aerodrome",
+        "Amendment aerodrome",
+        "International aerodrome"
+      ],
+      "answer": 0,
+      "explanation": "의도한 목적지 비행장에 착륙할 수 없을 때 대신 향할 수 있는 비행장은 alternate aerodrome(교체비행장)이다. 단순한 보충 시설이나 국제공항을 뜻하는 말이 아니다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-03-10",
+        "number": 70,
+        "page": 90,
+        "answerPage": 90,
+        "sourceLabel": "2018-03-10 영어 70번"
+      }
+    },
+    {
+      "id": "past-en-20181006-51",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-08",
+      "prompt": "항공무선 교신에서 나의 송신에 대한 상대국의 수신 상태를 알려고 질문하는 용어는?",
+      "options": [
+        "Adivice me the receiving level.",
+        "Report your receiving condition.",
+        "What is your listening status?",
+        "How do you read me?"
+      ],
+      "answer": 3,
+      "explanation": "HOW DO YOU READ ME?는 상대에게 자신의 송신을 얼마나 명료하게 수신하는지 묻는 말이다. read를 독서로 직역하지 않고 무선 가독성·청취 상태로 이해한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 51,
+        "page": 93,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 51번"
+      }
+    },
+    {
+      "id": "past-en-20181006-52",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-37",
+      "prompt": "다음 설명이 나타내는 용어는 무엇인가?\n\nA surveillance technique in which aircraft automatically provide, via a data link, data derived from on-board navigation and position-fixing systems, including aircraft identification, four-dimensional position and additional data as appropriate.",
+      "options": [
+        "ADS",
+        "ATIS",
+        "SSR",
+        "TIS"
+      ],
+      "answer": 0,
+      "explanation": "ADS는 Automatic Dependent Surveillance(자동종속감시)이다. 항공기가 기내 항법장치에서 얻은 식별·위치 등의 자료를 데이터링크로 자동 제공한다는 정의가 핵심이다. ATIS는 공항정보 방송이므로 다르다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 52,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 52번"
+      }
+    },
+    {
+      "id": "past-en-20181006-53",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "다음 문장을 올바르게 해석한 것은?\n\nAdministrations are urged to discontinue, in the fixed service, the use of double sideband radiotelephone (class A3E) transmissions.",
+      "options": [
+        "주관청은 고정업무에서 양측파대 무선전화의 전송중지가 촉구된다.",
+        "주관청은 고정업무에서 단측파대 무선전신의 전송을 중 지한다.",
+        "주관청은 고정업무에서 양측파대 무선전화의 전송이 장 려된다.",
+        "주관청은 고정업무에서 단측파대 무선전화의 전송이 장 려된다."
+      ],
+      "answer": 0,
+      "explanation": "discontinue는 중지하다, double sideband는 양측파대, radiotelephone는 무선전화이다. 따라서 고정업무에서 양측파대 무선전화 송신의 중지가 촉구된다는 해석이 맞다. single sideband(단측파대)와 전신으로 바꾸어 읽지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 53,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 53번"
+      }
+    },
+    {
+      "id": "past-en-20181006-54",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "항공무선통신에서 숫자를 나타내는 표현으로 적합하지 않은 것은?",
+      "options": [
+        "Numbers are used in almost every radio call",
+        "\"10\" should be pronounced \"ten\"",
+        "\"11,000\" is pronounced \"one one thousand\"",
+        "All numbers are spoken by pronouncing each digit separately except for whole hundreds and thousands"
+      ],
+      "answer": 1,
+      "explanation": "이 문항에서 10을 ten으로 읽는다는 보기가 틀리다. 항공 숫자 송신에서는 원칙적으로 각 자릿수를 분리해 ONE ZERO로 읽으며, 정수 백·천 단위의 허용 표현은 문맥에 맞게 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 54,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 54번"
+      }
+    },
+    {
+      "id": "past-en-20181006-55",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-01",
+      "prompt": "다음 문장의 괄호 안에 해당되는 기간은?\n\nThose demonstrating language proficiency at the Level 5 should be evaluated at least once every (     ).",
+      "options": [
+        "Three years",
+        "Four years",
+        "Five years",
+        "Six years"
+      ],
+      "answer": 3,
+      "explanation": "ICAO 언어능력 기준의 Level 5 재평가 권고 주기는 최소 6년에 한 번이다. Level 4의 3년 주기와 구별한다. 이는 ICAO 언어능력 등급에 관한 기출이며 국내 자격증별 유효기간을 대신하는 설명이 아니다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 55,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 55번"
+      }
+    },
+    {
+      "id": "past-en-20181006-56",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-06",
+      "prompt": "When an error has been made in transmission, which word should be spoken?",
+      "options": [
+        "Clear",
+        "Correction",
+        "Advice",
+        "Say Again"
+      ],
+      "answer": 1,
+      "explanation": "CORRECTION은 자신의 송신에 오류가 있어 바로잡을 때 사용한다. SAY AGAIN은 상대의 송신을 다시 요청할 때 사용하므로, 오류를 정정하는 주체가 누구인지 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 56,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 56번"
+      }
+    },
+    {
+      "id": "past-en-20181006-57",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 문장의 밑줄 친 부분에 들어갈 단어를 순서대로 나열 한 것은?\n\nUrgency communications have priority over all other communications except __________, and the word __________ warns other stations not to interfere with urgency transmissions.",
+      "options": [
+        "distress, PAN PAN",
+        "distress, MAYDAY",
+        "emergency, PAN PAN",
+        "emergency, MAYDAY"
+      ],
+      "answer": 0,
+      "explanation": "긴급통신은 조난통신(distress)을 제외한 다른 통신보다 우선하며 긴급신호는 PAN PAN이다. MAYDAY는 조난신호이다. 우선순위와 신호를 함께 묻는 문장이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 57,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 57번"
+      }
+    },
+    {
+      "id": "past-en-20181006-59",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-15",
+      "prompt": "다음 문장은 어떤 용어에 대한 설명인가?\n\nATC authorization for an aircraft to land, it is predicated on known traffic and known physical airport conditions.",
+      "options": [
+        "Cleared For Take-off",
+        "Circle To Runway",
+        "Cleared To Land",
+        "Cleared To TAXI"
+      ],
+      "answer": 2,
+      "explanation": "CLEARED TO LAND는 항공기의 착륙을 인가한다. 접근절차를 수행하는 CLEARED APPROACH나 이륙을 인가하는 CLEARED FOR TAKE-OFF와 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 59,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 59번"
+      }
+    },
+    {
+      "id": "past-en-20181006-60",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "다음 중 영문통화표의 연결이 옳지 않은 것은?",
+      "options": [
+        "I : India",
+        "V : Victory",
+        "9 : Novenine",
+        "소수점 : Decimal"
+      ],
+      "answer": 1,
+      "explanation": "V의 ICAO 통화표는 Victor이다. Victory는 표준 단어가 아니므로 잘못 연결된 보기이다. 여기의 Novenine는 일반 숫자통화표 확장 부호이며 항공 숫자 9의 NINER와 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 60,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 60번"
+      }
+    },
+    {
+      "id": "past-en-20181006-61",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "다음 괄호 안에 알맞은 발음은?\n\nWhen the English language is used, number 8 shall be transmitted using the pronunciation of (     ).",
+      "options": [
+        "AIT",
+        "I-IT",
+        "E-IT",
+        "EI-TO"
+      ],
+      "answer": 0,
+      "explanation": "항공 숫자 8의 표준 발음 표기는 AIT이다. 일반 철자 eight를 그대로 읽는 감각보다, 무선에서 구별되도록 정해진 발음 표기를 기준으로 고른다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 61,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 61번"
+      }
+    },
+    {
+      "id": "past-en-20181006-62",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "What is a definition of \"OVER\" in aviation radio phrase?",
+      "options": [
+        "My transmission is ended.",
+        "My transmission is ended and I expect a response from you.",
+        "Let me know that you have received and understand this message.",
+        "This conversation is ended and no response is expected."
+      ],
+      "answer": 1,
+      "explanation": "OVER는 송신을 마쳤고 상대의 응답을 기대한다는 뜻이다. 응답을 기대하지 않는 OUT과 구별한다. 메시지의 수신 여부를 확인하는 ACKNOWLEDGE와도 기능이 다르다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 62,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 62번"
+      }
+    },
+    {
+      "id": "past-en-20181006-63",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "항공통신의 송신내용 끝에 사용하는 용어로서 “교신은 끝났 고 응답을 기대하지 않음”의 뜻을 갖는 것은?",
+      "options": [
+        "Out",
+        "Over",
+        "End",
+        "Completed"
+      ],
+      "answer": 0,
+      "explanation": "OUT은 송신을 끝내며 더 이상 응답을 기대하지 않는다는 뜻이다. OVER는 응답을 요구하는 종료 표현이다. 두 단어를 함께 사용하면 의미가 충돌한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 63,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 63번"
+      }
+    },
+    {
+      "id": "past-en-20181006-64",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "다음 중 “ROGER\"의 의미에 대한 설명으로 맞는 것은?",
+      "options": [
+        "I've received all of your transmission.",
+        "Can be used to answer a question requiring yes or no?",
+        "Ready to take off.",
+        "Ready to touchdown."
+      ],
+      "answer": 0,
+      "explanation": "ROGER는 상대의 마지막 송신 내용을 모두 수신했다는 뜻이다. yes/no 질문의 긍정이나 이륙 준비·착륙 준비를 뜻하지 않는다. 허가나 지시가 필요한 상황에서는 적절한 복창을 별도로 한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 64,
+        "page": 94,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 64번"
+      }
+    },
+    {
+      "id": "past-en-20181006-65",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "다음 중 International phonetic alphabet 의 발음이 틀린 것은?",
+      "options": [
+        "A : AL FAH",
+        "B : BRAI BOU",
+        "E : ECK OH",
+        "G : GOLF"
+      ],
+      "answer": 1,
+      "explanation": "B는 Bravo이며 발음 표기는 BRAH VOH이다. BRAI BOU는 표준 발음이 아니다. A의 AL FAH, E의 ECK OH, G의 GOLF와 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 65,
+        "page": 95,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 65번"
+      }
+    },
+    {
+      "id": "past-en-20181006-66",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-04",
+      "prompt": "How can you read 4,500 feet in ATC?",
+      "options": [
+        "\"FOUR FIVE ZERO\"",
+        "\"FOUR POINT FIVE\"",
+        "\"FOUR - FIVE HUNDRED\"",
+        "\"FOUR THOUSAND FIVE HUNDRED\""
+      ],
+      "answer": 3,
+      "explanation": "고도 4,500 ft는 FOUR THOUSAND FIVE HUNDRED로 읽는다. FOUR FIVE ZERO는 자릿수가 부족하고 FOUR POINT FIVE는 소수 4.5가 된다. 고도와 주파수의 숫자 읽기 방법을 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 66,
+        "page": 95,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 66번"
+      }
+    },
+    {
+      "id": "past-en-20181006-67",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-16",
+      "prompt": "Who is most responsible for collision avoidance in an alert area?",
+      "options": [
+        "All pilots",
+        "Air Traffic Control",
+        "the controlling agency",
+        "Flight operations manager"
+      ],
+      "answer": 0,
+      "explanation": "미국 공역의 alert area에서는 훈련 등 항공활동을 유의해야 하며 모든 조종사가 충돌 회피 책임을 가진다. 관제기관만의 책임이라고 고르면 안 된다. 미국 공역 용어에 관한 기출로 이해한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 67,
+        "page": 95,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 67번"
+      }
+    },
+    {
+      "id": "past-en-20181006-69",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-10",
+      "prompt": "What is the meaning when a steady red light signal is directed from the control tower to someone in the landing area?",
+      "options": [
+        "Stop",
+        "Permission to cross landing area or to move onto taxiway",
+        "Vacate maneuvering area in accordance with local instructions",
+        "Move off the landing area or taxiway and watch out for aircraft"
+      ],
+      "answer": 0,
+      "explanation": "지상에서 사람·차량 등에 보내는 지속 적색(steady red) 등화신호는 정지(STOP)이다. 같은 적색이라도 점멸인지 지속인지, 수신자가 공중인지 지상인지에 따라 뜻이 달라지므로 조건을 함께 읽는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2018,
+        "session": "2018-10-06",
+        "number": 69,
+        "page": 95,
+        "answerPage": 95,
+        "sourceLabel": "2018-10-06 영어 69번"
+      }
+    },
+    {
+      "id": "past-en-20191012-51",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "다음 괄호 안에 들어갈 가장 적합한 것은?\n\nAircraft stations in flight maintain service to meet the essential communications needs of the aircraft with respect to (     ) of flight.",
+      "options": [
+        "safe and regularity",
+        "safe and regular",
+        "safety and regular",
+        "safety and regularity"
+      ],
+      "answer": 3,
+      "explanation": "safety and regularity of flight는 “비행의 안전과 정규성”이다. 전치사 with respect to 뒤에 병렬 명사가 필요하므로 safety와 regularity를 선택한다. 항공업무 정의에서 반복되는 명사쌍이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 51,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 51번"
+      }
+    },
+    {
+      "id": "past-en-20191012-52",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 중 문장의 괄호 안에 들어갈 가장 적합한 것은?\n\nAll stations which hear the (     ) shall immediately cease any transmission capable of interfering with the distress traffic.",
+      "options": [
+        "service call",
+        "emergency call",
+        "distress call",
+        "stations call"
+      ],
+      "answer": 2,
+      "explanation": "조난호출(distress call)을 들은 무선국은 조난통신을 방해할 수 있는 송신을 즉시 중지해야 한다. service call이나 보통 호출과 구별하여 조난통신의 최우선성을 이해한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 52,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 52번"
+      }
+    },
+    {
+      "id": "past-en-20191012-53",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 문장의 괄호 안에 들어갈 가장 알맞은 것은?\n\nThe urgency signal has priority (     ) all other communications except distress.",
+      "options": [
+        "in",
+        "under",
+        "at",
+        "over"
+      ],
+      "answer": 3,
+      "explanation": "have priority over는 “~보다 우선권이 있다”이다. 문장은 긴급신호가 조난을 제외한 모든 다른 통신보다 우선함을 뜻한다. urgency와 distress의 우선순위를 함께 해석한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 53,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 53번"
+      }
+    },
+    {
+      "id": "past-en-20191012-54",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-06",
+      "prompt": "다음 문장이 의미하는 용어로 적합한 것은?\n\nHave I correctly received the message or did you correctly receive this message?",
+      "options": [
+        "ACKNOWLEDGE",
+        "APPRISE",
+        "CONFIRM",
+        "GO AHEAD"
+      ],
+      "answer": 2,
+      "explanation": "CONFIRM은 “내가 정확히 수신했는가/당신이 정확히 수신했는가”를 확인하는 표현이다. GO AHEAD는 말하라는 요청, ACKNOWLEDGE는 수신·이해 여부를 알려 달라는 요청이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 54,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 54번"
+      }
+    },
+    {
+      "id": "past-en-20191012-55",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 문장의 밑줄 친 곳에 알맞은 것은?\n\nA pilot who encounters a distress or urgency condition can obtain assistance simply __________ the air traffic facility or other agency.",
+      "options": [
+        "on contacting",
+        "on contacting with",
+        "by contacting",
+        "by contacting to"
+      ],
+      "answer": 2,
+      "explanation": "by contacting은 “연락함으로써”라는 수단을 나타낸다. 조난·긴급 상태의 조종사가 관제시설 등에 연락하여 지원을 얻을 수 있다는 내용이다. contact는 타동사이므로 이 문장에서는 with나 to를 붙이지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 55,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 55번"
+      }
+    },
+    {
+      "id": "past-en-20191012-56",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-06",
+      "prompt": "다음 문장은 어떤 용어에 대한 설명인가?\n\nI hereby indicate the separation between portions of the message. (To be used where there is no clear distinction between the text and other portions of the message)",
+      "options": [
+        "Stand by",
+        "Monitor",
+        "Cancel",
+        "Break"
+      ],
+      "answer": 3,
+      "explanation": "BREAK는 메시지 각 부분의 구분이 명확하지 않을 때 그 구분을 알리는 말이다. CANCEL은 취소, STAND BY는 대기, MONITOR는 주파수 청취를 뜻한다. BREAK BREAK와도 쓰임을 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 56,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 56번"
+      }
+    },
+    {
+      "id": "past-en-20191012-57",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "조난 중인 항공기를 관제하는 기관에서 기타 무선국의 무 선침묵을 지시할 때 사용되는 표현으로 가장 적절한 내용 은?",
+      "options": [
+        "Stop transmitting",
+        "Break Break",
+        "Keep Silence",
+        "Stand By"
+      ],
+      "answer": 0,
+      "explanation": "STOP TRANSMITTING은 송신을 중지하라는 직접적인 지시이다. 조난통신을 방해하는 송신을 멈추게 하는 상황에서 사용한다. STAND BY는 호출을 기다리라는 뜻으로 같은 명령이 아니다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 57,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 57번"
+      }
+    },
+    {
+      "id": "past-en-20191012-58",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-32",
+      "prompt": "다음 문장이 의미하는 용어는?\n\nRadiodetermination using the reception of radio waves for the purpose of determining the direction of a station or object.",
+      "options": [
+        "Radio direction finding",
+        "Radio bearing",
+        "Radiotelephony network",
+        "Radio direction-finding station"
+      ],
+      "answer": 0,
+      "explanation": "전파를 수신하여 무선국이나 물체의 방향을 결정하는 행위는 radio direction finding(무선방향탐지)이다. radio bearing은 그 결과인 방위이며, direction-finding station은 탐지를 수행하는 무선국이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 58,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 58번"
+      }
+    },
+    {
+      "id": "past-en-20191012-59",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "다음 문장의 의미로 쓰이는 항공통신용어는 무엇인가?\n\nLet me know that you have received and understood this message.",
+      "options": [
+        "Roger",
+        "Acknowledge",
+        "Wilco",
+        "Affirmative"
+      ],
+      "answer": 1,
+      "explanation": "ACKNOWLEDGE는 수신하고 이해했는지를 알려 달라는 요구이다. ROGER는 그에 대한 수신 확인 응답에 해당하며, WILCO는 지시를 이행하겠다는 뜻까지 더한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 59,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 59번"
+      }
+    },
+    {
+      "id": "past-en-20191012-60",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "“귀 국은 어디에서 어디로 가고 있습니까?”의 적합한 영문 표현은?",
+      "options": [
+        "Where are you bound for and where are you from?",
+        "Where are you going and where are you coming?",
+        "Where do you go and where did you come?",
+        "where do you going and where is your destination?"
+      ],
+      "answer": 0,
+      "explanation": "be bound for는 목적지를, be from은 출발지를 묻는다. Where are you bound for and where are you from?는 항공기의 행선지와 출발지를 모두 확인하는 문장이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 60,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 60번"
+      }
+    },
+    {
+      "id": "past-en-20191012-61",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Choose the wrong ICAO phonetic alphabet.",
+      "options": [
+        "D : Delta",
+        "I : Indo",
+        "Q : Quebec",
+        "S : Sierra"
+      ],
+      "answer": 1,
+      "explanation": "I의 ICAO 통화표는 India이다. Indo는 잘못된 철자이며 D의 Delta, Q의 Quebec, S의 Sierra는 맞는 연결이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 61,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 61번"
+      }
+    },
+    {
+      "id": "past-en-20191012-62",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-08",
+      "prompt": "항공통신용어 중 조종사에게 현재 사용 중인 주파수를 계 속 유지할 것을 요구할 때 사용되는 용어는?",
+      "options": [
+        "Hold this frequency",
+        "Keep different frequency",
+        "Remain this frequency",
+        "Do not change this frequency"
+      ],
+      "answer": 2,
+      "explanation": "REMAIN THIS FREQUENCY는 현재 사용 중인 주파수에 머무르라는 뜻이다. remain을 장소·고도 유지로 임의 해석하지 않고 뒤의 목적어 frequency를 함께 읽는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 62,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 62번"
+      }
+    },
+    {
+      "id": "past-en-20191012-63",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "The communication word technically meaning “I have received all of your last transmission” is ;",
+      "options": [
+        "ROGER",
+        "AFFIRMATIVE",
+        "YES",
+        "CORRECT"
+      ],
+      "answer": 0,
+      "explanation": "ROGER는 마지막 송신 내용을 모두 수신했다는 뜻이다. AFFIRMATIVE 또는 YES와 달리 긍정 대답을 뜻하지 않고, CORRECT는 정확하다는 확인이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 63,
+        "page": 99,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 63번"
+      }
+    },
+    {
+      "id": "past-en-20191012-64",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-16",
+      "prompt": "관제사로부터 “Traffic, three o'clock one zero miles, southbound, slow moving” 이라는 정보를 받았다면 당 신을 기준으로 그 비행체의 위치는?",
+      "options": [
+        "왼쪽 10마일",
+        "바로 왼쪽",
+        "오른쪽 10마일",
+        "바로 오른쪽"
+      ],
+      "answer": 2,
+      "explanation": "시계방향 교통정보에서 기수 정면은 12시, 오른쪽은 3시이다. one zero miles는 10마일이므로 오른쪽 10마일이 맞다. southbound는 상대 항공기의 이동 방향이며 자신의 오른쪽·왼쪽을 바꾸는 조건이 아니다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 64,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 64번"
+      }
+    },
+    {
+      "id": "past-en-20191012-65",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "Aviation radio message에서 number “1”을 올바르게 발 음한 것은?",
+      "options": [
+        "one",
+        "wun",
+        "wan",
+        "win"
+      ],
+      "answer": 1,
+      "explanation": "항공 숫자 1의 발음 표기는 WUN이다. wun·wan·win처럼 소리가 비슷한 보기에서는 정해진 발음 부호를 기준으로 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 65,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 65번"
+      }
+    },
+    {
+      "id": "past-en-20191012-66",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-12",
+      "prompt": "항공통신용어 중 '현재의 고도를 떠나 지정된 고도로 강하 하여 유지하라'를 관제사가 지시할 때 사용되는 것은?",
+      "options": [
+        "At or above",
+        "Expedite descend",
+        "Change and Hold",
+        "Descend and Maintain"
+      ],
+      "answer": 3,
+      "explanation": "DESCEND AND MAINTAIN은 지정된 고도로 강하한 뒤 그 고도를 유지하라는 지시이다. AT OR ABOVE는 “그 고도 이상”, EXPEDITE는 신속한 이행 요청이므로 같은 뜻이 아니다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 66,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 66번"
+      }
+    },
+    {
+      "id": "past-en-20191012-67",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "전파규칙(RR)의 목적이 아닌 것은?",
+      "options": [
+        "To ensure the availability and protection from harmful interference of the frequencies provided for distrss and safety purposes.",
+        "To facilitate the efficient and effective operation of all radio communication services.",
+        "To develop new technology of radio communication.",
+        "To assist in the prevention and resolution of cases of harmful interference between the radio services of different administrations."
+      ],
+      "answer": 2,
+      "explanation": "전파규칙은 조난·안전 주파수 보호, 전파업무의 효율적 운용, 유해혼신 예방·해결 등을 다룬다. 무선통신 신기술 자체의 개발은 이 보기들이 묻는 전파규칙의 직접 목적에 해당하지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 67,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 67번"
+      }
+    },
+    {
+      "id": "past-en-20191012-68",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-04",
+      "prompt": "다음 문장의 밑줄 친 부분에 알맞은 것은?\n\nAltitude in aviation is measured in __________.",
+      "options": [
+        "Feet",
+        "Miles",
+        "Inches",
+        "Kilometers"
+      ],
+      "answer": 0,
+      "explanation": "이 문항의 항공 고도 단위는 feet(ft)이다. miles와 kilometers는 주로 거리, inches는 기압 단위 inHg 등에 쓰인다. 국가·절차에 따라 미터를 사용하는 경우도 있어 모든 항공 고도가 피트만 사용하는 것은 아니다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 68,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 68번"
+      }
+    },
+    {
+      "id": "past-en-20191012-69",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-38",
+      "prompt": "Most aircraft are based on fixed wings. but which one of these would be rotary wing aircraft?",
+      "options": [
+        "Glider",
+        "Airship",
+        "Aeroplane",
+        "Helicopter"
+      ],
+      "answer": 3,
+      "explanation": "회전익 항공기는 Helicopter(헬리콥터)이다. glider는 활공기, airship은 비행선, aeroplane은 고정익 비행기이다. rotary(회전하는)와 fixed(고정된)를 반대 개념으로 연결한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 69,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 69번"
+      }
+    },
+    {
+      "id": "past-en-20191012-70",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-24",
+      "prompt": "다음 중 AIR TRAFFIC SERVICE에 포함되지 않는 것은?",
+      "options": [
+        "Flight Information service",
+        "Air Traffic Advisory service",
+        "Air Traffic Control service",
+        "Flight Detection service"
+      ],
+      "answer": 3,
+      "explanation": "ATS에는 비행정보, 항공교통조언, 항공교통관제 등의 업무가 포함된다. Flight Detection Service는 해당 분류의 명칭이 아니다. 장비의 탐지 기능과 항공교통업무의 구분을 혼동하지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2019,
+        "session": "2019-10-12",
+        "number": 70,
+        "page": 100,
+        "answerPage": 100,
+        "sourceLabel": "2019-10-12 영어 70번"
+      }
+    },
+    {
+      "id": "past-en-20221008-51",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-21",
+      "prompt": "다음 문장의 괄호 안에 들어갈 가장 적합한 것은?\n\nAn urgent message sent via data link which transmits the intent of the words (     ).",
+      "options": [
+        "MAYDAY",
+        "SOS",
+        "URGENT",
+        "PAN PAN"
+      ],
+      "answer": 3,
+      "explanation": "긴급 메시지는 PAN PAN이 전달하는 뜻과 연결된다. MAYDAY는 즉각적인 도움이 필요한 조난신호이며, SOS는 무선전신 등의 조난신호이다. urgent와 distress의 등급을 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 51,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 51번"
+      }
+    },
+    {
+      "id": "past-en-20221008-52",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-24",
+      "prompt": "AFTN(Aeronautical Fixed Telecommunication Network)에 서 가장 높은 우선순위를 나타내는 문자 표시는?",
+      "options": [
+        "GG KK",
+        "FF",
+        "DD FF",
+        "SS"
+      ],
+      "answer": 3,
+      "explanation": "이 기출이 묻는 AFTN 최고 우선순위 표시는 SS이다. 조난통신과 연결하여 기억하고, DD·FF·GG 등 다른 통보 우선순위와 구분한다. 우선순위 부호는 일반 약어의 뜻만으로 추정하지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 52,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 52번"
+      }
+    },
+    {
+      "id": "past-en-20221008-53",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-20",
+      "prompt": "항공용으로 사용되는 ‘NOTAM’은 무엇의 약어인가?",
+      "options": [
+        "Note to Airmen",
+        "Noted information to Airmen",
+        "Notice to Aerodrome",
+        "Notice to Airmen"
+      ],
+      "answer": 3,
+      "explanation": "이 기출에서 NOTAM은 Notice to Airmen으로 제시된다. 항공시설·업무·절차·위험 등의 신설·변경 정보를 운항에 필요한 사람에게 신속히 알리는 통지라는 기능을 함께 기억한다. 지역별 영어 명칭 변화와 기능을 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 53,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 53번"
+      }
+    },
+    {
+      "id": "past-en-20221008-54",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-22",
+      "prompt": "다음 설명은 어떤 용어에 대한 설명인가?\n\nA transmission from one station to another station in circumstances where two-way communication cannot be established but where it is believed that the called station is able to receive the transmission.",
+      "options": [
+        "Broadcasting",
+        "Communication Failure",
+        "Blind Transmission",
+        "Blind Communication"
+      ],
+      "answer": 2,
+      "explanation": "BLIND TRANSMISSION은 양방향 교신은 성립하지 않지만 상대가 들을 수 있다고 믿는 상황에서 일방 송신하는 것이다. 불특정 다수에게 보내는 방송(broadcasting)과 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 54,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 54번"
+      }
+    },
+    {
+      "id": "past-en-20221008-55",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-37",
+      "prompt": "다음 설명이 나타내는 용어는 무엇인가?\n\nA surveillance technique in which aircraft automatically provide, via a data link, data derived from on-board navigation and position-fixing systems, including aircraft identification, four-dimensional position and additional data as appropriate.",
+      "options": [
+        "ADS",
+        "ATIS",
+        "SSR",
+        "TIS"
+      ],
+      "answer": 0,
+      "explanation": "항공기가 기내 항법장치의 식별·위치 자료 등을 데이터링크로 자동 제공하는 감시 방식은 ADS이다. ATIS는 자동공항정보방송, SSR은 2차 감시레이더이므로 정의의 핵심인 automatically provide와 data link를 확인한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 55,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 55번"
+      }
+    },
+    {
+      "id": "past-en-20221008-56",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-38",
+      "prompt": "다음 문장의 밑줄 친 부분에 들어갈 알맞은 것은?\n\nThe forward force produced by either a propeller or the reaction of a jet engine exhaust is called __________.",
+      "options": [
+        "Power",
+        "Length",
+        "Weight",
+        "Thrust"
+      ],
+      "answer": 3,
+      "explanation": "프로펠러나 제트 엔진 배기의 반작용이 만드는 전방 힘은 추력(thrust)이다. weight는 중량, power는 동력이며 힘의 방향과 의미가 다르다. 항공기의 네 힘 lift·weight·thrust·drag를 함께 연결한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 56,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 56번"
+      }
+    },
+    {
+      "id": "past-en-20221008-57",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-08",
+      "prompt": "항공통신용어 중 “현재 사용하고 있는 주파수를 유지할 것” 을 요구할 때 사용되는 것은?",
+      "options": [
+        "Remain this frequency",
+        "Keep this frequency",
+        "Hold this frequency",
+        "Do not leave this frequency"
+      ],
+      "answer": 0,
+      "explanation": "REMAIN THIS FREQUENCY는 “현재 주파수를 유지하라”이다. remain 뒤의 this frequency가 유지 대상을 명시하므로 고도·경로 유지로 해석하지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 57,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 57번"
+      }
+    },
+    {
+      "id": "past-en-20221008-58",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-15",
+      "prompt": "다음 밑줄 친 곳에 알맞은 것은?\n\n“Approach Sequence” is the order __________ two or more aircraft are cleared to approach to land at the aerodrome.",
+      "options": [
+        "about which",
+        "what",
+        "that",
+        "in which"
+      ],
+      "answer": 3,
+      "explanation": "접근순서(Approach Sequence)는 여러 항공기가 접근·착륙하도록 허가되는 순서이다. the order in which는 “그 순서에 따라”라는 관계 표현으로, 항공기의 착륙 순서를 설명한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 58,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 58번"
+      }
+    },
+    {
+      "id": "past-en-20221008-59",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "What does aviation radio phrase \"WILCO\" mean?",
+      "options": [
+        "I have received your message.",
+        "I understand your transmission.",
+        "I have received your message, understand it, and will comply with it.",
+        "My transmission is ended."
+      ],
+      "answer": 2,
+      "explanation": "WILCO는 수신·이해·이행의 세 의미를 포함한다. 단순 수신 확인만 있는 보기나 송신 종료 표현과 다르다. will comply와 연결하여 명령 이행 의사가 더해진다는 점을 기억한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 59,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 59번"
+      }
+    },
+    {
+      "id": "past-en-20221008-60",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-15",
+      "prompt": "다음의 정의에 대한 항공통신용어는?\n\nATC authorization for an aircraft to execute any standard or special instrument approach procedure for that airport.",
+      "options": [
+        "Cleared as filed",
+        "Cleared for the option",
+        "Cleared approach",
+        "Cleared to land"
+      ],
+      "answer": 2,
+      "explanation": "CLEARED APPROACH는 정해진 계기접근절차 수행을 인가한다. CLEARED TO LAND는 착륙 허가이므로 접근 허가와 별개로 구분한다. CLEARED AS FILED는 제출한 비행계획의 경로에 따른 허가이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 60,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 60번"
+      }
+    },
+    {
+      "id": "past-en-20221008-61",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-14",
+      "prompt": "“우리는 지금 인천으로 접근하고 있는 중이다.”를 바르게 송신한 것은?",
+      "options": [
+        "We are come to Incheon.",
+        "We are approached Incheon.",
+        "We are reached Incheon.",
+        "We are approaching Incheon."
+      ],
+      "answer": 3,
+      "explanation": "We are approaching Incheon은 “우리는 인천에 접근 중이다”이다. are approaching은 진행 중인 동작을 나타내며, approach는 목적지 앞에 to를 요구하지 않는 타동사로 쓰였다. 항공기의 현재 위치·상태 보고 문장으로 읽는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 61,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 61번"
+      }
+    },
+    {
+      "id": "past-en-20221008-62",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "다음 밑줄 친 곳에 알맞은 것은?\n\nThe communication word technically meaning \"I have received all of your last transmission\" is __________.",
+      "options": [
+        "ROGER",
+        "AFFIRMATIVE",
+        "YES",
+        "CORRECT"
+      ],
+      "answer": 0,
+      "explanation": "ROGER는 상대의 마지막 송신 내용을 모두 수신했다는 뜻이다. AFFIRMATIVE는 긍정, CORRECT는 정확하다는 확인이므로 수신 확인과 기능이 다르다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 62,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 62번"
+      }
+    },
+    {
+      "id": "past-en-20221008-63",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "항공통신 교신 중에 조종사 또는 관제사가 수초 동안 기다 릴 것을 요구할 때 또는 “ATC clearance”가 곧 나간다는 것을 알릴 때 사용되는 용어는?",
+      "options": [
+        "Wait seconds",
+        "Stand by",
+        "Wait",
+        "Wait a moment"
+      ],
+      "answer": 1,
+      "explanation": "STAND BY는 잠시 기다리면 다시 부르겠다는 뜻이다. 아직 허가를 준 것은 아니므로 바로 행동을 시작하지 않는다. 교신이나 허가가 곧 이어질 때의 대기 요청으로 기억한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 63,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 63번"
+      }
+    },
+    {
+      "id": "past-en-20221008-64",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Choose the wrong ICAO phonetic alphabet.",
+      "options": [
+        "A : Alfa",
+        "G : Golf",
+        "O : October",
+        "T : Tango"
+      ],
+      "answer": 2,
+      "explanation": "O의 통화표는 Oscar이다. October는 10월을 뜻하는 단어이며 ICAO 통화표가 아니다. A의 표준 철자도 Alpha가 아닌 Alfa임을 함께 확인한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 64,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 64번"
+      }
+    },
+    {
+      "id": "past-en-20221008-65",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "Aviation radio message에서 number “3”을 올바르게 표현 한 것은?",
+      "options": [
+        "three",
+        "slow",
+        "tree",
+        "dry"
+      ],
+      "answer": 2,
+      "explanation": "항공 무선에서 숫자 3은 TREE로 발음한다. 일반 영어 three와 구별되도록 정해진 발음을 사용하는 것이다. 5의 FIFE와 9의 NINER도 함께 익힌다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 65,
+        "page": 104,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 65번"
+      }
+    },
+    {
+      "id": "past-en-20221008-66",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "항공통신의 송신내용 끝에 사용하는 용어로서 “교신은 끝났 고 응답을 기대하지 않음”의 뜻을 같는 것은?",
+      "options": [
+        "Out",
+        "Over",
+        "End",
+        "Completed"
+      ],
+      "answer": 0,
+      "explanation": "OUT은 송신을 마치며 응답을 기대하지 않는다는 뜻이다. OVER는 송신을 마치고 응답을 기다리므로 이 문장의 반대 조건이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 66,
+        "page": 105,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 66번"
+      }
+    },
+    {
+      "id": "past-en-20221008-67",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "다음 문장이 설명하는 무선국은?\n\nA mobile station in the aeronautical mobile service located on board an aircraft.",
+      "options": [
+        "Aircraft station",
+        "Mobile station",
+        "Aeronautical station",
+        "Broadcasting station"
+      ],
+      "answer": 0,
+      "explanation": "항공기에 탑재되어 항공이동업무를 수행하는 이동국은 aircraft station(항공기국)이다. aeronautical station(항공국)은 지상의 항공업무 무선국과 연결해 구별한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 67,
+        "page": 105,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 67번"
+      }
+    },
+    {
+      "id": "past-en-20221008-68",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-24",
+      "prompt": "다음 문장에서 설명하는 항공용어는 무엇인가?\n\nA set of rules governing the conduct of flight under instrument meteorological conditions.",
+      "options": [
+        "Visual Flight Rules",
+        "Instrument Flight Rules",
+        "Instrument Departure Procedure",
+        "Standard Instrument Departure"
+      ],
+      "answer": 1,
+      "explanation": "계기기상상태에서 비행의 수행을 다루는 규칙은 Instrument Flight Rules(IFR)이다. VFR은 시계비행규칙이고 SID는 표준계기출발절차로, 전체 비행규칙의 명칭과 다르다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 68,
+        "page": 105,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 68번"
+      }
+    },
+    {
+      "id": "past-en-20221008-69",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-06",
+      "prompt": "다음 문장을 나타내는 통신용어는?\n\nUsed to request a repeat of the last transmission.",
+      "options": [
+        "Say again",
+        "Speak again",
+        "Repeat last transmission",
+        "Request last transmission again"
+      ],
+      "answer": 0,
+      "explanation": "SAY AGAIN은 마지막 송신 내용의 전부 또는 일부를 다시 말해 달라는 표준용어이다. SPEAK SLOWER는 속도를 늦춰 달라는 요청이므로 반복 요청과 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2022,
+        "session": "2022-10-08",
+        "number": 69,
+        "page": 105,
+        "answerPage": 105,
+        "sourceLabel": "2022-10-08 영어 69번"
+      }
+    },
+    {
+      "id": "past-en-20230311-51",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-13",
+      "prompt": "When may an aircraft discontinue reporting over compulsory reporting points?",
+      "options": [
+        "After the first fix",
+        "Any time",
+        "After receiving the statement “radar contact” from ATC",
+        "None of the above"
+      ],
+      "answer": 2,
+      "explanation": "이 기출에서는 ATC로부터 RADAR CONTACT를 받은 뒤 의무보고지점의 통상 위치보고를 중단할 수 있다. 관제사가 별도 위치보고를 요구하면 그 지시를 따른다. radar contact는 레이더 식별이 성립했다는 뜻이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 51,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 51번"
+      }
+    },
+    {
+      "id": "past-en-20230311-52",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "Which of the following spoken figure code is false?",
+      "options": [
+        "0 : NAH-DAH-ZAY-ROH",
+        "3 : TAY-RAH-TREE",
+        "4 : PAN-TAH-FOWER",
+        "7 : SAY-TAY-SEVEN"
+      ],
+      "answer": 2,
+      "explanation": "이 문항은 ITU 확장 숫자부호를 묻는다. 숫자 4는 KAR-TE-FOWER이므로 PAN-TAH-FOWER가 틀리다. 항공 음성 숫자 4의 짧은 발음 FOWER와 확장 숫자부호를 구분해서 학습한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 52,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 52번"
+      }
+    },
+    {
+      "id": "past-en-20230311-53",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "무선국이 지정된 조건에서 무선 주파수 또는 무선 주파수 채널을 사용할 수 있도록 주관청에서 부여하는 권한은 무엇 인가?",
+      "options": [
+        "radiocommunication service",
+        "radiolocation",
+        "allotment",
+        "assignment"
+      ],
+      "answer": 3,
+      "explanation": "assignment는 주관청이 무선국에 정해진 조건으로 주파수·채널을 사용할 권한을 부여하는 주파수 지정이다. allotment는 분배계획상 할당과 연결되므로 같은 말로 보지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 53,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 53번"
+      }
+    },
+    {
+      "id": "past-en-20230311-54",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-13",
+      "prompt": "약어 “QDM”의 올바른 해석은 다음 중 무엇인가?",
+      "options": [
+        "Magnetic Heading(zero wind)",
+        "Atmospheric pressure at aerodrome elevation",
+        "Atmospheric pressure at mean sea level",
+        "Altimeter sub-scale setting"
+      ],
+      "answer": 0,
+      "explanation": "QDM은 무풍 상태에서 무선국으로 향하는 자기기수방향(Magnetic Heading, zero wind)이다. QNH·QFE 등 기압 관련 Q부호와 구별한다. 자기방위·진방위와 TO/FROM 관계를 함께 확인한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 54,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 54번"
+      }
+    },
+    {
+      "id": "past-en-20230311-56",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-31",
+      "prompt": "다음 문장에 맞는 용어는?\n\nAn aeronautical mobile service reserved for communications relating to safety and regularity of flight primarily along national or international civil air routes.",
+      "options": [
+        "aeronautical mobile route service",
+        "aeronautical mobile service",
+        "aeronautical mobile-satellite service",
+        "aeronautical mobile off-route service"
+      ],
+      "answer": 0,
+      "explanation": "정규 민간항공로를 주로 운항하는 비행의 안전과 정규성에 관한 통신은 aeronautical mobile route service이다. route service의 R은 안전·정규 운항을 위한 항공이동(R)업무와 연결된다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 56,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 56번"
+      }
+    },
+    {
+      "id": "past-en-20230311-57",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-24",
+      "prompt": "Which of the following is related to ICAO Annex 2?",
+      "options": [
+        "Rules of the Air",
+        "Meteorological Service for International Air Navigation",
+        "Airworthiness of Aircraft",
+        "Aeronautical Telecommunications"
+      ],
+      "answer": 0,
+      "explanation": "ICAO Annex 2는 Rules of the Air(항공규칙)이다. 기상업무는 Annex 3, 감항성은 Annex 8, 항공통신은 Annex 10과 연결하여 번호를 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 57,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 57번"
+      }
+    },
+    {
+      "id": "past-en-20230311-58",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-10",
+      "prompt": "Which of the following answers fills in the blank?\n\nA flashing white light signal from the control tower to an aircraft taxiing is an indication (     ).",
+      "options": [
+        "to taxi at a faster speed",
+        "to taxi only on taxiways and not cross runways",
+        "to return to the starting point on the airport",
+        "that instrument conditions exist"
+      ],
+      "answer": 2,
+      "explanation": "지상 활주 중인 항공기에 보내는 점멸 백색(flashing white)은 공항의 출발 지점으로 돌아오라는 뜻이다. 지속 녹색의 이륙·진행 관련 허가와 다르다. 등화의 색, 점멸 여부, 항공기의 지상·공중 상태를 함께 읽는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 58,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 58번"
+      }
+    },
+    {
+      "id": "past-en-20230311-59",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-22",
+      "prompt": "What are the emergency radio frequencies for aviation use?",
+      "options": [
+        "122.5 MHz &243.0 MHz",
+        "121.5 MHz &240.1 MHz",
+        "121.5 MHz &243.0 MHz",
+        "122.5 MHz &240.1 MHz"
+      ],
+      "answer": 2,
+      "explanation": "보기 중 항공 비상 주파수의 올바른 조합은 121.5 MHz와 243.0 MHz이다. 121.5는 VHF, 243.0은 UHF 비상 주파수로 구분한다. 현대 위성용 ELT의 406 MHz 주파수와는 다른 문항이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 59,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 59번"
+      }
+    },
+    {
+      "id": "past-en-20230311-60",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-02",
+      "prompt": "Which of the following phonetic alphabet code word of 'ICAO' is correct?",
+      "options": [
+        "India, Charlie, Alpha, Omega",
+        "Indian, Charles, Alfa, Oskar",
+        "Indian, Charles, Alpha, Omega",
+        "India, Charlie, Alfa, Oscar"
+      ],
+      "answer": 3,
+      "explanation": "ICAO를 통화표로 풀면 India, Charlie, Alfa, Oscar이다. I는 Indian이 아닌 India, A는 Alpha가 아닌 Alfa, O는 Omega가 아닌 Oscar이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 60,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 60번"
+      }
+    },
+    {
+      "id": "past-en-20230311-61",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-15",
+      "prompt": "다음 문장의 밑줄 친 부분에 알맞은 것은?\n\nATC authorization for an aircraft to land is __________.",
+      "options": [
+        "Cleared to land",
+        "Cleared for take off",
+        "Cleared for the option",
+        "Cleared for low approach"
+      ],
+      "answer": 0,
+      "explanation": "ATC가 항공기의 착륙을 인가하는 용어는 CLEARED TO LAND이다. 이륙 허가, 선택접근, 저고도 접근과 각각 구별한다. LAND라는 동작을 먼저 찾으면 문장이 쉬워진다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 61,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 61번"
+      }
+    },
+    {
+      "id": "past-en-20230311-62",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-07",
+      "prompt": "Which of the following answers fills in the blank?\n\nTerminate interphone message with __________.",
+      "options": [
+        "Operating initials",
+        "Goodbye",
+        "Your name",
+        "Over"
+      ],
+      "answer": 0,
+      "explanation": "이 기출은 관제기관 간 interphone 통화 종료에서 사용하는 operating initials(업무 식별 약자)를 묻는다. 일반 항공기 무선교신의 OVER·OUT 문제와 통신 종류가 다르다는 점을 먼저 확인한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 62,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 62번"
+      }
+    },
+    {
+      "id": "past-en-20230311-63",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-11",
+      "prompt": "“Cleared for take-off”를 맞게 설명한 것은?",
+      "options": [
+        "이륙준비 완료",
+        "이륙을 불허함",
+        "이륙을 인가함",
+        "이륙을 취소함"
+      ],
+      "answer": 2,
+      "explanation": "CLEARED FOR TAKE-OFF는 이륙을 인가한다는 뜻이다. 조종사의 “이륙 준비 완료” 보고와 관제사의 실제 이륙 허가는 별개이다. 허가 동사 CLEARED와 준비 보고 READY를 구분한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 63,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 63번"
+      }
+    },
+    {
+      "id": "past-en-20230311-64",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-32",
+      "prompt": "항공기가 활주로에 착륙할 때 수직 유도 시스템 구현으로 착륙하는 항공기의 수직 편차를 나타내어 최적의 강하 경로 를 제공해주는 계기 착륙 시스템은?",
+      "options": [
+        "instrument landing system localizer",
+        "marker beacon",
+        "instrument landing system glide path",
+        "radio altimeter"
+      ],
+      "answer": 2,
+      "explanation": "ILS의 glide path는 수직 방향 강하경로를 제공한다. localizer는 좌우 방향 유도, marker beacon은 위치 표지, radio altimeter는 전파고도계이므로 기능이 다르다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 64,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 64번"
+      }
+    },
+    {
+      "id": "past-en-20230311-65",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-10",
+      "prompt": "Which of the following answers fills in the blank?\n\nIf the control tower uses a light signal to direct a pilot to taxi clear of landing area or runway in use, the light will be (     ).",
+      "options": [
+        "flashing red",
+        "steady red",
+        "alternating red and green",
+        "flashing green"
+      ],
+      "answer": 0,
+      "explanation": "지상 항공기에게 착륙구역·사용 중인 활주로를 비우라고 지시하는 신호는 점멸 적색(flashing red)이다. 지속 적색의 정지(STOP)와 구별한다. 같은 색이라도 점멸 여부에 따라 뜻이 달라진다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 65,
+        "page": 109,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 65번"
+      }
+    },
+    {
+      "id": "past-en-20230311-66",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-12",
+      "prompt": "비행고도 FL200를 올바르게 읽는 방법은?",
+      "options": [
+        "twenty thousand",
+        "flight level twenty thousand",
+        "two zero zero",
+        "flight level two zero zero"
+      ],
+      "answer": 3,
+      "explanation": "FL200은 FLIGHT LEVEL TWO ZERO ZERO로 읽는다. 표준기압 기준의 비행고도이므로 실제 해발고도 20,000 ft와 무조건 같다고 보지 않는다. FL 뒤 숫자를 각각 읽는 형태를 기억한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 66,
+        "page": 110,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 66번"
+      }
+    },
+    {
+      "id": "past-en-20230311-67",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-38",
+      "prompt": "Which part of an airplane can control its motion to the right and the left?",
+      "options": [
+        "A flap",
+        "A rudder",
+        "An elevator",
+        "All of these"
+      ],
+      "answer": 1,
+      "explanation": "기체의 좌우 방향(요, yaw)을 조종하는 주 조종면은 방향타(rudder)이다. elevator는 피치, aileron은 롤을 주로 조종한다. 원본 보기의 redder는 rudder의 오탈자로 바로잡았다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 67,
+        "page": 110,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 67번"
+      }
+    },
+    {
+      "id": "past-en-20230311-68",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-22",
+      "prompt": "레이다 비컨코드 4100를 송신할 때 맞는 것은?",
+      "options": [
+        "squawk four thousand one hundred",
+        "four thousand one hundred",
+        "squawk four one zero zero",
+        "squawk four one"
+      ],
+      "answer": 2,
+      "explanation": "레이다 비컨코드는 SQUAWK 뒤에 네 자릿수를 하나씩 읽는다. 4100은 SQUAWK FOUR ONE ZERO ZERO이다. 고도처럼 FOUR THOUSAND ONE HUNDRED로 읽는 방식을 적용하지 않는다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 68,
+        "page": 110,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 68번"
+      }
+    },
+    {
+      "id": "past-en-20230311-69",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-03",
+      "prompt": "숫자 “9”를 ICAO 숫자 발음법에 따라 올바르게 발음한 것 은?",
+      "options": [
+        "knife",
+        "naive",
+        "nine",
+        "nin-er"
+      ],
+      "answer": 3,
+      "explanation": "항공 숫자 9는 NINER로 발음한다. 일반 영어 nine 뒤에 er를 더한 표준 무선 발음으로 기억한다. 숫자 3 TREE, 5 FIFE와 함께 혼동을 줄이기 위한 발음이다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 69,
+        "page": 110,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 69번"
+      }
+    },
+    {
+      "id": "past-en-20230311-70",
+      "kind": "past-exam",
+      "category": "english",
+      "chapterId": "en-05",
+      "prompt": "“내 송신은 끝났으니 그 쪽에서 대답하라”할 때 사용되는 용어는?\n\nMy transmission is ended and I expect a response from you.",
+      "options": [
+        "OUT",
+        "ROGER",
+        "WILCO",
+        "OVER"
+      ],
+      "answer": 3,
+      "explanation": "OVER는 “내 송신은 끝났고 당신의 응답을 기다린다”이다. OUT은 응답을 기대하지 않고 마치며, ROGER는 수신 확인, WILCO는 수신·이해·이행을 뜻한다.",
+      "sourceIds": [
+        "local-past-exam-questions",
+        "local-past-exam-answers"
+      ],
+      "exam": {
+        "year": 2023,
+        "session": "2023-03-11",
+        "number": 70,
+        "page": 110,
+        "answerPage": 110,
+        "sourceLabel": "2023-03-11 영어 70번"
+      }
+    }
+  ],
+  "editorial": {
+    "reviewed": "2026-11-04",
+    "scope": "2017년 이후 수록 회차의 항공영어. 항공과 무관한 일반영어 상식 문항은 포함하지 않는다. 항공 지문의 빈칸·문법은 항공영어 독해로 분류한다.",
+    "answerCheck": "각 문항의 답안지 정답 표시와 해당 회차 마지막 페이지 51–70번 답안표를 모두 대조",
+    "excluded": [
+      {
+        "session": "2017-03-04",
+        "number": 51,
+        "reason": "8.33 kHz 채널명과 주파수의 구분 및 선택지 표기가 모호하여 보류"
+      },
+      {
+        "session": "2017-03-04",
+        "number": 66,
+        "reason": "시간 숫자 선택지에 다수의 오탈자·불일치가 있어 단일 정답 확정 불가"
+      },
+      {
+        "session": "2017-03-04",
+        "number": 67,
+        "reason": "READY FOR TAKE OFF 정답이 현행 READY FOR DEPARTURE 사용과 혼동될 수 있어 제외"
+      },
+      {
+        "session": "2018-10-06",
+        "number": 58,
+        "reason": "지문은 I READ BACK이나 선택지 정답은 READ BACK의 정의라 주체가 불일치"
+      },
+      {
+        "session": "2018-10-06",
+        "number": 68,
+        "reason": "무선주파수대 9개라는 과거 범위를 현재 전파 스펙트럼 전체 분류로 오인할 수 있어 제외"
+      },
+      {
+        "session": "2018-10-06",
+        "number": 70,
+        "reason": "ELT를 121.5/243 MHz만으로 설명하는 과거 문항. 406 MHz 위성 조난체계와 구별 필요"
+      },
+      {
+        "session": "2022-10-08",
+        "number": 70,
+        "reason": "ELT를 121.5/243 MHz만으로 설명하는 과거 문항. 406 MHz 위성 조난체계와 구별 필요"
+      },
+      {
+        "session": "2023-03-11",
+        "number": 55,
+        "reason": "밑줄로 표시된 강세 위치가 정답 판단의 핵심인 문항. 텍스트 전환 시 정보손실을 방지하기 위해 제외"
+      }
+    ],
+    "mechanicalCorrections": [
+      "redar contact → radar contact",
+      "A redder → A rudder",
+      "recevied → received",
+      "What dose → What does",
+      "show moving → slow moving",
+      "두 단 지면의 줄바꿈·페이지 연결로 생긴 띄어쓰기 정리",
+      "Those who demonstrating → Those demonstrating",
+      "thenty → twenty",
+      "response form you → response from you"
+    ],
+    "sessions": [
+      {
+        "date": "2017-03-04",
+        "year": 2017,
+        "answerPage": 85,
+        "imported": 17
+      },
+      {
+        "date": "2018-03-10",
+        "year": 2018,
+        "answerPage": 90,
+        "imported": 20
+      },
+      {
+        "date": "2018-10-06",
+        "year": 2018,
+        "answerPage": 95,
+        "imported": 17
+      },
+      {
+        "date": "2019-10-12",
+        "year": 2019,
+        "answerPage": 100,
+        "imported": 20
+      },
+      {
+        "date": "2022-10-08",
+        "year": 2022,
+        "answerPage": 105,
+        "imported": 19
+      },
+      {
+        "date": "2023-03-11",
+        "year": 2023,
+        "answerPage": 110,
+        "imported": 19
+      }
+    ]
+  },
+  "materials": [
+    {
+      "id": "material-past-exams-2007-2023",
+      "title": "항공무선통신사 2007–2023 기출 문제 모음",
+      "type": "PDF",
+      "url": "assets/originals/past-exams-2007-2023.pdf",
+      "note": "사용자 제공 전자문제집 CBT 복원·편집 자료. 공식 비공개 문제은행이 아닙니다. 과거 법령·기관명·설비기준은 현행 기준과 대조하세요.",
+      "bytes": 2603242
+    },
+    {
+      "id": "material-past-exams-answers-2007-2023",
+      "title": "항공무선통신사 2007–2023 기출 답안 모음",
+      "type": "PDF",
+      "url": "assets/originals/past-exams-answers-2007-2023.pdf",
+      "note": "사용자 제공 복원·편집 자료의 답안입니다. 문항의 정답 표시와 회차별 마지막 답안표를 대조해 선별 수록했습니다.",
+      "bytes": 2715436
+    }
+  ]
+}
