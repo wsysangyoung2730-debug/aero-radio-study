@@ -1,0 +1,52 @@
+{
+  "transmitPassages": [
+    {
+      "id": "tx-passage-01",
+      "title": "공항 정보와 기본 단위",
+      "text": "THE AIRPORT IS 25 NAUTICAL MILES EAST.\nTHE RUNWAY LENGTH IS 3 KM.\nTHE WIND SPEED IS 15 KNOTS.\nMAINTAIN 5000 FEET.\nTHE TEMPERATURE IS 18 DEGREES CELSIUS.\nTHE TIME IS 0930 UTC.\nFUEL IS 80 LITERS.",
+      "meaning": "공항은 동쪽으로 25해리 떨어져 있습니다.\n활주로 길이는 3킬로미터입니다.\n풍속은 15노트입니다.\n고도 5000피트를 유지하세요.\n기온은 섭씨 18도입니다.\n시각은 UTC 09시 30분입니다.\n연료량은 80리터입니다.",
+      "focus": "NAUTICAL MILES · KM · KNOTS · FEET",
+      "note": "5000의 0 세 개와 0930의 첫 번째 0을 빠뜨리지 않고 송신해 보세요."
+    },
+    {
+      "id": "tx-passage-02",
+      "title": "기상 관측 보고",
+      "text": "THE WIND IS FROM 270 DEGREES AT 12 KNOTS.\nVISIBILITY IS 8 KM.\nTHE TEMPERATURE IS 21 DEGREES CELSIUS.\nTHE PRESSURE IS 1015 HPA.\nTHE WEATHER REPORT TIME IS 0700 UTC.\nTHE CLOUD BASE IS 2500 FEET.",
+      "meaning": "바람은 270도 방향에서 12노트로 불고 있습니다.\n시정은 8킬로미터입니다.\n기온은 섭씨 21도입니다.\n기압은 1015헥토파스칼입니다.\n기상 보고 시각은 UTC 07시 00분입니다.\n운저는 지상 2500피트입니다.",
+      "focus": "DEGREES · KNOTS · HPA · UTC",
+      "note": "풍향 270, 풍속 12, 기압 1015처럼 서로 다른 숫자를 단위와 함께 확인하세요."
+    },
+    {
+      "id": "tx-passage-03",
+      "title": "비행 위치와 도착 시각",
+      "text": "THE AIRCRAFT IS 40 NAUTICAL MILES NORTH OF THE AIRPORT.\nITS GROUND SPEED IS ABOUT 120 KNOTS.\nITS ALTITUDE IS 6500 FEET.\nTHE TOTAL FLIGHT TIME IS 45 MINUTES.\nARRIVAL IS EXPECTED AT 1430 UTC.",
+      "meaning": "항공기는 공항에서 북쪽으로 40해리 떨어져 있습니다.\n항공기의 대지속도는 약 120노트입니다.\n고도는 6500피트입니다.\n전체 비행시간은 45분입니다.\n도착 예정 시각은 UTC 14시 30분입니다.",
+      "focus": "NAUTICAL MILES · KNOTS · FEET · MINUTES",
+      "note": "거리, 속도, 고도, 시간의 단위를 구별하면서 긴 문장을 끝까지 일정하게 송신해 보세요."
+    },
+    {
+      "id": "tx-passage-04",
+      "title": "지상 이동과 화물 준비",
+      "text": "THE TERMINAL IS 2 KM FROM THE HANGAR.\nTHE BUS SPEED IS 20 KM PER HOUR.\nTHE TANK CONTAINS 800 LITERS OF FUEL.\nTHE CARGO WEIGHS 250 KILOGRAMS.\nTHE CREW WILL ARRIVE AT 0815 UTC.\nGATE A2 IS NOW OPEN.",
+      "meaning": "터미널은 격납고에서 2킬로미터 떨어져 있습니다.\n버스의 속도는 시속 20킬로미터입니다.\n탱크에는 연료 800리터가 들어 있습니다.\n화물의 무게는 250킬로그램입니다.\n승무원은 UTC 08시 15분에 도착할 예정입니다.\nA2 탑승구가 지금 열려 있습니다.",
+      "focus": "KM PER HOUR · LITERS · KILOGRAMS · A2",
+      "note": "KM PER HOUR는 속도, LITERS는 부피, KILOGRAMS는 질량입니다. A2는 문자와 숫자를 이어서 송신하세요."
+    },
+    {
+      "id": "tx-passage-05",
+      "title": "주파수와 비행 정보",
+      "text": "THE TOWER FREQUENCY IS 118.5 MHZ.\nTHE ALTITUDE IS 4000 FEET.\nTHE WIND SPEED IS 10 KNOTS.\nTHE PRESSURE IS 1013 HPA.\nTHE AIRPORT IS 15 NAUTICAL MILES AHEAD.\nTHE TIME IS 1045 UTC.\nTHE CREW IS READY.",
+      "meaning": "관제탑 주파수는 118.5메가헤르츠입니다.\n고도는 4000피트입니다.\n풍속은 10노트입니다.\n기압은 1013헥토파스칼입니다.\n공항은 전방 15해리에 있습니다.\n시각은 UTC 10시 45분입니다.\n승무원은 준비되어 있습니다.",
+      "focus": "118.5 MHZ · 4000 FEET · 1013 HPA",
+      "note": "소수점이 있는 주파수와 네 자리 기압을 구별하세요. 150자 표시는 공백과 소수점 등 문장부호를 제외한 값입니다."
+    },
+    {
+      "id": "tx-passage-06",
+      "title": "구조 차량의 이동 보고",
+      "text": "THE TOWN IS 12 STATUTE MILES WEST OF THE AIRPORT.\nTHE ROAD IS 18 KM LONG.\nTHE RESCUE VEHICLE SPEED IS 40 KM PER HOUR.\nTHERE ARE 4 PEOPLE ON BOARD.\nTHE ETA IS 1630 UTC.\nTHE RESCUE TEAM IS NOW READY.",
+      "meaning": "마을은 공항에서 서쪽으로 12육상마일 떨어져 있습니다.\n도로 길이는 18킬로미터입니다.\n구조 차량의 속도는 시속 40킬로미터입니다.\n차량에는 4명이 타고 있습니다.\n도착 예정 시각은 UTC 16시 30분입니다.\n구조대는 지금 준비되어 있습니다.",
+      "focus": "STATUTE MILES · KM PER HOUR · ETA",
+      "note": "STATUTE MILES는 육상마일이며 NAUTICAL MILES(해리)와 다릅니다. ETA는 도착 예정 시각입니다."
+    }
+  ]
+}

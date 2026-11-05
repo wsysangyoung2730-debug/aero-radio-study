@@ -48,9 +48,40 @@ for(const expr of ["alignText('ABC','ABC').rate===100","alignText('ABC','AC').de
 assert.equal(new Set(db.transmitExamples.map(item=>item.id)).size,db.transmitExamples.length,'송신 예제 ID 중복');
 assert.equal(db.transmitExamples.length,30,'송신 예제 30개');
 for(const item of db.transmitExamples){assert(item.title&&item.meaning&&item.focus&&item.group,`송신 예제 설명 ${item.id}`);assert(/\d/.test(item.text),`송신 예제 숫자 ${item.id}`);assert.equal(item.text,item.text.toUpperCase());}
+assert.equal(db.transmitPassages.length,6,'150자 송신 전문 6개');
+assert.equal(new Set(db.transmitPassages.map(item=>item.id)).size,db.transmitPassages.length,'송신 전문 ID 중복');
+assert.equal(new Set(db.transmitPassages.map(item=>item.text)).size,db.transmitPassages.length,'송신 전문 내용 중복');
+for(const item of db.transmitPassages){
+  assert(item.title&&item.meaning&&item.focus,`송신 전문 설명 ${item.id}`);
+  assert.equal(item.text,item.text.toUpperCase());
+  assert.equal(item.text.replace(/[^A-Z0-9]/g,'' ).length,150,`송신 전문 150자 ${item.id}`);
+  assert.equal(item.text.split('\n').length,item.meaning.split('\n').length,`문장별 한국어 뜻 ${item.id}`);
+  assert(/\d/.test(item.text)&&/MILES|KM|KNOTS|FEET|UTC/.test(item.text),`숫자·단위 포함 ${item.id}`);
+}
 context.assert=assert;
 vm.runInContext(`(() => {
   const before=JSON.stringify(state),seconds=transmitSeconds;
+  assert.equal(currentTransmitExercise().source,'passage:'+DB.transmitPassages[0].id,'첫 150자 전문을 기본 표시');
+  for(const passage of DB.transmitPassages){
+    assert(setTransmitExercise('passage:'+passage.id));
+    assert.equal($('#transmit-source').value,'passage:'+passage.id);
+    assert.equal($('#transmit-text').textContent,passage.text);
+    assert($('#transmit-info').innerHTML.includes(esc(passage.meaning)));
+    assert.equal(normalize(currentTransmitExercise().text).length,150);
+    const page=transmitPage();
+    assert(page.includes(esc(passage.text))&&page.includes('next-transmit-passage'));
+  }
+  assert(nextTransmitPassage());
+  assert.equal(currentTransmitExercise().id,DB.transmitPassages[0].id,'마지막 전문 다음은 첫 전문');
+  for(const passage of DB.transmitPassages.slice(1)){
+    assert(nextTransmitPassage());
+    assert.equal(currentTransmitExercise().id,passage.id,'전문을 순서대로 순환');
+  }
+  assert.equal(setTransmitExercise('passage:missing'),false);
+  assert.equal(currentTransmitExercise().id,DB.transmitPassages.at(-1).id,'없는 전문 선택 시 유지');
+  assert(setTransmitExercise('mixed'));
+  assert(nextTransmitPassage());
+  assert.equal(currentTransmitExercise().id,DB.transmitPassages[0].id,'다른 연습에서 첫 150자 전문으로 이동');
   assert.equal(transmitExampleGroups().length,6);
   for(const example of DB.transmitExamples){
     assert.equal(makeTransmitExercise('example:'+example.id).text,example.text);
